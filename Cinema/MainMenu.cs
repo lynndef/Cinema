@@ -46,6 +46,7 @@ namespace Cinema
             PanelLine2.Visible = true;
             labelCaracteristicas.Text = "Classificação " + filme1.GetClassificacao + " anos/ " + filme1.GetGenero1 + "/ " + filme1.GetGenero2 + "/ " + filme1.GetDuracao;
             labelCaracteristicas.Visible = true;
+            labelhoraio.Visible = true;
         }
 
 
@@ -61,6 +62,7 @@ namespace Cinema
             labelCaracteristicas.Text = "Classificação " + filme2.GetClassificacao + " anos/ " + filme2.GetGenero1 + "/ " + filme2.GetGenero2 + "/ " + filme2.GetDuracao;
             labelCaracteristicas.Visible = true;
             PanelLine2.Visible = true;
+            labelhoraio.Visible = true;
 
         }
 
@@ -76,6 +78,7 @@ namespace Cinema
             labelCaracteristicas.Text = "Classificação " + filme3.GetClassificacao + " anos/ " + filme3.GetGenero1 + "/ " + filme3.GetGenero2 + "/ " + filme3.GetDuracao;
             labelCaracteristicas.Visible = true;
             PanelLine2.Visible = true;
+            labelhoraio.Visible = true;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -86,7 +89,7 @@ namespace Cinema
         private void ImgFilmes_Click(object sender, EventArgs e)
         {
 
-
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -97,6 +100,16 @@ namespace Cinema
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
             
+        }
+
+        private void labelhoraio_Click(object sender, EventArgs e)
+        {
+            Form f2 = new HorarioFilme();
+            f2.Location = this.Location;
+            f2.StartPosition = FormStartPosition.Manual;
+            f2.FormClosing += delegate { this.Show(); };
+            f2.Show();
+            this.Hide();
         }
     }
 }

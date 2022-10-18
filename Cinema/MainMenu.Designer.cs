@@ -31,19 +31,20 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.ImgFilme3 = new System.Windows.Forms.PictureBox();
-            this.ImgFilme2 = new System.Windows.Forms.PictureBox();
-            this.imgFilme1 = new System.Windows.Forms.PictureBox();
-            this.ImgFilmes = new System.Windows.Forms.PictureBox();
             this.LabelNomeFilme = new System.Windows.Forms.Label();
             this.PanelLine1 = new System.Windows.Forms.Panel();
             this.labelSinopse = new System.Windows.Forms.Label();
             this.labelCaracteristicas = new System.Windows.Forms.Label();
             this.PanelLine2 = new System.Windows.Forms.Panel();
+            this.ImgFilmes = new System.Windows.Forms.PictureBox();
+            this.ImgFilme3 = new System.Windows.Forms.PictureBox();
+            this.ImgFilme2 = new System.Windows.Forms.PictureBox();
+            this.imgFilme1 = new System.Windows.Forms.PictureBox();
+            this.labelhoraio = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgFilmes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgFilme3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgFilme2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgFilme1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ImgFilmes)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -76,53 +77,6 @@
             this.label2.Size = new System.Drawing.Size(121, 32);
             this.label2.TabIndex = 5;
             this.label2.Text = "Em Cartaz";
-            // 
-            // ImgFilme3
-            // 
-            this.ImgFilme3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.ImgFilme3.BackgroundImage = global::Cinema.Properties.Resources.marjorie_filme;
-            this.ImgFilme3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ImgFilme3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ImgFilme3.Location = new System.Drawing.Point(1111, 97);
-            this.ImgFilme3.Name = "ImgFilme3";
-            this.ImgFilme3.Size = new System.Drawing.Size(190, 296);
-            this.ImgFilme3.TabIndex = 2;
-            this.ImgFilme3.TabStop = false;
-            this.ImgFilme3.Click += new System.EventHandler(this.ImgFilme3_Click);
-            // 
-            // ImgFilme2
-            // 
-            this.ImgFilme2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.ImgFilme2.BackgroundImage = global::Cinema.Properties.Resources.filmebat;
-            this.ImgFilme2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ImgFilme2.Location = new System.Drawing.Point(858, 97);
-            this.ImgFilme2.Name = "ImgFilme2";
-            this.ImgFilme2.Size = new System.Drawing.Size(190, 296);
-            this.ImgFilme2.TabIndex = 1;
-            this.ImgFilme2.TabStop = false;
-            this.ImgFilme2.Click += new System.EventHandler(this.ImgFilme2_Click);
-            // 
-            // imgFilme1
-            // 
-            this.imgFilme1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.imgFilme1.BackgroundImage = global::Cinema.Properties.Resources.Filme_dune;
-            this.imgFilme1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.imgFilme1.Location = new System.Drawing.Point(605, 97);
-            this.imgFilme1.Name = "imgFilme1";
-            this.imgFilme1.Size = new System.Drawing.Size(190, 296);
-            this.imgFilme1.TabIndex = 0;
-            this.imgFilme1.TabStop = false;
-            this.imgFilme1.Click += new System.EventHandler(this.imgFilme1_Click);
-            // 
-            // ImgFilmes
-            // 
-            this.ImgFilmes.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.ImgFilmes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ImgFilmes.Location = new System.Drawing.Point(605, 507);
-            this.ImgFilmes.Name = "ImgFilmes";
-            this.ImgFilmes.Size = new System.Drawing.Size(190, 296);
-            this.ImgFilmes.TabIndex = 7;
-            this.ImgFilmes.TabStop = false;
             // 
             // LabelNomeFilme
             // 
@@ -182,6 +136,66 @@
             this.PanelLine2.TabIndex = 5;
             this.PanelLine2.Visible = false;
             // 
+            // ImgFilmes
+            // 
+            this.ImgFilmes.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.ImgFilmes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ImgFilmes.Location = new System.Drawing.Point(605, 507);
+            this.ImgFilmes.Name = "ImgFilmes";
+            this.ImgFilmes.Size = new System.Drawing.Size(190, 296);
+            this.ImgFilmes.TabIndex = 7;
+            this.ImgFilmes.TabStop = false;
+            // 
+            // ImgFilme3
+            // 
+            this.ImgFilme3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.ImgFilme3.BackgroundImage = global::Cinema.Properties.Resources.marjorie_filme;
+            this.ImgFilme3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ImgFilme3.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ImgFilme3.Location = new System.Drawing.Point(1111, 97);
+            this.ImgFilme3.Name = "ImgFilme3";
+            this.ImgFilme3.Size = new System.Drawing.Size(190, 296);
+            this.ImgFilme3.TabIndex = 2;
+            this.ImgFilme3.TabStop = false;
+            this.ImgFilme3.Click += new System.EventHandler(this.ImgFilme3_Click);
+            // 
+            // ImgFilme2
+            // 
+            this.ImgFilme2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.ImgFilme2.BackgroundImage = global::Cinema.Properties.Resources.filmebat;
+            this.ImgFilme2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ImgFilme2.Location = new System.Drawing.Point(858, 97);
+            this.ImgFilme2.Name = "ImgFilme2";
+            this.ImgFilme2.Size = new System.Drawing.Size(190, 296);
+            this.ImgFilme2.TabIndex = 1;
+            this.ImgFilme2.TabStop = false;
+            this.ImgFilme2.Click += new System.EventHandler(this.ImgFilme2_Click);
+            // 
+            // imgFilme1
+            // 
+            this.imgFilme1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.imgFilme1.BackgroundImage = global::Cinema.Properties.Resources.Filme_dune;
+            this.imgFilme1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.imgFilme1.Location = new System.Drawing.Point(605, 97);
+            this.imgFilme1.Name = "imgFilme1";
+            this.imgFilme1.Size = new System.Drawing.Size(190, 296);
+            this.imgFilme1.TabIndex = 0;
+            this.imgFilme1.TabStop = false;
+            this.imgFilme1.Click += new System.EventHandler(this.imgFilme1_Click);
+            // 
+            // labelhoraio
+            // 
+            this.labelhoraio.AutoSize = true;
+            this.labelhoraio.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelhoraio.ForeColor = System.Drawing.Color.White;
+            this.labelhoraio.Location = new System.Drawing.Point(680, 847);
+            this.labelhoraio.Name = "labelhoraio";
+            this.labelhoraio.Size = new System.Drawing.Size(97, 21);
+            this.labelhoraio.TabIndex = 12;
+            this.labelhoraio.Text = "Ver Horários";
+            this.labelhoraio.Visible = false;
+            this.labelhoraio.Click += new System.EventHandler(this.labelhoraio_Click);
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -189,6 +203,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.Controls.Add(this.labelhoraio);
             this.Controls.Add(this.PanelLine2);
             this.Controls.Add(this.labelCaracteristicas);
             this.Controls.Add(this.labelSinopse);
@@ -202,12 +217,12 @@
             this.Controls.Add(this.ImgFilme2);
             this.Controls.Add(this.imgFilme1);
             this.Name = "MainMenu";
-            this.Text = "Form1";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.ImgFilmes)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgFilme3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgFilme2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgFilme1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ImgFilmes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -227,6 +242,7 @@
         private System.Windows.Forms.Label labelSinopse;
         private System.Windows.Forms.Label labelCaracteristicas;
         private System.Windows.Forms.Panel PanelLine2;
+        private System.Windows.Forms.Label labelhoraio;
     }
 }
 

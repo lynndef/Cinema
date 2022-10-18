@@ -46,7 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assentos.Designer.cs">
+      <DependentUpon>Assentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comprar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comprar.Designer.cs">
+      <DependentUpon>Comprar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Filmes.cs" />
+    <Compile Include="HorarioFilme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HorarioFilme.Designer.cs">
+      <DependentUpon>HorarioFilme.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -55,6 +73,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Assentos.resx">
+      <DependentUpon>Assentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comprar.resx">
+      <DependentUpon>Comprar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HorarioFilme.resx">
+      <DependentUpon>HorarioFilme.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
