@@ -20,7 +20,7 @@ namespace Cinema
         int TimesClicked = 0;
         int TimesClicked2 = 0;
         int TimesClicked3 = 0;
-
+        
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -95,6 +95,29 @@ namespace Cinema
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
+
+        private void labelConfirmar_Click(object sender, EventArgs e)
+        {
+            
+
+
+            Form f4 = new Compra(label0.Text);
+            f4.Location = this.Location;
+            f4.StartPosition = FormStartPosition.Manual;
+            f4.FormClosing += delegate { this.Show(); };
+            f4.Show();
+            this.Hide();
+             
+                
+
+        }
+
+        private void Assentos_Load(object sender, EventArgs e)
         {
 
         }

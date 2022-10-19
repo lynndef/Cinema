@@ -58,9 +58,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(34, 79);
+            this.label1.Location = new System.Drawing.Point(45, 97);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(154, 21);
+            this.label1.Size = new System.Drawing.Size(192, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "Horários Disponiveis";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -71,18 +72,20 @@
             this.LabelNameFilme.AutoSize = true;
             this.LabelNameFilme.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelNameFilme.ForeColor = System.Drawing.Color.White;
-            this.LabelNameFilme.Location = new System.Drawing.Point(326, 37);
+            this.LabelNameFilme.Location = new System.Drawing.Point(435, 46);
+            this.LabelNameFilme.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelNameFilme.Name = "LabelNameFilme";
-            this.LabelNameFilme.Size = new System.Drawing.Size(0, 21);
+            this.LabelNameFilme.Size = new System.Drawing.Size(0, 28);
             this.LabelNameFilme.TabIndex = 1;
             this.LabelNameFilme.Click += new System.EventHandler(this.label2_Click);
             // 
             // BtnSeg
             // 
             this.BtnSeg.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.BtnSeg.Location = new System.Drawing.Point(38, 137);
+            this.BtnSeg.Location = new System.Drawing.Point(51, 169);
+            this.BtnSeg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnSeg.Name = "BtnSeg";
-            this.BtnSeg.Size = new System.Drawing.Size(75, 23);
+            this.BtnSeg.Size = new System.Drawing.Size(100, 28);
             this.BtnSeg.TabIndex = 2;
             this.BtnSeg.Text = "Seg";
             this.BtnSeg.UseVisualStyleBackColor = true;
@@ -91,9 +94,10 @@
             // BtnTerca
             // 
             this.BtnTerca.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.BtnTerca.Location = new System.Drawing.Point(156, 137);
+            this.BtnTerca.Location = new System.Drawing.Point(208, 169);
+            this.BtnTerca.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnTerca.Name = "BtnTerca";
-            this.BtnTerca.Size = new System.Drawing.Size(75, 23);
+            this.BtnTerca.Size = new System.Drawing.Size(100, 28);
             this.BtnTerca.TabIndex = 3;
             this.BtnTerca.Text = "Ter";
             this.BtnTerca.UseVisualStyleBackColor = true;
@@ -101,9 +105,10 @@
             // BtnQuarta
             // 
             this.BtnQuarta.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.BtnQuarta.Location = new System.Drawing.Point(284, 137);
+            this.BtnQuarta.Location = new System.Drawing.Point(379, 169);
+            this.BtnQuarta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnQuarta.Name = "BtnQuarta";
-            this.BtnQuarta.Size = new System.Drawing.Size(75, 23);
+            this.BtnQuarta.Size = new System.Drawing.Size(100, 28);
             this.BtnQuarta.TabIndex = 4;
             this.BtnQuarta.Text = "Quarta";
             this.BtnQuarta.UseVisualStyleBackColor = true;
@@ -111,9 +116,10 @@
             // btnQuinta
             // 
             this.btnQuinta.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnQuinta.Location = new System.Drawing.Point(403, 137);
+            this.btnQuinta.Location = new System.Drawing.Point(537, 169);
+            this.btnQuinta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnQuinta.Name = "btnQuinta";
-            this.btnQuinta.Size = new System.Drawing.Size(75, 23);
+            this.btnQuinta.Size = new System.Drawing.Size(100, 28);
             this.btnQuinta.TabIndex = 5;
             this.btnQuinta.Text = "Quinta";
             this.btnQuinta.UseVisualStyleBackColor = true;
@@ -121,9 +127,10 @@
             // BtnSexta
             // 
             this.BtnSexta.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.BtnSexta.Location = new System.Drawing.Point(525, 137);
+            this.BtnSexta.Location = new System.Drawing.Point(700, 169);
+            this.BtnSexta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnSexta.Name = "BtnSexta";
-            this.BtnSexta.Size = new System.Drawing.Size(75, 23);
+            this.BtnSexta.Size = new System.Drawing.Size(100, 28);
             this.BtnSexta.TabIndex = 6;
             this.BtnSexta.Text = "Sexta";
             this.BtnSexta.UseVisualStyleBackColor = true;
@@ -134,9 +141,10 @@
             this.lblLocal.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblLocal.AutoSize = true;
             this.lblLocal.ForeColor = System.Drawing.Color.White;
-            this.lblLocal.Location = new System.Drawing.Point(35, 200);
+            this.lblLocal.Location = new System.Drawing.Point(47, 246);
+            this.lblLocal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLocal.Name = "lblLocal";
-            this.lblLocal.Size = new System.Drawing.Size(33, 13);
+            this.lblLocal.Size = new System.Drawing.Size(40, 16);
             this.lblLocal.TabIndex = 7;
             this.lblLocal.Text = "Local";
             // 
@@ -146,9 +154,10 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(35, 252);
+            this.label2.Location = new System.Drawing.Point(47, 310);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(33, 13);
+            this.label2.Size = new System.Drawing.Size(40, 16);
             this.label2.TabIndex = 8;
             this.label2.Text = "Local";
             // 
@@ -158,9 +167,10 @@
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(35, 306);
+            this.label3.Location = new System.Drawing.Point(47, 377);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(33, 13);
+            this.label3.Size = new System.Drawing.Size(40, 16);
             this.label3.TabIndex = 9;
             this.label3.Text = "Local";
             // 
@@ -170,9 +180,10 @@
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(35, 276);
+            this.label4.Location = new System.Drawing.Point(47, 340);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(37, 13);
+            this.label4.Size = new System.Drawing.Size(45, 16);
             this.label4.TabIndex = 10;
             this.label4.Text = "Sala 1";
             // 
@@ -182,9 +193,10 @@
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(35, 219);
+            this.label5.Location = new System.Drawing.Point(47, 270);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(37, 13);
+            this.label5.Size = new System.Drawing.Size(45, 16);
             this.label5.TabIndex = 11;
             this.label5.Text = "Sala 1";
             // 
@@ -194,9 +206,10 @@
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(35, 333);
+            this.label6.Location = new System.Drawing.Point(47, 410);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(37, 13);
+            this.label6.Size = new System.Drawing.Size(45, 16);
             this.label6.TabIndex = 12;
             this.label6.Text = "Sala 1";
             // 
@@ -206,9 +219,10 @@
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label7.AutoSize = true;
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(89, 219);
+            this.label7.Location = new System.Drawing.Point(119, 270);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(34, 13);
+            this.label7.Size = new System.Drawing.Size(38, 16);
             this.label7.TabIndex = 13;
             this.label7.Text = "13:00";
             // 
@@ -218,9 +232,10 @@
             this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label8.AutoSize = true;
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(89, 276);
+            this.label8.Location = new System.Drawing.Point(119, 340);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(34, 13);
+            this.label8.Size = new System.Drawing.Size(38, 16);
             this.label8.TabIndex = 14;
             this.label8.Text = "14:30";
             // 
@@ -230,9 +245,10 @@
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label9.AutoSize = true;
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(89, 333);
+            this.label9.Location = new System.Drawing.Point(119, 410);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(34, 13);
+            this.label9.Size = new System.Drawing.Size(38, 16);
             this.label9.TabIndex = 15;
             this.label9.Text = "16:30";
             // 
@@ -242,9 +258,10 @@
             this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label10.AutoSize = true;
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(189, 219);
+            this.label10.Location = new System.Drawing.Point(252, 270);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(27, 13);
+            this.label10.Size = new System.Drawing.Size(32, 16);
             this.label10.TabIndex = 16;
             this.label10.Text = "Dub";
             // 
@@ -254,9 +271,10 @@
             this.label11.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label11.AutoSize = true;
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(189, 276);
+            this.label11.Location = new System.Drawing.Point(252, 340);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(27, 13);
+            this.label11.Size = new System.Drawing.Size(32, 16);
             this.label11.TabIndex = 17;
             this.label11.Text = "Dub";
             // 
@@ -266,9 +284,10 @@
             this.label12.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label12.AutoSize = true;
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(189, 333);
+            this.label12.Location = new System.Drawing.Point(252, 410);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(27, 13);
+            this.label12.Size = new System.Drawing.Size(32, 16);
             this.label12.TabIndex = 18;
             this.label12.Text = "Dub";
             // 
@@ -278,9 +297,10 @@
             this.LabelCompre1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LabelCompre1.AutoSize = true;
             this.LabelCompre1.ForeColor = System.Drawing.Color.White;
-            this.LabelCompre1.Location = new System.Drawing.Point(387, 219);
+            this.LabelCompre1.Location = new System.Drawing.Point(516, 270);
+            this.LabelCompre1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelCompre1.Name = "LabelCompre1";
-            this.LabelCompre1.Size = new System.Drawing.Size(67, 13);
+            this.LabelCompre1.Size = new System.Drawing.Size(85, 16);
             this.LabelCompre1.TabIndex = 19;
             this.LabelCompre1.Text = "Compre Aqui";
             this.LabelCompre1.Click += new System.EventHandler(this.LabelCompre1_Click);
@@ -291,9 +311,10 @@
             this.LabelCompre2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LabelCompre2.AutoSize = true;
             this.LabelCompre2.ForeColor = System.Drawing.Color.White;
-            this.LabelCompre2.Location = new System.Drawing.Point(387, 276);
+            this.LabelCompre2.Location = new System.Drawing.Point(516, 340);
+            this.LabelCompre2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelCompre2.Name = "LabelCompre2";
-            this.LabelCompre2.Size = new System.Drawing.Size(67, 13);
+            this.LabelCompre2.Size = new System.Drawing.Size(85, 16);
             this.LabelCompre2.TabIndex = 20;
             this.LabelCompre2.Text = "Compre Aqui";
             // 
@@ -303,18 +324,19 @@
             this.labelCompre3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelCompre3.AutoSize = true;
             this.labelCompre3.ForeColor = System.Drawing.Color.White;
-            this.labelCompre3.Location = new System.Drawing.Point(387, 333);
+            this.labelCompre3.Location = new System.Drawing.Point(516, 410);
+            this.labelCompre3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelCompre3.Name = "labelCompre3";
-            this.labelCompre3.Size = new System.Drawing.Size(67, 13);
+            this.labelCompre3.Size = new System.Drawing.Size(85, 16);
             this.labelCompre3.TabIndex = 21;
             this.labelCompre3.Text = "Compre Aqui";
             // 
             // HorarioFilme
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.labelCompre3);
             this.Controls.Add(this.LabelCompre2);
             this.Controls.Add(this.LabelCompre1);
@@ -337,8 +359,11 @@
             this.Controls.Add(this.BtnSeg);
             this.Controls.Add(this.LabelNameFilme);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "HorarioFilme";
-            this.Text = "HorarioFilme";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "ff";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.HorarioFilme_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

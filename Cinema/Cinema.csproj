@@ -52,11 +52,11 @@
     <Compile Include="Assentos.Designer.cs">
       <DependentUpon>Assentos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Comprar.cs">
+    <Compile Include="Compra.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Comprar.Designer.cs">
-      <DependentUpon>Comprar.cs</DependentUpon>
+    <Compile Include="Compra.Designer.cs">
+      <DependentUpon>Compra.cs</DependentUpon>
     </Compile>
     <Compile Include="Filmes.cs" />
     <Compile Include="HorarioFilme.cs">
@@ -76,8 +76,8 @@
     <EmbeddedResource Include="Assentos.resx">
       <DependentUpon>Assentos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Comprar.resx">
-      <DependentUpon>Comprar.cs</DependentUpon>
+    <EmbeddedResource Include="Compra.resx">
+      <DependentUpon>Compra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HorarioFilme.resx">
       <DependentUpon>HorarioFilme.cs</DependentUpon>

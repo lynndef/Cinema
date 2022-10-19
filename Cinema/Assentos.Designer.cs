@@ -40,6 +40,7 @@
             // 
             // btnAssento1
             // 
+            this.btnAssento1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAssento1.BackColor = System.Drawing.Color.LimeGreen;
             this.btnAssento1.Location = new System.Drawing.Point(70, 37);
             this.btnAssento1.Name = "btnAssento1";
@@ -51,6 +52,7 @@
             // 
             // btnAssento2
             // 
+            this.btnAssento2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAssento2.BackColor = System.Drawing.Color.LimeGreen;
             this.btnAssento2.Location = new System.Drawing.Point(188, 37);
             this.btnAssento2.Name = "btnAssento2";
@@ -62,6 +64,7 @@
             // 
             // btnAssento3
             // 
+            this.btnAssento3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAssento3.BackColor = System.Drawing.Color.LimeGreen;
             this.btnAssento3.Location = new System.Drawing.Point(302, 37);
             this.btnAssento3.Name = "btnAssento3";
@@ -73,6 +76,7 @@
             // 
             // LabelNassentos
             // 
+            this.LabelNassentos.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LabelNassentos.AutoSize = true;
             this.LabelNassentos.ForeColor = System.Drawing.Color.White;
             this.LabelNassentos.Location = new System.Drawing.Point(446, 42);
@@ -83,6 +87,7 @@
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(471, 42);
@@ -94,6 +99,7 @@
             // 
             // labelConfirmar
             // 
+            this.labelConfirmar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelConfirmar.AutoSize = true;
             this.labelConfirmar.ForeColor = System.Drawing.Color.White;
             this.labelConfirmar.Location = new System.Drawing.Point(471, 109);
@@ -101,9 +107,11 @@
             this.labelConfirmar.Size = new System.Drawing.Size(97, 13);
             this.labelConfirmar.TabIndex = 5;
             this.labelConfirmar.Text = "Confirmar Assentos";
+            this.labelConfirmar.Click += new System.EventHandler(this.labelConfirmar_Click);
             // 
             // label0
             // 
+            this.label0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label0.AutoSize = true;
             this.label0.ForeColor = System.Drawing.Color.White;
             this.label0.Location = new System.Drawing.Point(452, 75);
@@ -115,6 +123,7 @@
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(471, 75);
@@ -138,7 +147,10 @@
             this.Controls.Add(this.btnAssento2);
             this.Controls.Add(this.btnAssento1);
             this.Name = "Assentos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Assentos";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Assentos_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
