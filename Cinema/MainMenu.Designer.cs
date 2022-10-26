@@ -36,11 +36,11 @@
             this.labelSinopse = new System.Windows.Forms.Label();
             this.labelCaracteristicas = new System.Windows.Forms.Label();
             this.PanelLine2 = new System.Windows.Forms.Panel();
+            this.labelhoraio = new System.Windows.Forms.Label();
             this.ImgFilmes = new System.Windows.Forms.PictureBox();
             this.ImgFilme3 = new System.Windows.Forms.PictureBox();
             this.ImgFilme2 = new System.Windows.Forms.PictureBox();
             this.imgFilme1 = new System.Windows.Forms.PictureBox();
-            this.labelhoraio = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.ImgFilmes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgFilme3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgFilme2)).BeginInit();
@@ -51,7 +51,7 @@
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Location = new System.Drawing.Point(376, 67);
+            this.panel1.Location = new System.Drawing.Point(392, 65);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(628, 5);
             this.panel1.TabIndex = 3;
@@ -72,11 +72,12 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(384, 23);
+            this.label2.Location = new System.Drawing.Point(400, 21);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(121, 32);
             this.label2.TabIndex = 5;
             this.label2.Text = "Em Cartaz";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // LabelNomeFilme
             // 
@@ -84,16 +85,17 @@
             this.LabelNomeFilme.AutoSize = true;
             this.LabelNomeFilme.Font = new System.Drawing.Font("Nirmala UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelNomeFilme.ForeColor = System.Drawing.Color.White;
-            this.LabelNomeFilme.Location = new System.Drawing.Point(580, 521);
+            this.LabelNomeFilme.Location = new System.Drawing.Point(596, 519);
             this.LabelNomeFilme.Name = "LabelNomeFilme";
             this.LabelNomeFilme.Size = new System.Drawing.Size(0, 28);
             this.LabelNomeFilme.TabIndex = 8;
+            this.LabelNomeFilme.Click += new System.EventHandler(this.LabelNomeFilme_Click);
             // 
             // PanelLine1
             // 
             this.PanelLine1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.PanelLine1.BackColor = System.Drawing.Color.White;
-            this.PanelLine1.Location = new System.Drawing.Point(542, 552);
+            this.PanelLine1.Location = new System.Drawing.Point(558, 550);
             this.PanelLine1.Name = "PanelLine1";
             this.PanelLine1.Size = new System.Drawing.Size(222, 4);
             this.PanelLine1.TabIndex = 5;
@@ -106,12 +108,13 @@
             this.labelSinopse.AutoSize = true;
             this.labelSinopse.Font = new System.Drawing.Font("Nirmala UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSinopse.ForeColor = System.Drawing.Color.White;
-            this.labelSinopse.Location = new System.Drawing.Point(580, 613);
+            this.labelSinopse.Location = new System.Drawing.Point(596, 611);
             this.labelSinopse.Name = "labelSinopse";
             this.labelSinopse.Size = new System.Drawing.Size(93, 28);
             this.labelSinopse.TabIndex = 10;
             this.labelSinopse.Text = "blablabla";
             this.labelSinopse.Visible = false;
+            this.labelSinopse.Click += new System.EventHandler(this.labelSinopse_Click);
             // 
             // labelCaracteristicas
             // 
@@ -119,40 +122,57 @@
             this.labelCaracteristicas.AutoSize = true;
             this.labelCaracteristicas.Font = new System.Drawing.Font("Nirmala UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelCaracteristicas.ForeColor = System.Drawing.Color.White;
-            this.labelCaracteristicas.Location = new System.Drawing.Point(580, 754);
+            this.labelCaracteristicas.Location = new System.Drawing.Point(596, 752);
             this.labelCaracteristicas.Name = "labelCaracteristicas";
             this.labelCaracteristicas.Size = new System.Drawing.Size(93, 28);
             this.labelCaracteristicas.TabIndex = 11;
             this.labelCaracteristicas.Text = "blablabla";
             this.labelCaracteristicas.Visible = false;
+            this.labelCaracteristicas.Click += new System.EventHandler(this.labelCaracteristicas_Click);
             // 
             // PanelLine2
             // 
             this.PanelLine2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.PanelLine2.BackColor = System.Drawing.Color.White;
-            this.PanelLine2.Location = new System.Drawing.Point(400, 888);
+            this.PanelLine2.Location = new System.Drawing.Point(416, 886);
             this.PanelLine2.Name = "PanelLine2";
             this.PanelLine2.Size = new System.Drawing.Size(628, 5);
             this.PanelLine2.TabIndex = 5;
             this.PanelLine2.Visible = false;
+            this.PanelLine2.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelLine2_Paint);
+            // 
+            // labelhoraio
+            // 
+            this.labelhoraio.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.labelhoraio.AutoSize = true;
+            this.labelhoraio.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelhoraio.ForeColor = System.Drawing.Color.White;
+            this.labelhoraio.Location = new System.Drawing.Point(424, 861);
+            this.labelhoraio.Name = "labelhoraio";
+            this.labelhoraio.Size = new System.Drawing.Size(97, 21);
+            this.labelhoraio.TabIndex = 12;
+            this.labelhoraio.Text = "Ver Horários";
+            this.labelhoraio.Visible = false;
+            this.labelhoraio.Click += new System.EventHandler(this.labelhoraio_Click);
             // 
             // ImgFilmes
             // 
             this.ImgFilmes.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.ImgFilmes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ImgFilmes.Location = new System.Drawing.Point(333, 511);
+            this.ImgFilmes.Location = new System.Drawing.Point(349, 509);
             this.ImgFilmes.Name = "ImgFilmes";
             this.ImgFilmes.Size = new System.Drawing.Size(190, 296);
             this.ImgFilmes.TabIndex = 7;
             this.ImgFilmes.TabStop = false;
+            this.ImgFilmes.Click += new System.EventHandler(this.ImgFilmes_Click_1);
             // 
             // ImgFilme3
             // 
             this.ImgFilme3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.ImgFilme3.BackgroundImage = global::Cinema.Properties.Resources.marjorie_filme;
+            this.ImgFilme3.BackgroundImage = global::Cinema.Properties.Resources.Filme_minons22;
             this.ImgFilme3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ImgFilme3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ImgFilme3.Location = new System.Drawing.Point(838, 101);
+            this.ImgFilme3.Location = new System.Drawing.Point(854, 99);
             this.ImgFilme3.Name = "ImgFilme3";
             this.ImgFilme3.Size = new System.Drawing.Size(190, 296);
             this.ImgFilme3.TabIndex = 2;
@@ -162,9 +182,9 @@
             // ImgFilme2
             // 
             this.ImgFilme2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.ImgFilme2.BackgroundImage = global::Cinema.Properties.Resources.filmebat;
+            this.ImgFilme2.BackgroundImage = global::Cinema.Properties.Resources.filme_orfa2;
             this.ImgFilme2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ImgFilme2.Location = new System.Drawing.Point(586, 101);
+            this.ImgFilme2.Location = new System.Drawing.Point(602, 99);
             this.ImgFilme2.Name = "ImgFilme2";
             this.ImgFilme2.Size = new System.Drawing.Size(190, 296);
             this.ImgFilme2.TabIndex = 1;
@@ -174,27 +194,14 @@
             // imgFilme1
             // 
             this.imgFilme1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.imgFilme1.BackgroundImage = global::Cinema.Properties.Resources.Filme_dune;
+            this.imgFilme1.BackgroundImage = global::Cinema.Properties.Resources.Filme_adao_negro1;
             this.imgFilme1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.imgFilme1.Location = new System.Drawing.Point(333, 101);
+            this.imgFilme1.Location = new System.Drawing.Point(349, 99);
             this.imgFilme1.Name = "imgFilme1";
             this.imgFilme1.Size = new System.Drawing.Size(190, 296);
             this.imgFilme1.TabIndex = 0;
             this.imgFilme1.TabStop = false;
             this.imgFilme1.Click += new System.EventHandler(this.imgFilme1_Click);
-            // 
-            // labelhoraio
-            // 
-            this.labelhoraio.AutoSize = true;
-            this.labelhoraio.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelhoraio.ForeColor = System.Drawing.Color.White;
-            this.labelhoraio.Location = new System.Drawing.Point(557, 853);
-            this.labelhoraio.Name = "labelhoraio";
-            this.labelhoraio.Size = new System.Drawing.Size(97, 21);
-            this.labelhoraio.TabIndex = 12;
-            this.labelhoraio.Text = "Ver Horários";
-            this.labelhoraio.Visible = false;
-            this.labelhoraio.Click += new System.EventHandler(this.labelhoraio_Click);
             // 
             // MainMenu
             // 
@@ -217,7 +224,9 @@
             this.Controls.Add(this.ImgFilme2);
             this.Controls.Add(this.imgFilme1);
             this.Name = "MainMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " ";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ImgFilmes)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgFilme3)).EndInit();

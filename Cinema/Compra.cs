@@ -22,19 +22,21 @@ namespace Cinema
             InitializeComponent();
             Text = text;
             
-
-     
         }
 
         private void Compra_Load(object sender, EventArgs e)
         {
             label1.Text = Text;
             
+
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            if (label1.Text == "0")
+            {
+                button1.Visible = true;
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -98,6 +100,11 @@ namespace Cinema
                 labelMe = 0;
                 labelMeia.Text = Convert.ToString(labelMe);
             }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+          
         }
     }
 }

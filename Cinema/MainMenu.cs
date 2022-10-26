@@ -13,26 +13,24 @@ using System.Windows.Forms;
 namespace Cinema
 {
     public partial class MainMenu : Form
-    { 
+    {
 
         public MainMenu()
         {
             InitializeComponent();
         }
 
-        Filmes filme1 = new Filmes("Duna", "Paul Atreides é um jovem brilhante, dono de um destino além de sua compreensão." + "\n" +
-                "Ele deve viajar para o planeta mais perigoso do universo para garantir o futuro de seu povo.", 14, "Ficção Cientifica", "Aventura",
-            "2h35h", Cinema.Properties.Resources.Filme_dune);
+        Filmes filme1 = new Filmes("Adão Negro", "O poderoso Adão Negro é libertado de sua tumba para lançar sua justiça cruel sob a Terra.", 14, "Ação", "Fantasia",
+            "2h 05m", Cinema.Properties.Resources.Filme_adao_negro);
 
-        Filmes filme2 = new Filmes("Batman vs Superman: A Origem da Justiça", "O implacável vigilante de Gotham City, preocupado com as ações de um super-herói com poderes" + "\n" +
-                "quase divinos e sem restrições, enfrenta o mais adorado salvador de Metrópolis, enquanto todos se" + "\n" +
-                "questionam sobre o tipo de herói que o mundo realmente precisa. ", 12, "Ação", "Aventura", 
-            "2h 31m", Cinema.Properties.Resources.filmebat);
+        Filmes filme2 = new Filmes("Orfã 2", "A aterradora saga de Esther continua nesta emocionante prequela, Órfã. Depois de planear uma brilhante fuga" + "\n" + 
+            "de um hospital psiquiátrico na Estónia, Esther viaja até a América passando-se pela filha desaparecida de uma" + "\n" + 
+            "família milionária. No entanto, após uma inesperada reviravolta, a mãe começa a desconfiar da criança assassina, " + "\n " + "e tudo faz para proteger a sua família. ", 12, " Terror", "Thriller",
+            "1h 39m", Cinema.Properties.Resources.filme_orfa2);
 
-        Filmes filme3 = new Filmes("Marjorie Prime", "Em um futuro próximo, um tempo de inteligência artificial, Marjorie descobre que sua memória" + "\n" +
-                "está começando a falhar. A violinista de 85 anos passa a maior parte do tempo com a sua filha Tess," + "\n" +
-                "o marido desta e a cópia imperfeita do seu falecido esposo, uma versão artificial de Walter especialmente" + "\n" + "programada para fazer com que Marjorie lembre a história da sua vida. ",
-                    14, "Ficção Cientifica", "Drama", "1h39m", Cinema.Properties.Resources.marjorie_filme);
+        Filmes filme3 = new Filmes("Minions 2", "Nos anos 1970, o jovem Gru tenta entrar para um time de supervilões, mas a entrevista é desastrosa e ele" +"\n"+
+            "e seus minions acabam fugindo do grupo de mal-feitores. ",
+                    14, "Comédia", "Aventura", "1h 30m", Cinema.Properties.Resources.Filme_minons22);
 
         private void imgFilme1_Click(object sender, EventArgs e)
         {
@@ -40,7 +38,7 @@ namespace Cinema
             ImgFilmes.BackgroundImage = filme1.GetCartaz;
             LabelNomeFilme.Text = filme1.GetNome;
             PanelLine1.Visible = true;
-            PanelLine1.Size = new Size(138, 4);
+            PanelLine1.Size = new Size(195, 4);
             labelSinopse.Text = filme1.GetSinopse;
             labelSinopse.Visible = true;
             PanelLine2.Visible = true;
@@ -56,7 +54,7 @@ namespace Cinema
             ImgFilmes.BackgroundImage = filme2.GetCartaz;
             LabelNomeFilme.Text = filme2.GetNome;
             PanelLine1.Visible = true;
-            PanelLine1.Size = new Size(463, 4);
+            PanelLine1.Size = new Size(155, 4);
             labelSinopse.Text = filme2.GetSinopse;
             labelSinopse.Visible = true;
             labelCaracteristicas.Text = "Classificação " + filme2.GetClassificacao + " anos/ " + filme2.GetGenero1 + "/ " + filme2.GetGenero2 + "/ " + filme2.GetDuracao;
@@ -72,7 +70,7 @@ namespace Cinema
             ImgFilmes.BackgroundImage = filme3.GetCartaz;
             LabelNomeFilme.Text = filme3.GetNome;
             PanelLine1.Visible = true;
-            PanelLine1.Size = new Size(222, 4);
+            PanelLine1.Size = new Size(190, 4);
             labelSinopse.Text = filme3.GetSinopse;
             labelSinopse.Visible = true;
             labelCaracteristicas.Text = "Classificação " + filme3.GetClassificacao + " anos/ " + filme3.GetGenero1 + "/ " + filme3.GetGenero2 + "/ " + filme3.GetDuracao;
@@ -104,12 +102,57 @@ namespace Cinema
 
         private void labelhoraio_Click(object sender, EventArgs e)
         {
-            Form f2 = new HorarioFilme();
+            string nomefilme = "";
+
+            if(ImgFilmes.BackgroundImage == filme1.GetCartaz)
+            {
+                nomefilme = filme1.GetNome;
+            }
+            else if(ImgFilmes.BackgroundImage == filme2.GetCartaz)
+            {
+                nomefilme = filme2.GetNome;
+            }
+            else if(ImgFilmes.BackgroundImage == filme3.GetCartaz)
+            {
+                nomefilme = filme3.GetNome;
+            }
+
+            Form f2 = new HorarioFilme(nomefilme);
             f2.Location = this.Location;
             f2.StartPosition = FormStartPosition.Manual;
             f2.FormClosing += delegate { this.Show(); };
             f2.Show();
             this.Hide();
+        }
+
+        private void ImgFilmes_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PanelLine2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void labelCaracteristicas_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelSinopse_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LabelNomeFilme_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

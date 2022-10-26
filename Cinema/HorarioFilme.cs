@@ -17,20 +17,13 @@ namespace Cinema
             InitializeComponent();
         }
 
+        public HorarioFilme(string nomefilme)
+        {
+            InitializeComponent();
+            this.nomefilme = nomefilme;
+        }
 
-        Filmes filme1 = new Filmes("Duna", "Paul Atreides é um jovem brilhante, dono de um destino além de sua compreensão." + "\n" +
-                "Ele deve viajar para o planeta mais perigoso do universo para garantir o futuro de seu povo.", 14, "Ficção Cientifica", "Aventura",
-            "2h35h", Cinema.Properties.Resources.Filme_dune);
-
-        Filmes filme2 = new Filmes("Batman vs Superman: A Origem da Justiça", "O implacável vigilante de Gotham City, preocupado com as ações de um super-herói com poderes" + "\n" +
-                "quase divinos e sem restrições, enfrenta o mais adorado salvador de Metrópolis, enquanto todos se" + "\n" +
-                "questionam sobre o tipo de herói que o mundo realmente precisa. ", 12, "Ação", "Aventura",
-            "2h 31m", Cinema.Properties.Resources.filmebat);
-
-        Filmes filme3 = new Filmes("Marjorie Prime", "Em um futuro próximo, um tempo de inteligência artificial, Marjorie descobre que sua memória" + "\n" +
-                "está começando a falhar. A violinista de 85 anos passa a maior parte do tempo com a sua filha Tess," + "\n" +
-                "o marido desta e a cópia imperfeita do seu falecido esposo, uma versão artificial de Walter especialmente" + "\n" + "programada para fazer com que Marjorie lembre a história da sua vida. ",
-                    14, "Ficção Cientifica", "Drama", "1h39m", Cinema.Properties.Resources.marjorie_filme);
+        private string nomefilme;
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -39,7 +32,7 @@ namespace Cinema
 
         private void HorarioFilme_Load(object sender, EventArgs e)
         {
-            LabelNameFilme.Text = filme1.GetNome;
+            LabelNameFilme.Text = nomefilme;
         }
 
         private void tabPage3_Click(object sender, EventArgs e)

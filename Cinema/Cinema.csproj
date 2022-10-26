@@ -117,5 +117,17 @@
   <ItemGroup>
     <None Include="Resources\marjorie_filme.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filme_orfa2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Filme_minons2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Filme_adao_negro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Filme_adao_negro1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
