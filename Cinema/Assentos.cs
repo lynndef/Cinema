@@ -66,6 +66,15 @@ namespace Cinema
                 label0.Text = Convert.ToString(labelzero + 1);
             }
 
+            if(label0.Text != "0")
+            {
+                BtnConfirmar.Visible = true;
+            }
+            else
+            {
+                BtnConfirmar.Visible = false;
+            }
+
         }
 
         private void btnAssento2_Click(object sender, EventArgs e)
@@ -92,6 +101,14 @@ namespace Cinema
                 label0.Text = Convert.ToString(labelzero + 1);
             }
 
+            if (label0.Text != "0")
+            {
+                BtnConfirmar.Visible = true;
+            }
+            else
+            {
+                BtnConfirmar.Visible = false;
+            }
 
         }
 
@@ -117,6 +134,15 @@ namespace Cinema
                 btnAssento3.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+            }
+
+            if (label0.Text != "0")
+            {
+                BtnConfirmar.Visible = true;
+            }
+            else
+            {
+                BtnConfirmar.Visible = false;
             }
 
         }
@@ -181,6 +207,15 @@ namespace Cinema
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
             }
+
+            if (label0.Text != "0")
+            {
+                BtnConfirmar.Visible = true;
+            }
+            else
+            {
+                BtnConfirmar.Visible = false;
+            }
         }
 
         private void btnAssento5_Click(object sender, EventArgs e)
@@ -204,6 +239,15 @@ namespace Cinema
                 btnAssento5.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+            }
+
+            if (label0.Text != "0")
+            {
+                BtnConfirmar.Visible = true;
+            }
+            else
+            {
+                BtnConfirmar.Visible = false;
             }
         }
 
@@ -229,6 +273,15 @@ namespace Cinema
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
             }
+
+            if (label0.Text != "0")
+            {
+                BtnConfirmar.Visible = true;
+            }
+            else
+            {
+                BtnConfirmar.Visible = false;
+            }
         }
 
         private void btnAssento7_Click(object sender, EventArgs e)
@@ -252,6 +305,15 @@ namespace Cinema
                 btnAssento7.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+            }
+
+            if (label0.Text != "0")
+            {
+                BtnConfirmar.Visible = true;
+            }
+            else
+            {
+                BtnConfirmar.Visible = false;
             }
         }
 
@@ -277,6 +339,15 @@ namespace Cinema
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
             }
+
+            if (label0.Text != "0")
+            {
+                BtnConfirmar.Visible = true;
+            }
+            else
+            {
+                BtnConfirmar.Visible = false;
+            }
         }
 
         private void btnAssento9_Click(object sender, EventArgs e)
@@ -300,6 +371,15 @@ namespace Cinema
                 btnAssento9.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+            }
+
+            if (label0.Text != "0")
+            {
+                BtnConfirmar.Visible = true;
+            }
+            else
+            {
+                BtnConfirmar.Visible = false;
             }
         }
 
@@ -325,6 +405,15 @@ namespace Cinema
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
             }
+
+            if (label0.Text != "0")
+            {
+                BtnConfirmar.Visible = true;
+            }
+            else
+            {
+                BtnConfirmar.Visible = false;
+            }
         }
 
         private void btnAssento11_Click(object sender, EventArgs e)
@@ -348,6 +437,15 @@ namespace Cinema
                 btnAssento11.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+            }
+
+            if (label0.Text != "0")
+            {
+                BtnConfirmar.Visible = true;
+            }
+            else
+            {
+                BtnConfirmar.Visible = false;
             }
         }
 
@@ -373,6 +471,15 @@ namespace Cinema
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
             }
+
+            if (label0.Text != "0")
+            {
+                BtnConfirmar.Visible = true;
+            }
+            else
+            {
+                BtnConfirmar.Visible = false;
+            }
         }
 
         private void btnAssento13_Click(object sender, EventArgs e)
@@ -396,6 +503,15 @@ namespace Cinema
                 btnAssento13.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+            }
+
+            if (label0.Text != "0")
+            {
+                BtnConfirmar.Visible = true;
+            }
+            else
+            {
+                BtnConfirmar.Visible = false;
             }
         }
 
@@ -421,6 +537,15 @@ namespace Cinema
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
             }
+
+            if (label0.Text != "0")
+            {
+                BtnConfirmar.Visible = true;
+            }
+            else
+            {
+                BtnConfirmar.Visible = false;
+            }
         }
 
         private void btnAssento15_Click(object sender, EventArgs e)
@@ -444,6 +569,15 @@ namespace Cinema
                 btnAssento15.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+            }
+
+            if (label0.Text != "0")
+            {
+                BtnConfirmar.Visible = true;
+            }
+            else
+            {
+                BtnConfirmar.Visible = false;
             }
         }
 
@@ -469,6 +603,15 @@ namespace Cinema
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
             }
+
+            if (label0.Text != "0")
+            {
+                BtnConfirmar.Visible = true;
+            }
+            else
+            {
+                BtnConfirmar.Visible = false;
+            }
         }
 
         private void btnAssento17_Click(object sender, EventArgs e)
@@ -493,6 +636,15 @@ namespace Cinema
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
             }
+
+            if (label0.Text != "0")
+            {
+                BtnConfirmar.Visible = true;
+            }
+            else
+            {
+                BtnConfirmar.Visible = false;
+            }
         }
 
         private void btnAssento18_Click(object sender, EventArgs e)
@@ -516,6 +668,15 @@ namespace Cinema
                 btnAssento18.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+            }
+
+            if (label0.Text != "0")
+            {
+                BtnConfirmar.Visible = true;
+            }
+            else
+            {
+                BtnConfirmar.Visible = false;
             }
         }
 

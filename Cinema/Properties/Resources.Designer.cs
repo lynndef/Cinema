@@ -83,16 +83,6 @@ namespace Cinema.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Filme_dune {
-            get {
-                object obj = ResourceManager.GetObject("Filme_dune", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Filme_minons2 {
             get {
                 object obj = ResourceManager.GetObject("Filme_minons2", resourceCulture);
@@ -126,26 +116,6 @@ namespace Cinema.Properties {
         internal static System.Drawing.Bitmap filme_orfa2 {
             get {
                 object obj = ResourceManager.GetObject("filme_orfa2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap filmebat {
-            get {
-                object obj = ResourceManager.GetObject("filmebat", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap marjorie_filme {
-            get {
-                object obj = ResourceManager.GetObject("marjorie_filme", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

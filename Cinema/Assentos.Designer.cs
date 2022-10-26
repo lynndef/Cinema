@@ -437,6 +437,7 @@
             this.BtnConfirmar.TabIndex = 24;
             this.BtnConfirmar.Text = "PROSSEGUIR";
             this.BtnConfirmar.UseVisualStyleBackColor = false;
+            this.BtnConfirmar.Visible = false;
             this.BtnConfirmar.Click += new System.EventHandler(this.BtnConfirmar_Click);
             // 
             // label8

@@ -59,6 +59,12 @@
       <DependentUpon>Compra.cs</DependentUpon>
     </Compile>
     <Compile Include="Filmes.cs" />
+    <Compile Include="pagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pagamento.Designer.cs">
+      <DependentUpon>pagamento.cs</DependentUpon>
+    </Compile>
     <Compile Include="HorarioFilme.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,9 @@
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="pagamento.resx">
+      <DependentUpon>pagamento.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -107,15 +116,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Filme_dune.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\filmebat.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\marjorie_filme.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\filme_orfa2.png" />
