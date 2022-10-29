@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cinema.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -103,21 +104,25 @@ namespace Cinema
         private void labelhoraio_Click(object sender, EventArgs e)
         {
             string nomefilme = "";
+            Image cartaz = filme1.cartaz;
 
-            if(ImgFilmes.BackgroundImage == filme1.GetCartaz)
+            if (ImgFilmes.BackgroundImage == filme1.GetCartaz)
             {
                 nomefilme = filme1.GetNome;
+                cartaz = filme1.GetCartaz;
             }
             else if(ImgFilmes.BackgroundImage == filme2.GetCartaz)
             {
                 nomefilme = filme2.GetNome;
+                cartaz=filme2.GetCartaz;
             }
             else if(ImgFilmes.BackgroundImage == filme3.GetCartaz)
             {
                 nomefilme = filme3.GetNome;
+                cartaz = filme3.cartaz;
             }
 
-            Form f2 = new HorarioFilme(nomefilme);
+            Form f2 = new HorarioFilme(nomefilme, cartaz);
             f2.Location = this.Location;
             f2.StartPosition = FormStartPosition.Manual;
             f2.FormClosing += delegate { this.Show(); };

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,6 +17,19 @@ namespace Cinema
         {
             InitializeComponent();
         }
+
+        public Assentos(Image cartaz)
+        {
+            InitializeComponent();
+            this.cartaz = cartaz;
+        }
+
+        public Assentos(Image cartaz, string nomefilme) : this(cartaz)
+        {
+            this.nomefilme = nomefilme;
+        }
+
+        String[] AssentosNome = new string[18];
 
         int TimesClicked = 0;
         int TimesClicked2 = 0;
@@ -36,6 +50,8 @@ namespace Cinema
         int TimesClicked17 = 0;
         int TimesClicked18 = 0;
 
+        private Image cartaz;
+        private string nomefilme;
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -64,6 +80,8 @@ namespace Cinema
                 btnAssento1.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+                AssentosNome[0] = btnAssento1.Text;
+
             }
 
             if(label0.Text != "0")
@@ -99,6 +117,8 @@ namespace Cinema
                 btnAssento2.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+                AssentosNome[1] = btnAssento2.Text;
+
             }
 
             if (label0.Text != "0")
@@ -134,6 +154,8 @@ namespace Cinema
                 btnAssento3.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+                AssentosNome[2] = btnAssento3.Text;
+
             }
 
             if (label0.Text != "0")
@@ -152,27 +174,11 @@ namespace Cinema
 
         }
 
-        
-
-        private void labelConfirmar_Click(object sender, EventArgs e)
-        {
-            
-
-
-            Form f4 = new Compra(label0.Text);
-            f4.Location = this.Location;
-            f4.StartPosition = FormStartPosition.Manual;
-            f4.FormClosing += delegate { this.Show(); };
-            f4.Show();
-            this.Hide();
-             
-                
-
-        }
 
         private void Assentos_Load(object sender, EventArgs e)
         {
-
+            ImgCartaz.BackgroundImage = cartaz;
+            LabelNome.Text = nomefilme;
         }
 
         private void label1_Click_1(object sender, EventArgs e)
@@ -206,6 +212,7 @@ namespace Cinema
                 btnAssento4.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+                AssentosNome[3] = btnAssento4.Text;
             }
 
             if (label0.Text != "0")
@@ -239,6 +246,7 @@ namespace Cinema
                 btnAssento5.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+                AssentosNome[4] = btnAssento5.Text;
             }
 
             if (label0.Text != "0")
@@ -272,6 +280,7 @@ namespace Cinema
                 btnAssento6.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+                AssentosNome[5] = btnAssento6.Text;
             }
 
             if (label0.Text != "0")
@@ -305,6 +314,7 @@ namespace Cinema
                 btnAssento7.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+                AssentosNome[6] = btnAssento7.Text;
             }
 
             if (label0.Text != "0")
@@ -338,6 +348,7 @@ namespace Cinema
                 btnAssento8.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+                AssentosNome[7] = btnAssento8.Text;
             }
 
             if (label0.Text != "0")
@@ -371,6 +382,7 @@ namespace Cinema
                 btnAssento9.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+                AssentosNome[8] = btnAssento9.Text;
             }
 
             if (label0.Text != "0")
@@ -404,6 +416,7 @@ namespace Cinema
                 btnAssento10.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+                AssentosNome[9] = btnAssento10.Text;
             }
 
             if (label0.Text != "0")
@@ -437,6 +450,7 @@ namespace Cinema
                 btnAssento11.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+                AssentosNome[10] = btnAssento11.Text;
             }
 
             if (label0.Text != "0")
@@ -470,6 +484,7 @@ namespace Cinema
                 btnAssento12.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+                AssentosNome[11] = btnAssento12.Text;
             }
 
             if (label0.Text != "0")
@@ -503,6 +518,7 @@ namespace Cinema
                 btnAssento13.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+                AssentosNome[12] = btnAssento13.Text;
             }
 
             if (label0.Text != "0")
@@ -536,6 +552,7 @@ namespace Cinema
                 btnAssento14.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+                AssentosNome[13] = btnAssento14.Text;
             }
 
             if (label0.Text != "0")
@@ -569,6 +586,7 @@ namespace Cinema
                 btnAssento15.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+                AssentosNome[14] = btnAssento15.Text;
             }
 
             if (label0.Text != "0")
@@ -602,6 +620,7 @@ namespace Cinema
                 btnAssento16.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+                AssentosNome[15] = btnAssento16.Text;
             }
 
             if (label0.Text != "0")
@@ -635,6 +654,7 @@ namespace Cinema
                 btnAssento17.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+                AssentosNome[16] = btnAssento17.Text;
             }
 
             if (label0.Text != "0")
@@ -668,6 +688,7 @@ namespace Cinema
                 btnAssento18.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
+                AssentosNome[17] = btnAssento18.Text;
             }
 
             if (label0.Text != "0")
@@ -682,7 +703,7 @@ namespace Cinema
 
         private void BtnConfirmar_Click(object sender, EventArgs e)
         {
-            Form f4 = new Compra(label0.Text);
+            Form f4 = new InteiraMeia(label0.Text, nomefilme, cartaz, AssentosNome);
             f4.Location = this.Location;
             f4.StartPosition = FormStartPosition.Manual;
             f4.FormClosing += delegate { this.Show(); };

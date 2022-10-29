@@ -52,18 +52,24 @@
     <Compile Include="Assentos.Designer.cs">
       <DependentUpon>Assentos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Compra.cs">
+    <Compile Include="InteiraMeia.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Compra.Designer.cs">
-      <DependentUpon>Compra.cs</DependentUpon>
+    <Compile Include="InteiraMeia.Designer.cs">
+      <DependentUpon>InteiraMeia.cs</DependentUpon>
     </Compile>
     <Compile Include="Filmes.cs" />
-    <Compile Include="pagamento.cs">
+    <Compile Include="FinalizarPedido.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pagamento.Designer.cs">
-      <DependentUpon>pagamento.cs</DependentUpon>
+    <Compile Include="FinalizarPedido.Designer.cs">
+      <DependentUpon>FinalizarPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pagamento.Designer.cs">
+      <DependentUpon>Pagamento.cs</DependentUpon>
     </Compile>
     <Compile Include="HorarioFilme.cs">
       <SubType>Form</SubType>
@@ -82,8 +88,11 @@
     <EmbeddedResource Include="Assentos.resx">
       <DependentUpon>Assentos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Compra.resx">
-      <DependentUpon>Compra.cs</DependentUpon>
+    <EmbeddedResource Include="InteiraMeia.resx">
+      <DependentUpon>InteiraMeia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinalizarPedido.resx">
+      <DependentUpon>FinalizarPedido.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HorarioFilme.resx">
       <DependentUpon>HorarioFilme.cs</DependentUpon>
@@ -91,8 +100,8 @@
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="pagamento.resx">
-      <DependentUpon>pagamento.cs</DependentUpon>
+    <EmbeddedResource Include="Pagamento.resx">
+      <DependentUpon>Pagamento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -128,6 +137,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Filme_adao_negro1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Visa_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MasterCard_Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banco_do_brasil_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elo_logo2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

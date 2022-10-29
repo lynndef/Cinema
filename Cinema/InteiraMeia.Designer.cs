@@ -1,6 +1,6 @@
 ﻿namespace Cinema
 {
-    partial class Compra
+    partial class InteiraMeia
     {
         /// <summary>
         /// Required designer variable.
@@ -45,6 +45,9 @@
             this.labelvalor = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.labelnome = new System.Windows.Forms.Label();
+            this.ImgFilme = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgFilme)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -263,12 +266,36 @@
             this.label6.TabIndex = 28;
             this.label6.Text = "Valor a pagar:";
             // 
-            // Compra
+            // labelnome
+            // 
+            this.labelnome.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelnome.AutoSize = true;
+            this.labelnome.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelnome.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.labelnome.Location = new System.Drawing.Point(52, 352);
+            this.labelnome.Name = "labelnome";
+            this.labelnome.Size = new System.Drawing.Size(50, 21);
+            this.labelnome.TabIndex = 30;
+            this.labelnome.Text = "nome";
+            // 
+            // ImgFilme
+            // 
+            this.ImgFilme.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ImgFilme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ImgFilme.Location = new System.Drawing.Point(-7, 82);
+            this.ImgFilme.Name = "ImgFilme";
+            this.ImgFilme.Size = new System.Drawing.Size(173, 256);
+            this.ImgFilme.TabIndex = 29;
+            this.ImgFilme.TabStop = false;
+            // 
+            // InteiraMeia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1012, 841);
+            this.Controls.Add(this.labelnome);
+            this.Controls.Add(this.ImgFilme);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.labelvalor);
@@ -286,10 +313,11 @@
             this.Controls.Add(this.butPlus1);
             this.Controls.Add(this.butlow1);
             this.Controls.Add(this.label1);
-            this.Name = "Compra";
+            this.Name = "InteiraMeia";
             this.Text = "Compra";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Compra_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.ImgFilme)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -314,5 +342,7 @@
         private System.Windows.Forms.Label labelvalor;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox ImgFilme;
+        private System.Windows.Forms.Label labelnome;
     }
 }

@@ -339,7 +339,7 @@
             this.Controls.Add(this.label1);
             this.Name = "HorarioFilme";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ff";
+            this.Text = " ";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.HorarioFilme_Load);
             this.ResumeLayout(false);

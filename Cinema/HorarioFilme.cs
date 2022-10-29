@@ -23,7 +23,13 @@ namespace Cinema
             this.nomefilme = nomefilme;
         }
 
+        public HorarioFilme(string nomefilme, Image cartaz) : this(nomefilme)
+        {
+            this.cartaz = cartaz;
+        }
+
         private string nomefilme;
+        private Image cartaz;
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -52,7 +58,7 @@ namespace Cinema
 
         private void LabelCompre1_Click(object sender, EventArgs e)
         {
-            Form f3 = new Assentos();
+            Form f3 = new Assentos(cartaz, nomefilme);
             f3.Location = this.Location;
             f3.StartPosition = FormStartPosition.Manual;
             f3.FormClosing += delegate { this.Show(); };

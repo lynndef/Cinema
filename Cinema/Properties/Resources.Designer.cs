@@ -63,6 +63,26 @@ namespace Cinema.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap banco_do_brasil_logo {
+            get {
+                object obj = ResourceManager.GetObject("banco_do_brasil_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap elo_logo2 {
+            get {
+                object obj = ResourceManager.GetObject("elo_logo2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Filme_adao_negro {
             get {
                 object obj = ResourceManager.GetObject("Filme_adao_negro", resourceCulture);
@@ -116,6 +136,26 @@ namespace Cinema.Properties {
         internal static System.Drawing.Bitmap filme_orfa2 {
             get {
                 object obj = ResourceManager.GetObject("filme_orfa2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MasterCard_Logo {
+            get {
+                object obj = ResourceManager.GetObject("MasterCard_Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Visa_logo {
+            get {
+                object obj = ResourceManager.GetObject("Visa_logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
