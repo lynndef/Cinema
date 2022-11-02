@@ -143,9 +143,39 @@ namespace Cinema.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logo_nova_nova {
+            get {
+                object obj = ResourceManager.GetObject("logo_nova_nova", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_nova_nova1 {
+            get {
+                object obj = ResourceManager.GetObject("logo_nova_nova1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MasterCard_Logo {
             get {
                 object obj = ResourceManager.GetObject("MasterCard_Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap oi {
+            get {
+                object obj = ResourceManager.GetObject("oi", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
