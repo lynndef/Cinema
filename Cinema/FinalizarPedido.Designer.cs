@@ -39,7 +39,9 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ImgFilmes = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgFilmes)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,6 +50,7 @@
             this.LabelNomeFilme.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LabelNomeFilme.AutoSize = true;
             this.LabelNomeFilme.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelNomeFilme.ForeColor = System.Drawing.Color.White;
             this.LabelNomeFilme.Location = new System.Drawing.Point(211, 44);
             this.LabelNomeFilme.Name = "LabelNomeFilme";
             this.LabelNomeFilme.Size = new System.Drawing.Size(62, 24);
@@ -59,6 +62,7 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(403, 44);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 24);
@@ -70,6 +74,7 @@
             this.labelHorarioSessao.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelHorarioSessao.AutoSize = true;
             this.labelHorarioSessao.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelHorarioSessao.ForeColor = System.Drawing.Color.White;
             this.labelHorarioSessao.Location = new System.Drawing.Point(485, 44);
             this.labelHorarioSessao.Name = "labelHorarioSessao";
             this.labelHorarioSessao.Size = new System.Drawing.Size(21, 24);
@@ -82,6 +87,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(44, 267);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(116, 32);
@@ -93,6 +99,7 @@
             this.LabelAssento.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LabelAssento.AutoSize = true;
             this.LabelAssento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelAssento.ForeColor = System.Drawing.Color.White;
             this.LabelAssento.Location = new System.Drawing.Point(14, 316);
             this.LabelAssento.Name = "LabelAssento";
             this.LabelAssento.Size = new System.Drawing.Size(38, 20);
@@ -105,6 +112,7 @@
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(366, 365);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(130, 25);
@@ -116,6 +124,7 @@
             this.LabelCpf.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LabelCpf.AutoSize = true;
             this.LabelCpf.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelCpf.ForeColor = System.Drawing.Color.White;
             this.LabelCpf.Location = new System.Drawing.Point(367, 405);
             this.LabelCpf.Name = "LabelCpf";
             this.LabelCpf.Size = new System.Drawing.Size(35, 20);
@@ -125,7 +134,8 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.ForeColor = System.Drawing.Color.White;
             this.panel1.Location = new System.Drawing.Point(2, 339);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(700, 4);
@@ -134,7 +144,8 @@
             // panel2
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel2.BackColor = System.Drawing.Color.Black;
+            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.ForeColor = System.Drawing.Color.White;
             this.panel2.Location = new System.Drawing.Point(291, 339);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(4, 448);
@@ -153,6 +164,17 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Cinema.Properties.Resources.X;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(538, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(24, 22);
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // ImgFilmes
             // 
             this.ImgFilmes.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -168,8 +190,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Silver;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(574, 710);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -188,6 +211,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "FinalizarPedido";
             this.Load += new System.EventHandler(this.FinalizarPedido_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgFilmes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -208,5 +232,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -114,7 +114,7 @@ namespace Cinema
             Form f4 = new FinalizarPedido(textBox1.Text, nomefilme, cartaz, assentosNome);
             f4.Location = this.Location;
             f4.StartPosition = FormStartPosition.CenterScreen;
-            f4.FormClosing += delegate { this.Show(); };
+            
             f4.Show();
             this.Hide();
         }

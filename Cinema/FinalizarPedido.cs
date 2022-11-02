@@ -39,7 +39,6 @@ namespace Cinema
             LabelNomeFilme.Text = nomefilme;
             LabelCpf.Text = Text;
             ImgFilmes.BackgroundImage = cartaz;
-
             string posi = string.Join(" ", assentosNome);
             LabelAssento.Text = posi;
 
@@ -81,6 +80,15 @@ namespace Cinema
             this.DrawToBitmap(img, bounds);
             Point p = new Point(100, 100);
             e.Graphics.DrawImage(img, p);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Form f6 = new MainMenu();
+            f6.Location = this.Location;
+            f6.StartPosition = FormStartPosition.Manual;
+            f6.Show();
+            this.Close();
         }
     }
 }
