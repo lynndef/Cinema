@@ -72,6 +72,8 @@ namespace Cinema
                 btnAssento1.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
                 label0.Text = Convert.ToString(labelzero - 1);
+                AssentosNome[0] = "";
+
             }
             else
             {
@@ -80,7 +82,7 @@ namespace Cinema
                 btnAssento1.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
-                AssentosNome[0] = btnAssento1.Text;
+                AssentosNome[0] = "A1";
 
             }
 
@@ -109,6 +111,7 @@ namespace Cinema
                 btnAssento2.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
                 label0.Text = Convert.ToString(labelzero - 1);
+                AssentosNome[1] = "";
             }
             else
             {
@@ -117,7 +120,7 @@ namespace Cinema
                 btnAssento2.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
-                AssentosNome[1] = btnAssento2.Text;
+                AssentosNome[1] = "A2";
 
             }
 
@@ -129,6 +132,7 @@ namespace Cinema
             {
                 BtnConfirmar.Visible = false;
             }
+
 
         }
 
@@ -146,6 +150,7 @@ namespace Cinema
                 btnAssento3.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
                 label0.Text = Convert.ToString(labelzero - 1);
+                AssentosNome[2] = "";
             }
             else
             {
@@ -154,7 +159,7 @@ namespace Cinema
                 btnAssento3.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
-                AssentosNome[2] = btnAssento3.Text;
+                AssentosNome[2] = "A3";
 
             }
 
@@ -204,6 +209,7 @@ namespace Cinema
                 btnAssento4.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
                 label0.Text = Convert.ToString(labelzero - 1);
+                AssentosNome[3] = "";
             }
             else
             {
@@ -212,7 +218,7 @@ namespace Cinema
                 btnAssento4.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
-                AssentosNome[3] = btnAssento4.Text;
+                AssentosNome[3] = "A4";
             }
 
             if (label0.Text != "0")
@@ -238,6 +244,7 @@ namespace Cinema
                 btnAssento5.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
                 label0.Text = Convert.ToString(labelzero - 1);
+                AssentosNome[4] = "";
             }
             else
             {
@@ -246,7 +253,8 @@ namespace Cinema
                 btnAssento5.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
-                AssentosNome[4] = btnAssento5.Text;
+                AssentosNome[4] = "A5";
+
             }
 
             if (label0.Text != "0")
@@ -272,6 +280,7 @@ namespace Cinema
                 btnAssento6.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
                 label0.Text = Convert.ToString(labelzero - 1);
+                AssentosNome[5] = "";
             }
             else
             {
@@ -280,7 +289,7 @@ namespace Cinema
                 btnAssento6.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
-                AssentosNome[5] = btnAssento6.Text;
+                AssentosNome[5] = "";
             }
 
             if (label0.Text != "0")
@@ -306,6 +315,7 @@ namespace Cinema
                 btnAssento7.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
                 label0.Text = Convert.ToString(labelzero - 1);
+                AssentosNome[6] = "";
             }
             else
             {
@@ -314,7 +324,7 @@ namespace Cinema
                 btnAssento7.ForeColor = Color.White;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
-                AssentosNome[6] = btnAssento7.Text;
+                AssentosNome[6] = "B1";
             }
 
             if (label0.Text != "0")
@@ -340,6 +350,7 @@ namespace Cinema
                 btnAssento8.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
                 label0.Text = Convert.ToString(labelzero - 1);
+                AssentosNome[7] = "";
             }
             else
             {
@@ -374,6 +385,7 @@ namespace Cinema
                 btnAssento9.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
                 label0.Text = Convert.ToString(labelzero - 1);
+                AssentosNome[8] = "";
             }
             else
             {
@@ -408,6 +420,7 @@ namespace Cinema
                 btnAssento10.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
                 label0.Text = Convert.ToString(labelzero - 1);
+                AssentosNome[9] = "";
             }
             else
             {
@@ -442,6 +455,7 @@ namespace Cinema
                 btnAssento11.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
                 label0.Text = Convert.ToString(labelzero - 1);
+                AssentosNome[10] = "";
             }
             else
             {
@@ -476,6 +490,7 @@ namespace Cinema
                 btnAssento12.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
                 label0.Text = Convert.ToString(labelzero - 1);
+                AssentosNome[11] = "";
             }
             else
             {
@@ -510,6 +525,7 @@ namespace Cinema
                 btnAssento13.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
                 label0.Text = Convert.ToString(labelzero - 1);
+                AssentosNome[12] = "";
             }
             else
             {
@@ -544,6 +560,7 @@ namespace Cinema
                 btnAssento14.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
                 label0.Text = Convert.ToString(labelzero - 1);
+                AssentosNome[13] = "";
             }
             else
             {
@@ -578,6 +595,7 @@ namespace Cinema
                 btnAssento15.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
                 label0.Text = Convert.ToString(labelzero - 1);
+                AssentosNome[14] = "";
             }
             else
             {
@@ -612,6 +630,7 @@ namespace Cinema
                 btnAssento16.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
                 label0.Text = Convert.ToString(labelzero - 1);
+                AssentosNome[15] = "";
             }
             else
             {
@@ -646,6 +665,7 @@ namespace Cinema
                 btnAssento17.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
                 label0.Text = Convert.ToString(labelzero - 1);
+                AssentosNome[16] = "";
             }
             else
             {
@@ -680,6 +700,7 @@ namespace Cinema
                 btnAssento18.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
                 label0.Text = Convert.ToString(labelzero - 1);
+                AssentosNome[17] = "";
             }
             else
             {
