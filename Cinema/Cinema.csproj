@@ -52,6 +52,7 @@
     <Compile Include="Assentos.Designer.cs">
       <DependentUpon>Assentos.cs</DependentUpon>
     </Compile>
+    <Compile Include="ControleAssentos.cs" />
     <Compile Include="InteiraMeia.cs">
       <SubType>Form</SubType>
     </Compile>

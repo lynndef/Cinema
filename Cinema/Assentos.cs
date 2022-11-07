@@ -24,9 +24,12 @@ namespace Cinema
             this.cartaz = cartaz;
         }
 
-        public Assentos(Image cartaz, string nomefilme) : this(cartaz)
+        Horarios horarios;
+
+        public Assentos(Image cartaz, string nomefilme, Horarios horarios) : this(cartaz)
         {
             this.nomefilme = nomefilme;
+            this.horarios = horarios;
         }
 
         String[] AssentosNome = new string[18];
@@ -60,6 +63,8 @@ namespace Cinema
 
         private void btnAssento1_Click(object sender, EventArgs e)
         {
+            horarios.TimesClicked = horarios.TimesClicked + 1;
+
 
             TimesClicked = TimesClicked + 1;
             int nAssentos = Convert.ToInt32(LabelNassentos.Text);

@@ -51,7 +51,7 @@
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Location = new System.Drawing.Point(344, 65);
+            this.panel1.Location = new System.Drawing.Point(336, 65);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(628, 5);
             this.panel1.TabIndex = 3;
@@ -72,7 +72,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(352, 21);
+            this.label2.Location = new System.Drawing.Point(344, 21);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(121, 32);
             this.label2.TabIndex = 5;
@@ -85,7 +85,7 @@
             this.LabelNomeFilme.AutoSize = true;
             this.LabelNomeFilme.Font = new System.Drawing.Font("Nirmala UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelNomeFilme.ForeColor = System.Drawing.Color.White;
-            this.LabelNomeFilme.Location = new System.Drawing.Point(548, 519);
+            this.LabelNomeFilme.Location = new System.Drawing.Point(540, 519);
             this.LabelNomeFilme.Name = "LabelNomeFilme";
             this.LabelNomeFilme.Size = new System.Drawing.Size(0, 28);
             this.LabelNomeFilme.TabIndex = 8;
@@ -95,7 +95,7 @@
             // 
             this.PanelLine1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.PanelLine1.BackColor = System.Drawing.Color.White;
-            this.PanelLine1.Location = new System.Drawing.Point(510, 550);
+            this.PanelLine1.Location = new System.Drawing.Point(502, 550);
             this.PanelLine1.Name = "PanelLine1";
             this.PanelLine1.Size = new System.Drawing.Size(222, 4);
             this.PanelLine1.TabIndex = 5;
@@ -108,7 +108,7 @@
             this.labelSinopse.AutoSize = true;
             this.labelSinopse.Font = new System.Drawing.Font("Nirmala UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSinopse.ForeColor = System.Drawing.Color.White;
-            this.labelSinopse.Location = new System.Drawing.Point(548, 611);
+            this.labelSinopse.Location = new System.Drawing.Point(540, 611);
             this.labelSinopse.Name = "labelSinopse";
             this.labelSinopse.Size = new System.Drawing.Size(93, 28);
             this.labelSinopse.TabIndex = 10;
@@ -122,7 +122,7 @@
             this.labelCaracteristicas.AutoSize = true;
             this.labelCaracteristicas.Font = new System.Drawing.Font("Nirmala UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelCaracteristicas.ForeColor = System.Drawing.Color.White;
-            this.labelCaracteristicas.Location = new System.Drawing.Point(548, 752);
+            this.labelCaracteristicas.Location = new System.Drawing.Point(540, 752);
             this.labelCaracteristicas.Name = "labelCaracteristicas";
             this.labelCaracteristicas.Size = new System.Drawing.Size(93, 28);
             this.labelCaracteristicas.TabIndex = 11;
@@ -134,7 +134,7 @@
             // 
             this.PanelLine2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.PanelLine2.BackColor = System.Drawing.Color.White;
-            this.PanelLine2.Location = new System.Drawing.Point(368, 886);
+            this.PanelLine2.Location = new System.Drawing.Point(360, 886);
             this.PanelLine2.Name = "PanelLine2";
             this.PanelLine2.Size = new System.Drawing.Size(628, 5);
             this.PanelLine2.TabIndex = 5;
@@ -147,7 +147,7 @@
             this.labelhoraio.AutoSize = true;
             this.labelhoraio.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelhoraio.ForeColor = System.Drawing.Color.White;
-            this.labelhoraio.Location = new System.Drawing.Point(376, 861);
+            this.labelhoraio.Location = new System.Drawing.Point(368, 861);
             this.labelhoraio.Name = "labelhoraio";
             this.labelhoraio.Size = new System.Drawing.Size(97, 21);
             this.labelhoraio.TabIndex = 12;
@@ -159,7 +159,7 @@
             // 
             this.ImgFilmes.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.ImgFilmes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ImgFilmes.Location = new System.Drawing.Point(301, 509);
+            this.ImgFilmes.Location = new System.Drawing.Point(293, 509);
             this.ImgFilmes.Name = "ImgFilmes";
             this.ImgFilmes.Size = new System.Drawing.Size(190, 296);
             this.ImgFilmes.TabIndex = 7;
@@ -172,7 +172,7 @@
             this.ImgFilme3.BackgroundImage = global::Cinema.Properties.Resources.Filme_minons22;
             this.ImgFilme3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ImgFilme3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ImgFilme3.Location = new System.Drawing.Point(806, 99);
+            this.ImgFilme3.Location = new System.Drawing.Point(798, 99);
             this.ImgFilme3.Name = "ImgFilme3";
             this.ImgFilme3.Size = new System.Drawing.Size(190, 296);
             this.ImgFilme3.TabIndex = 2;
@@ -184,7 +184,7 @@
             this.ImgFilme2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.ImgFilme2.BackgroundImage = global::Cinema.Properties.Resources.filme_orfa2;
             this.ImgFilme2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ImgFilme2.Location = new System.Drawing.Point(554, 99);
+            this.ImgFilme2.Location = new System.Drawing.Point(546, 99);
             this.ImgFilme2.Name = "ImgFilme2";
             this.ImgFilme2.Size = new System.Drawing.Size(190, 296);
             this.ImgFilme2.TabIndex = 1;
@@ -196,7 +196,7 @@
             this.imgFilme1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.imgFilme1.BackgroundImage = global::Cinema.Properties.Resources.Filme_adao_negro1;
             this.imgFilme1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.imgFilme1.Location = new System.Drawing.Point(301, 99);
+            this.imgFilme1.Location = new System.Drawing.Point(293, 99);
             this.imgFilme1.Name = "imgFilme1";
             this.imgFilme1.Size = new System.Drawing.Size(190, 296);
             this.imgFilme1.TabIndex = 0;

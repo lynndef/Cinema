@@ -58,7 +58,7 @@ namespace Cinema
 
         private void LabelCompre1_Click(object sender, EventArgs e)
         {
-            Form f3 = new Assentos(cartaz, nomefilme);
+            Form f3 = new Assentos(cartaz, nomefilme, ControleAssentos.Seg.AdaoSala1_13h30); //
             f3.Location = this.Location;
             f3.StartPosition = FormStartPosition.Manual;
             f3.FormClosing += delegate { this.Show(); };
