@@ -30,10 +30,18 @@ namespace Cinema
 
     public class AssentosDia
     {
+
         public Horarios AdaoSala1_10h30 = new Horarios();
+
+
+
+
+
+
+
         public Horarios AdaoSala1_13h30 = new Horarios();
         public Horarios AdaoSala1_14h30 = new Horarios();
-
+        
         public Horarios OrfanSala1_10h30 = new Horarios();
         public Horarios OrfanSala1_13h30 = new Horarios();
         public Horarios OrfanSala1_14h30 = new Horarios();
