@@ -69,6 +69,24 @@
             this.label12 = new System.Windows.Forms.Label();
             this.ImgCartaz = new System.Windows.Forms.PictureBox();
             this.LabelNome = new System.Windows.Forms.Label();
+            this.a6 = new System.Windows.Forms.Button();
+            this.a18 = new System.Windows.Forms.Button();
+            this.a12 = new System.Windows.Forms.Button();
+            this.a17 = new System.Windows.Forms.Button();
+            this.a8 = new System.Windows.Forms.Button();
+            this.a15 = new System.Windows.Forms.Button();
+            this.a9 = new System.Windows.Forms.Button();
+            this.a16 = new System.Windows.Forms.Button();
+            this.a1 = new System.Windows.Forms.Button();
+            this.a14 = new System.Windows.Forms.Button();
+            this.a2 = new System.Windows.Forms.Button();
+            this.a13 = new System.Windows.Forms.Button();
+            this.a3 = new System.Windows.Forms.Button();
+            this.a10 = new System.Windows.Forms.Button();
+            this.a7 = new System.Windows.Forms.Button();
+            this.a11 = new System.Windows.Forms.Button();
+            this.a5 = new System.Windows.Forms.Button();
+            this.a4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ImgCartaz)).BeginInit();
             this.SuspendLayout();
@@ -549,12 +567,246 @@
             this.LabelNome.TabIndex = 32;
             this.LabelNome.Text = "Nome";
             // 
+            // a6
+            // 
+            this.a6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a6.Location = new System.Drawing.Point(836, 258);
+            this.a6.Name = "a6";
+            this.a6.Size = new System.Drawing.Size(35, 25);
+            this.a6.TabIndex = 50;
+            this.a6.UseVisualStyleBackColor = false;
+            this.a6.Visible = false;
+            // 
+            // a18
+            // 
+            this.a18.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a18.Location = new System.Drawing.Point(836, 374);
+            this.a18.Name = "a18";
+            this.a18.Size = new System.Drawing.Size(35, 25);
+            this.a18.TabIndex = 49;
+            this.a18.UseVisualStyleBackColor = false;
+            this.a18.Visible = false;
+            // 
+            // a12
+            // 
+            this.a12.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a12.Location = new System.Drawing.Point(836, 316);
+            this.a12.Name = "a12";
+            this.a12.Size = new System.Drawing.Size(35, 25);
+            this.a12.TabIndex = 48;
+            this.a12.UseVisualStyleBackColor = false;
+            this.a12.Visible = false;
+            // 
+            // a17
+            // 
+            this.a17.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a17.Location = new System.Drawing.Point(774, 374);
+            this.a17.Name = "a17";
+            this.a17.Size = new System.Drawing.Size(35, 25);
+            this.a17.TabIndex = 47;
+            this.a17.UseVisualStyleBackColor = false;
+            this.a17.Visible = false;
+            // 
+            // a8
+            // 
+            this.a8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a8.Location = new System.Drawing.Point(594, 316);
+            this.a8.Name = "a8";
+            this.a8.Size = new System.Drawing.Size(35, 25);
+            this.a8.TabIndex = 46;
+            this.a8.UseVisualStyleBackColor = false;
+            this.a8.Visible = false;
+            // 
+            // a15
+            // 
+            this.a15.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a15.Location = new System.Drawing.Point(654, 374);
+            this.a15.Name = "a15";
+            this.a15.Size = new System.Drawing.Size(35, 25);
+            this.a15.TabIndex = 45;
+            this.a15.UseVisualStyleBackColor = false;
+            this.a15.Visible = false;
+            // 
+            // a9
+            // 
+            this.a9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a9.Location = new System.Drawing.Point(654, 316);
+            this.a9.Name = "a9";
+            this.a9.Size = new System.Drawing.Size(35, 25);
+            this.a9.TabIndex = 40;
+            this.a9.UseVisualStyleBackColor = false;
+            this.a9.Visible = false;
+            // 
+            // a16
+            // 
+            this.a16.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a16.Location = new System.Drawing.Point(714, 374);
+            this.a16.Name = "a16";
+            this.a16.Size = new System.Drawing.Size(35, 25);
+            this.a16.TabIndex = 44;
+            this.a16.UseVisualStyleBackColor = false;
+            this.a16.Visible = false;
+            // 
+            // a1
+            // 
+            this.a1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a1.Location = new System.Drawing.Point(534, 258);
+            this.a1.Name = "a1";
+            this.a1.Size = new System.Drawing.Size(35, 25);
+            this.a1.TabIndex = 33;
+            this.a1.UseVisualStyleBackColor = false;
+            this.a1.Visible = false;
+            // 
+            // a14
+            // 
+            this.a14.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a14.Location = new System.Drawing.Point(594, 374);
+            this.a14.Name = "a14";
+            this.a14.Size = new System.Drawing.Size(35, 25);
+            this.a14.TabIndex = 43;
+            this.a14.UseVisualStyleBackColor = false;
+            this.a14.Visible = false;
+            // 
+            // a2
+            // 
+            this.a2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a2.Location = new System.Drawing.Point(594, 258);
+            this.a2.Name = "a2";
+            this.a2.Size = new System.Drawing.Size(35, 25);
+            this.a2.TabIndex = 34;
+            this.a2.UseVisualStyleBackColor = false;
+            this.a2.Visible = false;
+            // 
+            // a13
+            // 
+            this.a13.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a13.Location = new System.Drawing.Point(534, 374);
+            this.a13.Name = "a13";
+            this.a13.Size = new System.Drawing.Size(35, 25);
+            this.a13.TabIndex = 42;
+            this.a13.UseVisualStyleBackColor = false;
+            this.a13.Visible = false;
+            // 
+            // a3
+            // 
+            this.a3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a3.Location = new System.Drawing.Point(654, 258);
+            this.a3.Name = "a3";
+            this.a3.Size = new System.Drawing.Size(35, 25);
+            this.a3.TabIndex = 35;
+            this.a3.UseVisualStyleBackColor = false;
+            this.a3.Visible = false;
+            // 
+            // a10
+            // 
+            this.a10.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a10.Location = new System.Drawing.Point(714, 316);
+            this.a10.Name = "a10";
+            this.a10.Size = new System.Drawing.Size(35, 25);
+            this.a10.TabIndex = 41;
+            this.a10.UseVisualStyleBackColor = false;
+            this.a10.Visible = false;
+            // 
+            // a7
+            // 
+            this.a7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a7.Location = new System.Drawing.Point(534, 316);
+            this.a7.Name = "a7";
+            this.a7.Size = new System.Drawing.Size(35, 25);
+            this.a7.TabIndex = 36;
+            this.a7.UseVisualStyleBackColor = false;
+            this.a7.Visible = false;
+            // 
+            // a11
+            // 
+            this.a11.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a11.Location = new System.Drawing.Point(774, 316);
+            this.a11.Name = "a11";
+            this.a11.Size = new System.Drawing.Size(35, 25);
+            this.a11.TabIndex = 37;
+            this.a11.UseVisualStyleBackColor = false;
+            this.a11.Visible = false;
+            // 
+            // a5
+            // 
+            this.a5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a5.Location = new System.Drawing.Point(774, 258);
+            this.a5.Name = "a5";
+            this.a5.Size = new System.Drawing.Size(35, 25);
+            this.a5.TabIndex = 39;
+            this.a5.UseVisualStyleBackColor = false;
+            this.a5.Visible = false;
+            // 
+            // a4
+            // 
+            this.a4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a4.Location = new System.Drawing.Point(714, 258);
+            this.a4.Name = "a4";
+            this.a4.Size = new System.Drawing.Size(35, 25);
+            this.a4.TabIndex = 38;
+            this.a4.UseVisualStyleBackColor = false;
+            this.a4.Visible = false;
+            // 
             // Assentos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1604, 833);
+            this.Controls.Add(this.a6);
+            this.Controls.Add(this.a18);
+            this.Controls.Add(this.a12);
+            this.Controls.Add(this.a17);
+            this.Controls.Add(this.a8);
+            this.Controls.Add(this.a15);
+            this.Controls.Add(this.a9);
+            this.Controls.Add(this.a16);
+            this.Controls.Add(this.a1);
+            this.Controls.Add(this.a14);
+            this.Controls.Add(this.a2);
+            this.Controls.Add(this.a13);
+            this.Controls.Add(this.a3);
+            this.Controls.Add(this.a10);
+            this.Controls.Add(this.a7);
+            this.Controls.Add(this.a11);
+            this.Controls.Add(this.a5);
+            this.Controls.Add(this.a4);
             this.Controls.Add(this.LabelNome);
             this.Controls.Add(this.ImgCartaz);
             this.Controls.Add(this.label12);
@@ -651,5 +903,23 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.PictureBox ImgCartaz;
         private System.Windows.Forms.Label LabelNome;
+        private System.Windows.Forms.Button a6;
+        private System.Windows.Forms.Button a18;
+        private System.Windows.Forms.Button a12;
+        private System.Windows.Forms.Button a17;
+        private System.Windows.Forms.Button a8;
+        private System.Windows.Forms.Button a15;
+        private System.Windows.Forms.Button a9;
+        private System.Windows.Forms.Button a16;
+        private System.Windows.Forms.Button a1;
+        private System.Windows.Forms.Button a14;
+        private System.Windows.Forms.Button a2;
+        private System.Windows.Forms.Button a13;
+        private System.Windows.Forms.Button a3;
+        private System.Windows.Forms.Button a10;
+        private System.Windows.Forms.Button a7;
+        private System.Windows.Forms.Button a11;
+        private System.Windows.Forms.Button a5;
+        private System.Windows.Forms.Button a4;
     }
 }

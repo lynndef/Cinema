@@ -44,12 +44,12 @@ namespace Cinema
 
         private void btnAssento1_Click(object sender, EventArgs e)
         {
-            horarios.TimesClicked = horarios.TimesClicked + 1;
+            horarios.AssentosClicks[0] = horarios.AssentosClicks[0] + 1;
             
             int nAssentos = Convert.ToInt32(LabelNassentos.Text);
             int labelzero = Convert.ToInt32(label0.Text);
 
-            if (horarios.TimesClicked % 2 == 0)
+            if (horarios.AssentosClicks[0] % 2 == 0)
             {
                 btnAssento1.BackColor = Color.LimeGreen;
                 btnAssento1.Text = "";
@@ -84,11 +84,11 @@ namespace Cinema
         private void btnAssento2_Click(object sender, EventArgs e)
         {
 
-            horarios.TimesClicked2 = horarios.TimesClicked2 + 1;
+            horarios.AssentosClicks[1] = horarios.AssentosClicks[1] + 1;
             int nAssentos = Convert.ToInt32(LabelNassentos.Text);
             int labelzero = Convert.ToInt32(label0.Text);
 
-            if (horarios.TimesClicked2 % 2 == 0)
+            if (horarios.AssentosClicks[1] % 2 == 0)
             {
                 btnAssento2.BackColor = Color.LimeGreen;
                 btnAssento2.Text = "";
@@ -123,11 +123,11 @@ namespace Cinema
         private void btnAssento3_Click(object sender, EventArgs e)
         {
 
-            horarios.TimesClicked3 = horarios.TimesClicked3 + 1;
+            horarios.AssentosClicks[2] = horarios.AssentosClicks[2] + 1;
             int nAssentos = Convert.ToInt32(LabelNassentos.Text);
             int labelzero = Convert.ToInt32(label0.Text);
 
-            if (horarios.TimesClicked3 % 2 == 0)
+            if (horarios.AssentosClicks[2] % 2 == 0)
             {
                 btnAssento3.BackColor = Color.LimeGreen;
                 btnAssento3.Text = "";
@@ -182,11 +182,11 @@ namespace Cinema
 
         private void btnAssento4_Click(object sender, EventArgs e)
         {
-            horarios.TimesClicked4 = horarios.TimesClicked4 + 1;
+            horarios.AssentosClicks[3] = horarios.AssentosClicks[3] + 1;
             int nAssentos = Convert.ToInt32(LabelNassentos.Text);
             int labelzero = Convert.ToInt32(label0.Text);
 
-            if (horarios.TimesClicked4 % 2 == 0)
+            if (horarios.AssentosClicks[3] % 2 == 0)
             {
                 btnAssento4.BackColor = Color.LimeGreen;
                 btnAssento4.Text = "";
@@ -217,11 +217,11 @@ namespace Cinema
 
         private void btnAssento5_Click(object sender, EventArgs e)
         {
-            horarios.TimesClicked5 = horarios.TimesClicked5 + 1;
+            horarios.AssentosClicks[4] = horarios.AssentosClicks[4] + 1;
             int nAssentos = Convert.ToInt32(LabelNassentos.Text);
             int labelzero = Convert.ToInt32(label0.Text);
 
-            if (horarios.TimesClicked5 % 2 == 0)
+            if (horarios.AssentosClicks[4] % 2 == 0)
             {
                 btnAssento5.BackColor = Color.LimeGreen;
                 btnAssento5.Text = "";
@@ -253,11 +253,11 @@ namespace Cinema
 
         private void btnAssento6_Click(object sender, EventArgs e)
         {
-            horarios.TimesClicked6 = horarios.TimesClicked6 + 1;
+            horarios.AssentosClicks[5] = horarios.AssentosClicks[5] + 1;
             int nAssentos = Convert.ToInt32(LabelNassentos.Text);
             int labelzero = Convert.ToInt32(label0.Text);
 
-            if (horarios.TimesClicked6 % 2 == 0)
+            if (horarios.AssentosClicks[5] % 2 == 0)
             {
                 btnAssento6.BackColor = Color.LimeGreen;
                 btnAssento6.Text = "";
@@ -288,11 +288,11 @@ namespace Cinema
 
         private void btnAssento7_Click(object sender, EventArgs e)
         {
-            horarios.TimesClicked7 = horarios.TimesClicked7 + 1;
+            horarios.AssentosClicks[6] = horarios.AssentosClicks[6] + 1;
             int nAssentos = Convert.ToInt32(LabelNassentos.Text);
             int labelzero = Convert.ToInt32(label0.Text);
 
-            if (horarios.TimesClicked7 % 2 == 0)
+            if (horarios.AssentosClicks[6] % 2 == 0)
             {
                 btnAssento7.BackColor = Color.LimeGreen;
                 btnAssento7.Text = "";
@@ -323,11 +323,11 @@ namespace Cinema
 
         private void btnAssento8_Click(object sender, EventArgs e)
         {
-            horarios.TimesClicked8 = horarios.TimesClicked8 + 1;
+            horarios.AssentosClicks[7] = horarios.AssentosClicks[7] + 1;
             int nAssentos = Convert.ToInt32(LabelNassentos.Text);
             int labelzero = Convert.ToInt32(label0.Text);
 
-            if (horarios.TimesClicked8 % 2 == 0)
+            if (horarios.AssentosClicks[7] % 2 == 0)
             {
                 btnAssento8.BackColor = Color.LimeGreen;
                 btnAssento8.Text = "";
@@ -358,11 +358,11 @@ namespace Cinema
 
         private void btnAssento9_Click(object sender, EventArgs e)
         {
-            horarios.TimesClicked9 = horarios.TimesClicked9 + 1;
+            horarios.AssentosClicks[8] = horarios.AssentosClicks[8] + 1;
             int nAssentos = Convert.ToInt32(LabelNassentos.Text);
             int labelzero = Convert.ToInt32(label0.Text);
 
-            if (horarios.TimesClicked9 % 2 == 0)
+            if (horarios.AssentosClicks[8] % 2 == 0)
             {
                 btnAssento9.BackColor = Color.LimeGreen;
                 btnAssento9.Text = "";
@@ -393,11 +393,11 @@ namespace Cinema
 
         private void btnAssento10_Click(object sender, EventArgs e)
         {
-            horarios.TimesClicked10 = horarios.TimesClicked10 + 1;
+            horarios.AssentosClicks[9] = horarios.AssentosClicks[9] + 1;
             int nAssentos = Convert.ToInt32(LabelNassentos.Text);
             int labelzero = Convert.ToInt32(label0.Text);
 
-            if (horarios.TimesClicked10 % 2 == 0)
+            if (horarios.AssentosClicks[9] % 2 == 0)
             {
                 btnAssento10.BackColor = Color.LimeGreen;
                 btnAssento10.Text = "";
@@ -428,11 +428,11 @@ namespace Cinema
 
         private void btnAssento11_Click(object sender, EventArgs e)
         {
-            horarios.TimesClicked11 = horarios.TimesClicked11 + 1;
+            horarios.AssentosClicks[10] = horarios.AssentosClicks[10] + 1;
             int nAssentos = Convert.ToInt32(LabelNassentos.Text);
             int labelzero = Convert.ToInt32(label0.Text);
 
-            if (horarios.TimesClicked11 % 2 == 0)
+            if (horarios.AssentosClicks[10] % 2 == 0)
             {
                 btnAssento11.BackColor = Color.LimeGreen;
                 btnAssento11.Text = "";
@@ -463,11 +463,11 @@ namespace Cinema
 
         private void btnAssento12_Click(object sender, EventArgs e)
         {
-            horarios.TimesClicked12 = horarios.TimesClicked12 + 1;
+            horarios.AssentosClicks[11] = horarios.AssentosClicks[11] + 1;
             int nAssentos = Convert.ToInt32(LabelNassentos.Text);
             int labelzero = Convert.ToInt32(label0.Text);
 
-            if (horarios.TimesClicked12 % 2 == 0)
+            if (horarios.AssentosClicks[11] % 2 == 0)
             {
                 btnAssento12.BackColor = Color.LimeGreen;
                 btnAssento12.Text = "";
@@ -498,11 +498,11 @@ namespace Cinema
 
         private void btnAssento13_Click(object sender, EventArgs e)
         {
-            horarios.TimesClicked13 = horarios.TimesClicked13 + 1;
+            horarios.AssentosClicks[12] = horarios.AssentosClicks[12] + 1;
             int nAssentos = Convert.ToInt32(LabelNassentos.Text);
             int labelzero = Convert.ToInt32(label0.Text);
 
-            if (horarios.TimesClicked13 % 2 == 0)
+            if (horarios.AssentosClicks[12] % 2 == 0)
             {
                 btnAssento13.BackColor = Color.LimeGreen;
                 btnAssento13.Text = "";
@@ -533,11 +533,11 @@ namespace Cinema
 
         private void btnAssento14_Click(object sender, EventArgs e)
         {
-            horarios.TimesClicked14 = horarios.TimesClicked14 + 1;
+            horarios.AssentosClicks[13] = horarios.AssentosClicks[13] + 1;
             int nAssentos = Convert.ToInt32(LabelNassentos.Text);
             int labelzero = Convert.ToInt32(label0.Text);
 
-            if (horarios.TimesClicked14 % 2 == 0)
+            if (horarios.AssentosClicks[13] % 2 == 0)
             {
                 btnAssento14.BackColor = Color.LimeGreen;
                 btnAssento14.Text = "";
@@ -568,11 +568,11 @@ namespace Cinema
 
         private void btnAssento15_Click(object sender, EventArgs e)
         {
-            horarios.TimesClicked15 = horarios.TimesClicked15 + 1;
+            horarios.AssentosClicks[14] = horarios.AssentosClicks[14] + 1;
             int nAssentos = Convert.ToInt32(LabelNassentos.Text);
             int labelzero = Convert.ToInt32(label0.Text);
 
-            if (horarios.TimesClicked15 % 2 == 0)
+            if (horarios.AssentosClicks[14] % 2 == 0)
             {
                 btnAssento15.BackColor = Color.LimeGreen;
                 btnAssento15.Text = "";
@@ -603,11 +603,11 @@ namespace Cinema
 
         private void btnAssento16_Click(object sender, EventArgs e)
         {
-            horarios.TimesClicked16 = horarios.TimesClicked16 + 1;
+            horarios.AssentosClicks[15] = horarios.AssentosClicks[15] + 1;
             int nAssentos = Convert.ToInt32(LabelNassentos.Text);
             int labelzero = Convert.ToInt32(label0.Text);
 
-            if (horarios.TimesClicked16 % 2 == 0)
+            if (horarios.AssentosClicks[15] % 2 == 0)
             {
                 btnAssento16.BackColor = Color.LimeGreen;
                 btnAssento16.Text = "";
@@ -638,11 +638,11 @@ namespace Cinema
 
         private void btnAssento17_Click(object sender, EventArgs e)
         {
-            horarios.TimesClicked17 = horarios.TimesClicked17 + 1;
+            horarios.AssentosClicks[16] = horarios.AssentosClicks[16] + 1;
             int nAssentos = Convert.ToInt32(LabelNassentos.Text);
             int labelzero = Convert.ToInt32(label0.Text);
 
-            if (horarios.TimesClicked17 % 2 == 0)
+            if (horarios.AssentosClicks[16] % 2 == 0)
             {
                 btnAssento17.BackColor = Color.LimeGreen;
                 btnAssento17.Text = "";
@@ -673,11 +673,11 @@ namespace Cinema
 
         private void btnAssento18_Click(object sender, EventArgs e)
         {
-            horarios.TimesClicked18 = horarios.TimesClicked18 + 1;
+            horarios.AssentosClicks[17] = horarios.AssentosClicks[17] + 1;
             int nAssentos = Convert.ToInt32(LabelNassentos.Text);
             int labelzero = Convert.ToInt32(label0.Text);
 
-            if (horarios.TimesClicked18 % 2 == 0)
+            if (horarios.AssentosClicks[17] % 2 == 0)
             {
                 btnAssento18.BackColor = Color.LimeGreen;
                 btnAssento18.Text = "";
