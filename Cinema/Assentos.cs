@@ -32,10 +32,16 @@ namespace Cinema
             this.horarios = horarios;
         }
 
+        public Assentos(Image cartaz, string nomefilme, Horarios horarios, int n1) : this(cartaz, nomefilme, horarios)
+        {
+            this.n1 = n1;
+        }
+
         String[] AssentosNome = new string[18];
 
         private Image cartaz;
         private string nomefilme;
+        private int n1;
 
         private void label2_Click(object sender, EventArgs e)
         {
