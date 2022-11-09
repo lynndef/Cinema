@@ -58,9 +58,9 @@ namespace Cinema
         private void LabelCompre1_Click(object sender, EventArgs e)
         {
 
-            int n1 = 1;
+        
 
-            Form f3 = new Assentos(cartaz, nomefilme, ControleAssentos.Seg.AdaoSala1_10h30, n1); //
+            Form f3 = new Assentos(cartaz, nomefilme, ControleAssentos.Seg.AdaoSala1_10h30); //
             f3.Location = this.Location;
             f3.StartPosition = FormStartPosition.Manual;
             f3.FormClosing += delegate { this.Show(); };
@@ -70,11 +70,11 @@ namespace Cinema
             
         }
 
-        private void CompreF1H2_Click(object sender, EventArgs e)
-        {
-            int n1 = 2;
 
-            Form f3 = new Assentos(cartaz, nomefilme, ControleAssentos.Seg.AdaoSala1_13h30, n1);
+
+        private void CompreF1H2_Click_1(object sender, EventArgs e)
+        {
+            Form f3 = new assentos2(cartaz, nomefilme, ControleAssentos.Seg.AdaoSala1_10h30);
             f3.Location = this.Location;
             f3.StartPosition = FormStartPosition.Manual;
             f3.FormClosing += delegate { this.Show(); };
@@ -83,5 +83,46 @@ namespace Cinema
 
         }
 
+        private void CompreF2H1_Click(object sender, EventArgs e)
+        {
+            Form f3 = new assentos3(cartaz, nomefilme, ControleAssentos.Seg.AdaoSala1_10h30);
+            f3.Location = this.Location;
+            f3.StartPosition = FormStartPosition.Manual;
+            f3.FormClosing += delegate { this.Show(); };
+            f3.Show();
+            this.Hide();
+
+        }
+
+        private void CompreF2H2_Click(object sender, EventArgs e)
+        {
+            Form f3 = new assentos4(cartaz, nomefilme, ControleAssentos.Seg.AdaoSala1_10h30);
+            f3.Location = this.Location;
+            f3.StartPosition = FormStartPosition.Manual;
+            f3.FormClosing += delegate { this.Show(); };
+            f3.Show();
+            this.Hide();
+        }
+
+        private void CompreF3H1_Click(object sender, EventArgs e)
+        {
+            Form f3 = new assentos5(cartaz, nomefilme, ControleAssentos.Seg.AdaoSala1_10h30);
+            f3.Location = this.Location;
+            f3.StartPosition = FormStartPosition.Manual;
+            f3.FormClosing += delegate { this.Show(); };
+            f3.Show();
+            this.Hide();
+
+        }
+
+        private void CompreF3H2_Click(object sender, EventArgs e)
+        {
+            Form f3 = new assentos6(cartaz, nomefilme, ControleAssentos.Seg.AdaoSala1_10h30);
+            f3.Location = this.Location;
+            f3.StartPosition = FormStartPosition.Manual;
+            f3.FormClosing += delegate { this.Show(); };
+            f3.Show();
+            this.Hide();
+        }
     }
 }

@@ -150,7 +150,6 @@
             this.label2.Size = new System.Drawing.Size(137, 17);
             this.label2.TabIndex = 4;
             this.label2.Text = "Assentos disponiveis";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label0
             // 
@@ -163,7 +162,6 @@
             this.label0.Size = new System.Drawing.Size(15, 17);
             this.label0.TabIndex = 6;
             this.label0.Text = "0";
-            this.label0.Click += new System.EventHandler(this.label1_Click);
             // 
             // label3
             // 
@@ -367,7 +365,6 @@
             this.label1.Size = new System.Drawing.Size(14, 13);
             this.label1.TabIndex = 9;
             this.label1.Text = "A";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // label4
             // 
@@ -412,7 +409,6 @@
             this.label6.Size = new System.Drawing.Size(41, 19);
             this.label6.TabIndex = 0;
             this.label6.Text = "TELA";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // panel2
             // 
@@ -516,7 +512,7 @@
             // panel6
             // 
             this.panel6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel6.BackColor = System.Drawing.Color.Orange;
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.panel6.Location = new System.Drawing.Point(534, 582);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(32, 22);
@@ -570,216 +566,254 @@
             // a6
             // 
             this.a6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.a6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a6.Location = new System.Drawing.Point(836, 258);
             this.a6.Name = "a6";
             this.a6.Size = new System.Drawing.Size(35, 25);
             this.a6.TabIndex = 50;
+            this.a6.Text = "X";
             this.a6.UseVisualStyleBackColor = false;
             this.a6.Visible = false;
             // 
             // a18
             // 
             this.a18.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.a18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a18.Location = new System.Drawing.Point(836, 374);
             this.a18.Name = "a18";
             this.a18.Size = new System.Drawing.Size(35, 25);
             this.a18.TabIndex = 49;
+            this.a18.Text = "X";
             this.a18.UseVisualStyleBackColor = false;
             this.a18.Visible = false;
             // 
             // a12
             // 
             this.a12.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.a12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a12.Location = new System.Drawing.Point(836, 316);
             this.a12.Name = "a12";
             this.a12.Size = new System.Drawing.Size(35, 25);
             this.a12.TabIndex = 48;
+            this.a12.Text = "X";
             this.a12.UseVisualStyleBackColor = false;
             this.a12.Visible = false;
             // 
             // a17
             // 
             this.a17.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.a17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a17.Location = new System.Drawing.Point(774, 374);
             this.a17.Name = "a17";
             this.a17.Size = new System.Drawing.Size(35, 25);
             this.a17.TabIndex = 47;
+            this.a17.Text = "X";
             this.a17.UseVisualStyleBackColor = false;
             this.a17.Visible = false;
             // 
             // a8
             // 
             this.a8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.a8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a8.Location = new System.Drawing.Point(594, 316);
             this.a8.Name = "a8";
             this.a8.Size = new System.Drawing.Size(35, 25);
             this.a8.TabIndex = 46;
+            this.a8.Text = "X";
             this.a8.UseVisualStyleBackColor = false;
             this.a8.Visible = false;
             // 
             // a15
             // 
             this.a15.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.a15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a15.Location = new System.Drawing.Point(654, 374);
             this.a15.Name = "a15";
             this.a15.Size = new System.Drawing.Size(35, 25);
             this.a15.TabIndex = 45;
+            this.a15.Text = "X";
             this.a15.UseVisualStyleBackColor = false;
             this.a15.Visible = false;
             // 
             // a9
             // 
             this.a9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.a9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a9.Location = new System.Drawing.Point(654, 316);
             this.a9.Name = "a9";
             this.a9.Size = new System.Drawing.Size(35, 25);
             this.a9.TabIndex = 40;
+            this.a9.Text = "X";
             this.a9.UseVisualStyleBackColor = false;
             this.a9.Visible = false;
             // 
             // a16
             // 
             this.a16.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.a16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a16.Location = new System.Drawing.Point(714, 374);
             this.a16.Name = "a16";
             this.a16.Size = new System.Drawing.Size(35, 25);
             this.a16.TabIndex = 44;
+            this.a16.Text = "X";
             this.a16.UseVisualStyleBackColor = false;
             this.a16.Visible = false;
             // 
             // a1
             // 
             this.a1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.a1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a1.ForeColor = System.Drawing.Color.Black;
             this.a1.Location = new System.Drawing.Point(534, 258);
             this.a1.Name = "a1";
             this.a1.Size = new System.Drawing.Size(35, 25);
             this.a1.TabIndex = 33;
+            this.a1.Text = "X";
             this.a1.UseVisualStyleBackColor = false;
             this.a1.Visible = false;
             // 
             // a14
             // 
             this.a14.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.a14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a14.Location = new System.Drawing.Point(594, 374);
             this.a14.Name = "a14";
             this.a14.Size = new System.Drawing.Size(35, 25);
             this.a14.TabIndex = 43;
+            this.a14.Text = "X";
             this.a14.UseVisualStyleBackColor = false;
             this.a14.Visible = false;
             // 
             // a2
             // 
             this.a2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.a2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a2.ForeColor = System.Drawing.Color.Black;
             this.a2.Location = new System.Drawing.Point(594, 258);
             this.a2.Name = "a2";
             this.a2.Size = new System.Drawing.Size(35, 25);
             this.a2.TabIndex = 34;
+            this.a2.Text = "X";
             this.a2.UseVisualStyleBackColor = false;
             this.a2.Visible = false;
             // 
             // a13
             // 
             this.a13.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.a13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a13.Location = new System.Drawing.Point(534, 374);
             this.a13.Name = "a13";
             this.a13.Size = new System.Drawing.Size(35, 25);
             this.a13.TabIndex = 42;
+            this.a13.Text = "X";
             this.a13.UseVisualStyleBackColor = false;
             this.a13.Visible = false;
             // 
             // a3
             // 
             this.a3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.a3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a3.Location = new System.Drawing.Point(654, 258);
             this.a3.Name = "a3";
             this.a3.Size = new System.Drawing.Size(35, 25);
             this.a3.TabIndex = 35;
+            this.a3.Text = "X";
             this.a3.UseVisualStyleBackColor = false;
             this.a3.Visible = false;
             // 
             // a10
             // 
             this.a10.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.a10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a10.Location = new System.Drawing.Point(714, 316);
             this.a10.Name = "a10";
             this.a10.Size = new System.Drawing.Size(35, 25);
             this.a10.TabIndex = 41;
+            this.a10.Text = "X";
             this.a10.UseVisualStyleBackColor = false;
             this.a10.Visible = false;
             // 
             // a7
             // 
             this.a7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.a7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a7.Location = new System.Drawing.Point(534, 316);
             this.a7.Name = "a7";
             this.a7.Size = new System.Drawing.Size(35, 25);
             this.a7.TabIndex = 36;
+            this.a7.Text = "X";
             this.a7.UseVisualStyleBackColor = false;
             this.a7.Visible = false;
             // 
             // a11
             // 
             this.a11.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.a11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a11.Location = new System.Drawing.Point(774, 316);
             this.a11.Name = "a11";
             this.a11.Size = new System.Drawing.Size(35, 25);
             this.a11.TabIndex = 37;
+            this.a11.Text = "X";
             this.a11.UseVisualStyleBackColor = false;
             this.a11.Visible = false;
             // 
             // a5
             // 
             this.a5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.a5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a5.Location = new System.Drawing.Point(774, 258);
             this.a5.Name = "a5";
             this.a5.Size = new System.Drawing.Size(35, 25);
             this.a5.TabIndex = 39;
+            this.a5.Text = "X";
             this.a5.UseVisualStyleBackColor = false;
             this.a5.Visible = false;
             // 
             // a4
             // 
             this.a4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.a4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.a4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a4.Location = new System.Drawing.Point(714, 258);
             this.a4.Name = "a4";
             this.a4.Size = new System.Drawing.Size(35, 25);
             this.a4.TabIndex = 38;
+            this.a4.Text = "X";
             this.a4.UseVisualStyleBackColor = false;
             this.a4.Visible = false;
             // 
@@ -790,7 +824,6 @@
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1604, 833);
             this.Controls.Add(this.a6);
-            this.Controls.Add(this.a18);
             this.Controls.Add(this.a12);
             this.Controls.Add(this.a17);
             this.Controls.Add(this.a8);
@@ -807,6 +840,23 @@
             this.Controls.Add(this.a11);
             this.Controls.Add(this.a5);
             this.Controls.Add(this.a4);
+            this.Controls.Add(this.btnAssento6);
+            this.Controls.Add(this.btnAssento12);
+            this.Controls.Add(this.btnAssento17);
+            this.Controls.Add(this.btnAssento8);
+            this.Controls.Add(this.btnAssento15);
+            this.Controls.Add(this.btnAssento9);
+            this.Controls.Add(this.btnAssento16);
+            this.Controls.Add(this.btnAssento1);
+            this.Controls.Add(this.btnAssento14);
+            this.Controls.Add(this.btnAssento2);
+            this.Controls.Add(this.btnAssento13);
+            this.Controls.Add(this.btnAssento3);
+            this.Controls.Add(this.btnAssento10);
+            this.Controls.Add(this.btnAssento7);
+            this.Controls.Add(this.btnAssento11);
+            this.Controls.Add(this.btnAssento5);
+            this.Controls.Add(this.btnAssento4);
             this.Controls.Add(this.LabelNome);
             this.Controls.Add(this.ImgCartaz);
             this.Controls.Add(this.label12);
@@ -825,28 +875,12 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnAssento6);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.btnAssento18);
             this.Controls.Add(this.label0);
-            this.Controls.Add(this.btnAssento12);
-            this.Controls.Add(this.btnAssento17);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.btnAssento8);
             this.Controls.Add(this.LabelNassentos);
-            this.Controls.Add(this.btnAssento15);
-            this.Controls.Add(this.btnAssento9);
-            this.Controls.Add(this.btnAssento16);
-            this.Controls.Add(this.btnAssento1);
-            this.Controls.Add(this.btnAssento14);
-            this.Controls.Add(this.btnAssento2);
-            this.Controls.Add(this.btnAssento13);
-            this.Controls.Add(this.btnAssento3);
-            this.Controls.Add(this.btnAssento10);
-            this.Controls.Add(this.btnAssento7);
-            this.Controls.Add(this.btnAssento11);
-            this.Controls.Add(this.btnAssento5);
-            this.Controls.Add(this.btnAssento4);
+            this.Controls.Add(this.a18);
+            this.Controls.Add(this.btnAssento18);
             this.Name = "Assentos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Assentos";

@@ -9,6 +9,12 @@ namespace Cinema
     public class Horarios
     {
         public int[] AssentosClicks = new int[18] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+        public int[] AssentosClicks2 = new int[18] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+        public int[] AssentosClicks3 = new int[18] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+        public int[] AssentosClicks4 = new int[18] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+        public int[] AssentosClicks5 = new int[18] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+        public int[] AssentosClicks6 = new int[18] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
 
     }
 
@@ -26,9 +32,6 @@ namespace Cinema
     public static class ControleAssentos
     {
         public static AssentosDia Seg = new AssentosDia();
-        public static AssentosDia Ter = new AssentosDia();
-        public static AssentosDia Qua = new AssentosDia();
-        public static AssentosDia Qui = new AssentosDia();
-        public static AssentosDia Sex = new AssentosDia();
+  
     }
 }

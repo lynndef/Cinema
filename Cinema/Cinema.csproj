@@ -52,6 +52,36 @@
     <Compile Include="Assentos.Designer.cs">
       <DependentUpon>Assentos.cs</DependentUpon>
     </Compile>
+    <Compile Include="assentos2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="assentos2.Designer.cs">
+      <DependentUpon>assentos2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="assentos3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="assentos3.Designer.cs">
+      <DependentUpon>assentos3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="assentos4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="assentos4.Designer.cs">
+      <DependentUpon>assentos4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="assentos5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="assentos5.Designer.cs">
+      <DependentUpon>assentos5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="assentos6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="assentos6.Designer.cs">
+      <DependentUpon>assentos6.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControleAssentos.cs" />
     <Compile Include="InteiraMeia.cs">
       <SubType>Form</SubType>
@@ -94,6 +124,21 @@
     </Compile>
     <EmbeddedResource Include="Assentos.resx">
       <DependentUpon>Assentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="assentos2.resx">
+      <DependentUpon>assentos2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="assentos3.resx">
+      <DependentUpon>assentos3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="assentos4.resx">
+      <DependentUpon>assentos4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="assentos5.resx">
+      <DependentUpon>assentos5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="assentos6.resx">
+      <DependentUpon>assentos6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InteiraMeia.resx">
       <DependentUpon>InteiraMeia.cs</DependentUpon>

@@ -57,7 +57,6 @@
             this.label1.Size = new System.Drawing.Size(154, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "Horários Disponiveis";
-            
             // 
             // LabelNameFilme
             // 
@@ -69,7 +68,6 @@
             this.LabelNameFilme.Name = "LabelNameFilme";
             this.LabelNameFilme.Size = new System.Drawing.Size(0, 21);
             this.LabelNameFilme.TabIndex = 1;
-            
             // 
             // lblLocal
             // 
@@ -193,6 +191,7 @@
             this.CompreF1H2.TabIndex = 20;
             this.CompreF1H2.Text = "Compre Aqui";
             this.CompreF1H2.Visible = false;
+            this.CompreF1H2.Click += new System.EventHandler(this.CompreF1H2_Click_1);
             // 
             // CompreF2H1
             // 
@@ -206,6 +205,7 @@
             this.CompreF2H1.TabIndex = 21;
             this.CompreF2H1.Text = "Compre Aqui";
             this.CompreF2H1.Visible = false;
+            this.CompreF2H1.Click += new System.EventHandler(this.CompreF2H1_Click);
             // 
             // CompreF2H2
             // 
@@ -219,6 +219,7 @@
             this.CompreF2H2.TabIndex = 22;
             this.CompreF2H2.Text = "Compre Aqui";
             this.CompreF2H2.Visible = false;
+            this.CompreF2H2.Click += new System.EventHandler(this.CompreF2H2_Click);
             // 
             // CompreF3H1
             // 
@@ -232,6 +233,7 @@
             this.CompreF3H1.TabIndex = 23;
             this.CompreF3H1.Text = "Compre Aqui";
             this.CompreF3H1.Visible = false;
+            this.CompreF3H1.Click += new System.EventHandler(this.CompreF3H1_Click);
             // 
             // CompreF3H2
             // 
@@ -245,6 +247,7 @@
             this.CompreF3H2.TabIndex = 24;
             this.CompreF3H2.Text = "Compre Aqui";
             this.CompreF3H2.Visible = false;
+            this.CompreF3H2.Click += new System.EventHandler(this.CompreF3H2_Click);
             // 
             // HorarioFilme
             // 
