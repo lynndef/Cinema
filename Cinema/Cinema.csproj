@@ -214,5 +214,23 @@
   <ItemGroup>
     <None Include="Resources\logo_nova_nova.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black_adam_last.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minions2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orfa2_banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black_Adam_banner2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black_Adam_bannerfinal.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

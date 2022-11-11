@@ -813,6 +813,9 @@ namespace Cinema
             this.Hide();
         }
 
-       
+        private void a18_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

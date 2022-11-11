@@ -17,8 +17,9 @@ namespace Cinema
         public string genero1;
         public string genero2;
         public string duracao;
+        public Image banner;
 
-        public Filmes(string Nome, string Sinopse, int classificacao, string genero1, string genero2, string duracao, Image cartaz)
+        public Filmes(string Nome, string Sinopse, int classificacao, string genero1, string genero2, string duracao, Image cartaz, Image banner)
         {
             this.cartaz = cartaz;
             this.Nome = Nome;
@@ -27,7 +28,13 @@ namespace Cinema
             this.genero1 = genero1;
             this.genero2 = genero2;
             this.duracao = duracao;
+            this.banner = banner;
+        }
 
+        public Image GetBanner
+        {
+            get { return banner; }
+            set { banner = value; }
         }
 
         public Image GetCartaz

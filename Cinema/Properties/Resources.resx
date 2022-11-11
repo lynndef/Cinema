@@ -124,14 +124,23 @@
   <data name="X" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\X.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="orfa2_banner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\orfa2_banner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_nova_nova1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_nova_nova.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="banco_do_brasil_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\banco_do_brasil_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Filme_minons2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Filme_minons2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MasterCard_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MasterCard_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="minions2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minions2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_adam_last" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_adam_last.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Visa_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Visa_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,6 +154,15 @@
   <data name="Filme_minons21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Filme_minons21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MasterCard_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MasterCard_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_Adam_banner2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Black_Adam_banner2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\panel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logo_nova_nova" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo_nova_nova.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -157,8 +175,7 @@
   <data name="Filme_minons22" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Filme_minons2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-
-  <data name="logo_nova_nova1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo_nova_nova.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Black_Adam_bannerfinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Black_Adam_bannerfinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

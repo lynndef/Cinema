@@ -590,6 +590,7 @@
             this.a18.Text = "X";
             this.a18.UseVisualStyleBackColor = false;
             this.a18.Visible = false;
+            this.a18.Click += new System.EventHandler(this.a18_Click);
             // 
             // a12
             // 
