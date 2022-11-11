@@ -116,17 +116,17 @@ namespace Cinema
             string nomefilme = "";
             Image cartaz = filme1.cartaz;
 
-            if (ImgFilmes.BackgroundImage == filme1.GetCartaz)
+            if (ImgFilmes.BackgroundImage == filme1.GetBanner)
             {
                 nomefilme = filme1.GetNome;
                 cartaz = filme1.GetCartaz;
             }
-            else if(ImgFilmes.BackgroundImage == filme2.GetCartaz)
+            else if(ImgFilmes.BackgroundImage == filme2.GetBanner)
             {
                 nomefilme = filme2.GetNome;
                 cartaz=filme2.GetCartaz;
             }
-            else if(ImgFilmes.BackgroundImage == filme3.GetCartaz)
+            else if(ImgFilmes.BackgroundImage == filme3.GetBanner)
             {
                 nomefilme = filme3.GetNome;
                 cartaz = filme3.cartaz;
@@ -171,6 +171,11 @@ namespace Cinema
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
 
         }

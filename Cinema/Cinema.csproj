@@ -232,5 +232,14 @@
   <ItemGroup>
     <None Include="Resources\Black_Adam_bannerfinal.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quadrado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quadradohorario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quadradohorafim.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

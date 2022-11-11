@@ -35,6 +35,20 @@ namespace Cinema
         private void HorarioFilme_Load(object sender, EventArgs e)
         {
             LabelNameFilme.Text = nomefilme;
+            ImgFilme.BackgroundImage = cartaz;
+
+            labelsala1.Parent = ImgQuadrado;
+            labelsala1.BackColor = Color.Transparent;
+
+            imgQuadradoSmall.Parent = ImgQuadrado;
+            imgQuadradoSmall.BackColor = Color.Transparent;
+
+            ImgQuadradoSmall2.Parent = ImgQuadrado;
+            ImgQuadradoSmall2.BackColor = Color.Transparent;
+
+            labelhrdisp.Parent = imgPanel;
+            labelhrdisp.BackColor = Color.Transparent;
+
 
             if (LabelNameFilme.Text == "Adão Negro")
             {
@@ -123,6 +137,11 @@ namespace Cinema
             f3.FormClosing += delegate { this.Show(); };
             f3.Show();
             this.Hide();
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

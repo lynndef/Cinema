@@ -35,25 +35,25 @@
             this.PanelLine2 = new System.Windows.Forms.Panel();
             this.labelhoraio = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ImgFilmes = new System.Windows.Forms.PictureBox();
             this.ImgFilme3 = new System.Windows.Forms.PictureBox();
             this.ImgFilme2 = new System.Windows.Forms.PictureBox();
             this.imgFilme1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgFilmes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgFilme3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgFilme2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgFilme1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -143,6 +143,19 @@
             this.panel2.Size = new System.Drawing.Size(416, 72);
             this.panel2.TabIndex = 16;
             // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(62, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(208, 30);
+            this.label1.TabIndex = 21;
+            this.label1.Text = "FILMES EM CARTAZ";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // panel3
             // 
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -184,6 +197,17 @@
             this.label4.Size = new System.Drawing.Size(76, 17);
             this.label4.TabIndex = 20;
             this.label4.Text = "MINIONS 2";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.BackgroundImage = global::Cinema.Properties.Resources.panel;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(-6, -80);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(536, 262);
+            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.TabStop = false;
             // 
             // ImgFilmes
             // 
@@ -244,17 +268,7 @@
             this.pictureBox3.Size = new System.Drawing.Size(536, 262);
             this.pictureBox3.TabIndex = 15;
             this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.BackgroundImage = global::Cinema.Properties.Resources.panel;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(-6, -80);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(536, 262);
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox2
             // 
@@ -267,19 +281,6 @@
             this.pictureBox2.Size = new System.Drawing.Size(536, 262);
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(62, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(208, 30);
-            this.label1.TabIndex = 21;
-            this.label1.Text = "FILMES EM CARTAZ";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // MainMenu
             // 
@@ -312,12 +313,12 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgFilmes)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgFilme3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgFilme2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgFilme1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
