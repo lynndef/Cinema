@@ -41,7 +41,6 @@
             this.imgCartao = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
-            this.PanelLine1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.imgCartao)).BeginInit();
             this.SuspendLayout();
             // 
@@ -228,22 +227,12 @@
             this.label7.TabIndex = 29;
             this.label7.Text = "Pagamento";
             // 
-            // PanelLine1
-            // 
-            this.PanelLine1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.PanelLine1.BackColor = System.Drawing.Color.White;
-            this.PanelLine1.Location = new System.Drawing.Point(497, 395);
-            this.PanelLine1.Name = "PanelLine1";
-            this.PanelLine1.Size = new System.Drawing.Size(650, 4);
-            this.PanelLine1.TabIndex = 30;
-            // 
             // Pagamento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
-            this.Controls.Add(this.PanelLine1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.imgCartao);
@@ -281,6 +270,5 @@
         private System.Windows.Forms.PictureBox imgCartao;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Panel PanelLine1;
     }
 }

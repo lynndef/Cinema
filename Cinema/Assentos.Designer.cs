@@ -1,6 +1,6 @@
 ﻿namespace Cinema
 {
-    partial class Assentos
+    partial class assentos
     {
         /// <summary>
         /// Required designer variable.
@@ -28,506 +28,86 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnAssento1 = new System.Windows.Forms.Button();
-            this.btnAssento2 = new System.Windows.Forms.Button();
-            this.btnAssento3 = new System.Windows.Forms.Button();
-            this.LabelNassentos = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label0 = new System.Windows.Forms.Label();
+            this.LabelNome = new System.Windows.Forms.Label();
+            this.ImgCartaz = new System.Windows.Forms.PictureBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.BtnConfirmar = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnAssento7 = new System.Windows.Forms.Button();
+            this.label0 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.LabelNassentos = new System.Windows.Forms.Label();
+            this.a1 = new System.Windows.Forms.Button();
+            this.a2 = new System.Windows.Forms.Button();
+            this.a3 = new System.Windows.Forms.Button();
+            this.a4 = new System.Windows.Forms.Button();
+            this.a5 = new System.Windows.Forms.Button();
+            this.a6 = new System.Windows.Forms.Button();
+            this.a7 = new System.Windows.Forms.Button();
+            this.a8 = new System.Windows.Forms.Button();
+            this.a9 = new System.Windows.Forms.Button();
+            this.a10 = new System.Windows.Forms.Button();
+            this.a11 = new System.Windows.Forms.Button();
+            this.a12 = new System.Windows.Forms.Button();
+            this.a18 = new System.Windows.Forms.Button();
+            this.a17 = new System.Windows.Forms.Button();
+            this.a16 = new System.Windows.Forms.Button();
+            this.a15 = new System.Windows.Forms.Button();
+            this.a14 = new System.Windows.Forms.Button();
+            this.a13 = new System.Windows.Forms.Button();
+            this.btnAssento17 = new System.Windows.Forms.Button();
             this.btnAssento11 = new System.Windows.Forms.Button();
-            this.btnAssento4 = new System.Windows.Forms.Button();
             this.btnAssento5 = new System.Windows.Forms.Button();
-            this.btnAssento9 = new System.Windows.Forms.Button();
+            this.btnAssento4 = new System.Windows.Forms.Button();
+            this.btnAssento3 = new System.Windows.Forms.Button();
+            this.btnAssento6 = new System.Windows.Forms.Button();
             this.btnAssento10 = new System.Windows.Forms.Button();
-            this.btnAssento13 = new System.Windows.Forms.Button();
-            this.btnAssento14 = new System.Windows.Forms.Button();
             this.btnAssento16 = new System.Windows.Forms.Button();
+            this.btnAssento18 = new System.Windows.Forms.Button();
+            this.btnAssento14 = new System.Windows.Forms.Button();
             this.btnAssento15 = new System.Windows.Forms.Button();
             this.btnAssento8 = new System.Windows.Forms.Button();
-            this.btnAssento17 = new System.Windows.Forms.Button();
             this.btnAssento12 = new System.Windows.Forms.Button();
-            this.btnAssento18 = new System.Windows.Forms.Button();
-            this.btnAssento6 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.BtnConfirmar = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.ImgCartaz = new System.Windows.Forms.PictureBox();
-            this.LabelNome = new System.Windows.Forms.Label();
-            this.a6 = new System.Windows.Forms.Button();
-            this.a18 = new System.Windows.Forms.Button();
-            this.a12 = new System.Windows.Forms.Button();
-            this.a17 = new System.Windows.Forms.Button();
-            this.a8 = new System.Windows.Forms.Button();
-            this.a15 = new System.Windows.Forms.Button();
-            this.a9 = new System.Windows.Forms.Button();
-            this.a16 = new System.Windows.Forms.Button();
-            this.a1 = new System.Windows.Forms.Button();
-            this.a14 = new System.Windows.Forms.Button();
-            this.a2 = new System.Windows.Forms.Button();
-            this.a13 = new System.Windows.Forms.Button();
-            this.a3 = new System.Windows.Forms.Button();
-            this.a10 = new System.Windows.Forms.Button();
-            this.a7 = new System.Windows.Forms.Button();
-            this.a11 = new System.Windows.Forms.Button();
-            this.a5 = new System.Windows.Forms.Button();
-            this.a4 = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
+            this.btnAssento2 = new System.Windows.Forms.Button();
+            this.btnAssento13 = new System.Windows.Forms.Button();
+            this.btnAssento7 = new System.Windows.Forms.Button();
+            this.btnAssento9 = new System.Windows.Forms.Button();
+            this.btnAssento1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.ImgCartaz)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnAssento1
-            // 
-            this.btnAssento1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAssento1.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnAssento1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAssento1.Location = new System.Drawing.Point(534, 258);
-            this.btnAssento1.Name = "btnAssento1";
-            this.btnAssento1.Size = new System.Drawing.Size(35, 25);
-            this.btnAssento1.TabIndex = 0;
-            this.btnAssento1.UseVisualStyleBackColor = false;
-            this.btnAssento1.Click += new System.EventHandler(this.btnAssento1_Click);
-            // 
-            // btnAssento2
-            // 
-            this.btnAssento2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAssento2.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnAssento2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAssento2.Location = new System.Drawing.Point(594, 258);
-            this.btnAssento2.Name = "btnAssento2";
-            this.btnAssento2.Size = new System.Drawing.Size(35, 25);
-            this.btnAssento2.TabIndex = 1;
-            this.btnAssento2.UseVisualStyleBackColor = false;
-            this.btnAssento2.Click += new System.EventHandler(this.btnAssento2_Click);
-            // 
-            // btnAssento3
-            // 
-            this.btnAssento3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAssento3.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnAssento3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAssento3.Location = new System.Drawing.Point(654, 258);
-            this.btnAssento3.Name = "btnAssento3";
-            this.btnAssento3.Size = new System.Drawing.Size(35, 25);
-            this.btnAssento3.TabIndex = 2;
-            this.btnAssento3.UseVisualStyleBackColor = false;
-            this.btnAssento3.Click += new System.EventHandler(this.btnAssento3_Click);
-            // 
-            // LabelNassentos
-            // 
-            this.LabelNassentos.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.LabelNassentos.AutoSize = true;
-            this.LabelNassentos.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelNassentos.ForeColor = System.Drawing.Color.White;
-            this.LabelNassentos.Location = new System.Drawing.Point(1026, 257);
-            this.LabelNassentos.Name = "LabelNassentos";
-            this.LabelNassentos.Size = new System.Drawing.Size(22, 17);
-            this.LabelNassentos.TabIndex = 3;
-            this.LabelNassentos.Text = "18";
-            // 
-            // label2
-            // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(1047, 257);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(137, 17);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Assentos disponiveis";
-            // 
-            // label0
-            // 
-            this.label0.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label0.AutoSize = true;
-            this.label0.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label0.ForeColor = System.Drawing.Color.White;
-            this.label0.Location = new System.Drawing.Point(1026, 293);
-            this.label0.Name = "label0";
-            this.label0.Size = new System.Drawing.Size(15, 17);
-            this.label0.TabIndex = 6;
-            this.label0.Text = "0";
-            // 
-            // label3
-            // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(1047, 293);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(146, 17);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Assentos selecionados";
-            // 
-            // btnAssento7
-            // 
-            this.btnAssento7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAssento7.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnAssento7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAssento7.Location = new System.Drawing.Point(534, 316);
-            this.btnAssento7.Name = "btnAssento7";
-            this.btnAssento7.Size = new System.Drawing.Size(35, 25);
-            this.btnAssento7.TabIndex = 3;
-            this.btnAssento7.UseVisualStyleBackColor = false;
-            this.btnAssento7.Click += new System.EventHandler(this.btnAssento7_Click);
-            // 
-            // btnAssento11
-            // 
-            this.btnAssento11.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAssento11.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnAssento11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAssento11.Location = new System.Drawing.Point(774, 316);
-            this.btnAssento11.Name = "btnAssento11";
-            this.btnAssento11.Size = new System.Drawing.Size(35, 25);
-            this.btnAssento11.TabIndex = 4;
-            this.btnAssento11.UseVisualStyleBackColor = false;
-            this.btnAssento11.Click += new System.EventHandler(this.btnAssento11_Click);
-            // 
-            // btnAssento4
-            // 
-            this.btnAssento4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAssento4.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnAssento4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAssento4.Location = new System.Drawing.Point(714, 258);
-            this.btnAssento4.Name = "btnAssento4";
-            this.btnAssento4.Size = new System.Drawing.Size(35, 25);
-            this.btnAssento4.TabIndex = 5;
-            this.btnAssento4.UseVisualStyleBackColor = false;
-            this.btnAssento4.Click += new System.EventHandler(this.btnAssento4_Click);
-            // 
-            // btnAssento5
-            // 
-            this.btnAssento5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAssento5.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnAssento5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAssento5.Location = new System.Drawing.Point(774, 258);
-            this.btnAssento5.Name = "btnAssento5";
-            this.btnAssento5.Size = new System.Drawing.Size(35, 25);
-            this.btnAssento5.TabIndex = 6;
-            this.btnAssento5.UseVisualStyleBackColor = false;
-            this.btnAssento5.Click += new System.EventHandler(this.btnAssento5_Click);
-            // 
-            // btnAssento9
-            // 
-            this.btnAssento9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAssento9.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnAssento9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAssento9.Location = new System.Drawing.Point(654, 316);
-            this.btnAssento9.Name = "btnAssento9";
-            this.btnAssento9.Size = new System.Drawing.Size(35, 25);
-            this.btnAssento9.TabIndex = 7;
-            this.btnAssento9.UseVisualStyleBackColor = false;
-            this.btnAssento9.Click += new System.EventHandler(this.btnAssento9_Click);
-            // 
-            // btnAssento10
-            // 
-            this.btnAssento10.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAssento10.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnAssento10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAssento10.Location = new System.Drawing.Point(714, 316);
-            this.btnAssento10.Name = "btnAssento10";
-            this.btnAssento10.Size = new System.Drawing.Size(35, 25);
-            this.btnAssento10.TabIndex = 8;
-            this.btnAssento10.UseVisualStyleBackColor = false;
-            this.btnAssento10.Click += new System.EventHandler(this.btnAssento10_Click);
-            // 
-            // btnAssento13
-            // 
-            this.btnAssento13.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAssento13.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnAssento13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAssento13.Location = new System.Drawing.Point(534, 374);
-            this.btnAssento13.Name = "btnAssento13";
-            this.btnAssento13.Size = new System.Drawing.Size(35, 25);
-            this.btnAssento13.TabIndex = 9;
-            this.btnAssento13.UseVisualStyleBackColor = false;
-            this.btnAssento13.Click += new System.EventHandler(this.btnAssento13_Click);
-            // 
-            // btnAssento14
-            // 
-            this.btnAssento14.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAssento14.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnAssento14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAssento14.Location = new System.Drawing.Point(594, 374);
-            this.btnAssento14.Name = "btnAssento14";
-            this.btnAssento14.Size = new System.Drawing.Size(35, 25);
-            this.btnAssento14.TabIndex = 10;
-            this.btnAssento14.UseVisualStyleBackColor = false;
-            this.btnAssento14.Click += new System.EventHandler(this.btnAssento14_Click);
-            // 
-            // btnAssento16
-            // 
-            this.btnAssento16.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAssento16.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnAssento16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAssento16.Location = new System.Drawing.Point(714, 374);
-            this.btnAssento16.Name = "btnAssento16";
-            this.btnAssento16.Size = new System.Drawing.Size(35, 25);
-            this.btnAssento16.TabIndex = 11;
-            this.btnAssento16.UseVisualStyleBackColor = false;
-            this.btnAssento16.Click += new System.EventHandler(this.btnAssento16_Click);
-            // 
-            // btnAssento15
-            // 
-            this.btnAssento15.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAssento15.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnAssento15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAssento15.Location = new System.Drawing.Point(654, 374);
-            this.btnAssento15.Name = "btnAssento15";
-            this.btnAssento15.Size = new System.Drawing.Size(35, 25);
-            this.btnAssento15.TabIndex = 12;
-            this.btnAssento15.UseVisualStyleBackColor = false;
-            this.btnAssento15.Click += new System.EventHandler(this.btnAssento15_Click);
-            // 
-            // btnAssento8
-            // 
-            this.btnAssento8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAssento8.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnAssento8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAssento8.Location = new System.Drawing.Point(594, 316);
-            this.btnAssento8.Name = "btnAssento8";
-            this.btnAssento8.Size = new System.Drawing.Size(35, 25);
-            this.btnAssento8.TabIndex = 13;
-            this.btnAssento8.UseVisualStyleBackColor = false;
-            this.btnAssento8.Click += new System.EventHandler(this.btnAssento8_Click);
-            // 
-            // btnAssento17
-            // 
-            this.btnAssento17.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAssento17.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnAssento17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAssento17.Location = new System.Drawing.Point(774, 374);
-            this.btnAssento17.Name = "btnAssento17";
-            this.btnAssento17.Size = new System.Drawing.Size(35, 25);
-            this.btnAssento17.TabIndex = 14;
-            this.btnAssento17.UseVisualStyleBackColor = false;
-            this.btnAssento17.Click += new System.EventHandler(this.btnAssento17_Click);
-            // 
-            // btnAssento12
-            // 
-            this.btnAssento12.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAssento12.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnAssento12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAssento12.Location = new System.Drawing.Point(836, 316);
-            this.btnAssento12.Name = "btnAssento12";
-            this.btnAssento12.Size = new System.Drawing.Size(35, 25);
-            this.btnAssento12.TabIndex = 15;
-            this.btnAssento12.UseVisualStyleBackColor = false;
-            this.btnAssento12.Click += new System.EventHandler(this.btnAssento12_Click);
-            // 
-            // btnAssento18
-            // 
-            this.btnAssento18.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAssento18.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnAssento18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAssento18.Location = new System.Drawing.Point(836, 374);
-            this.btnAssento18.Name = "btnAssento18";
-            this.btnAssento18.Size = new System.Drawing.Size(35, 25);
-            this.btnAssento18.TabIndex = 16;
-            this.btnAssento18.UseVisualStyleBackColor = false;
-            this.btnAssento18.Click += new System.EventHandler(this.btnAssento18_Click);
-            // 
-            // btnAssento6
-            // 
-            this.btnAssento6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAssento6.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnAssento6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAssento6.Location = new System.Drawing.Point(836, 258);
-            this.btnAssento6.Name = "btnAssento6";
-            this.btnAssento6.Size = new System.Drawing.Size(35, 25);
-            this.btnAssento6.TabIndex = 17;
-            this.btnAssento6.UseVisualStyleBackColor = false;
-            this.btnAssento6.Click += new System.EventHandler(this.btnAssento6_Click);
-            // 
-            // label1
-            // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(480, 264);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(14, 13);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "A";
-            // 
-            // label4
-            // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(480, 322);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(14, 13);
-            this.label4.TabIndex = 18;
-            this.label4.Text = "B";
-            // 
-            // label5
-            // 
-            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(480, 380);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(14, 13);
-            this.label5.TabIndex = 19;
-            this.label5.Text = "C";
-            // 
-            // panel1
-            // 
-            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.BackColor = System.Drawing.Color.DimGray;
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Location = new System.Drawing.Point(483, 426);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(436, 16);
-            this.panel1.TabIndex = 20;
-            // 
-            // label6
-            // 
-            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(200, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(41, 19);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "TELA";
-            // 
-            // panel2
-            // 
-            this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Location = new System.Drawing.Point(400, 513);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(628, 5);
-            this.panel2.TabIndex = 21;
-            // 
-            // panel3
-            // 
-            this.panel3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Location = new System.Drawing.Point(483, 63);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(431, 7);
-            this.panel3.TabIndex = 22;
-            // 
-            // label7
-            // 
-            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(493, 30);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(86, 25);
-            this.label7.TabIndex = 23;
-            this.label7.Text = "Assentos";
-            // 
-            // BtnConfirmar
-            // 
-            this.BtnConfirmar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.BtnConfirmar.BackColor = System.Drawing.Color.Red;
-            this.BtnConfirmar.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.BtnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnConfirmar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnConfirmar.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnConfirmar.Location = new System.Drawing.Point(1091, 610);
-            this.BtnConfirmar.Name = "BtnConfirmar";
-            this.BtnConfirmar.Size = new System.Drawing.Size(134, 32);
-            this.BtnConfirmar.TabIndex = 24;
-            this.BtnConfirmar.Text = "PROSSEGUIR";
-            this.BtnConfirmar.UseVisualStyleBackColor = false;
-            this.BtnConfirmar.Visible = false;
-            this.BtnConfirmar.Click += new System.EventHandler(this.BtnConfirmar_Click);
-            // 
-            // label8
-            // 
-            this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(397, 538);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(80, 16);
-            this.label8.TabIndex = 25;
-            this.label8.Text = "Legendas:";
-            // 
-            // panel4
-            // 
-            this.panel4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel4.BackColor = System.Drawing.Color.LimeGreen;
-            this.panel4.Location = new System.Drawing.Point(409, 582);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(32, 22);
-            this.panel4.TabIndex = 26;
-            // 
-            // label9
-            // 
-            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label9.AutoSize = true;
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(447, 586);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(58, 13);
-            this.label9.TabIndex = 27;
-            this.label9.Text = "Disponível";
-            // 
-            // panel5
-            // 
-            this.panel5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel5.BackColor = System.Drawing.Color.Red;
-            this.panel5.Location = new System.Drawing.Point(409, 620);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(32, 22);
-            this.panel5.TabIndex = 27;
-            // 
-            // label10
-            // 
-            this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(447, 623);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(66, 13);
-            this.label10.TabIndex = 28;
-            this.label10.Text = "Selecionado";
-            // 
-            // panel6
-            // 
-            this.panel6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.panel6.Location = new System.Drawing.Point(534, 582);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(32, 22);
-            this.panel6.TabIndex = 27;
-            // 
-            // label11
-            // 
-            this.label11.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label11.AutoSize = true;
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(572, 586);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(59, 13);
-            this.label11.TabIndex = 29;
-            this.label11.Text = "Reservado";
+            // LabelNome
+            // 
+            this.LabelNome.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.LabelNome.AutoSize = true;
+            this.LabelNome.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelNome.ForeColor = System.Drawing.Color.White;
+            this.LabelNome.Location = new System.Drawing.Point(444, 690);
+            this.LabelNome.Name = "LabelNome";
+            this.LabelNome.Size = new System.Drawing.Size(66, 25);
+            this.LabelNome.TabIndex = 317;
+            this.LabelNome.Text = "Nome";
+            // 
+            // ImgCartaz
+            // 
+            this.ImgCartaz.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ImgCartaz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ImgCartaz.Location = new System.Drawing.Point(381, 372);
+            this.ImgCartaz.Name = "ImgCartaz";
+            this.ImgCartaz.Size = new System.Drawing.Size(201, 303);
+            this.ImgCartaz.TabIndex = 316;
+            this.ImgCartaz.TabStop = false;
             // 
             // label12
             // 
@@ -535,329 +115,658 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(531, 215);
+            this.label12.Location = new System.Drawing.Point(927, 358);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(70, 17);
-            this.label12.TabIndex = 30;
-            this.label12.Text = "Selecione:";
+            this.label12.Size = new System.Drawing.Size(33, 17);
+            this.label12.TabIndex = 315;
+            this.label12.Text = "Tela";
             // 
-            // ImgCartaz
+            // label11
             // 
-            this.ImgCartaz.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ImgCartaz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ImgCartaz.Location = new System.Drawing.Point(88, 142);
-            this.ImgCartaz.Name = "ImgCartaz";
-            this.ImgCartaz.Size = new System.Drawing.Size(201, 303);
-            this.ImgCartaz.TabIndex = 31;
-            this.ImgCartaz.TabStop = false;
+            this.label11.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label11.AutoSize = true;
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(1036, 828);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(59, 13);
+            this.label11.TabIndex = 314;
+            this.label11.Text = "Reservado";
             // 
-            // LabelNome
+            // panel6
             // 
-            this.LabelNome.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.LabelNome.AutoSize = true;
-            this.LabelNome.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelNome.ForeColor = System.Drawing.Color.White;
-            this.LabelNome.Location = new System.Drawing.Point(151, 460);
-            this.LabelNome.Name = "LabelNome";
-            this.LabelNome.Size = new System.Drawing.Size(63, 25);
-            this.LabelNome.TabIndex = 32;
-            this.LabelNome.Text = "Nome";
+            this.panel6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel6.BackColor = System.Drawing.Color.White;
+            this.panel6.Location = new System.Drawing.Point(998, 824);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(32, 22);
+            this.panel6.TabIndex = 310;
             // 
-            // a6
+            // label10
             // 
-            this.a6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.a6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.a6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a6.Location = new System.Drawing.Point(836, 258);
-            this.a6.Name = "a6";
-            this.a6.Size = new System.Drawing.Size(35, 25);
-            this.a6.TabIndex = 50;
-            this.a6.Text = "X";
-            this.a6.UseVisualStyleBackColor = false;
-            this.a6.Visible = false;
+            this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(923, 827);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(66, 13);
+            this.label10.TabIndex = 313;
+            this.label10.Text = "Selecionado";
             // 
-            // a18
+            // panel5
             // 
-            this.a18.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.a18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.a18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a18.Location = new System.Drawing.Point(836, 374);
-            this.a18.Name = "a18";
-            this.a18.Size = new System.Drawing.Size(35, 25);
-            this.a18.TabIndex = 49;
-            this.a18.Text = "X";
-            this.a18.UseVisualStyleBackColor = false;
-            this.a18.Visible = false;
-            this.a18.Click += new System.EventHandler(this.a18_Click);
+            this.panel5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel5.BackColor = System.Drawing.Color.LimeGreen;
+            this.panel5.Location = new System.Drawing.Point(885, 824);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(32, 22);
+            this.panel5.TabIndex = 311;
             // 
-            // a12
+            // label9
             // 
-            this.a12.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.a12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.a12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a12.Location = new System.Drawing.Point(836, 316);
-            this.a12.Name = "a12";
-            this.a12.Size = new System.Drawing.Size(35, 25);
-            this.a12.TabIndex = 48;
-            this.a12.Text = "X";
-            this.a12.UseVisualStyleBackColor = false;
-            this.a12.Visible = false;
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label9.AutoSize = true;
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(806, 828);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(58, 13);
+            this.label9.TabIndex = 312;
+            this.label9.Text = "Disponível";
             // 
-            // a17
+            // panel4
             // 
-            this.a17.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.a17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.a17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a17.Location = new System.Drawing.Point(774, 374);
-            this.a17.Name = "a17";
-            this.a17.Size = new System.Drawing.Size(35, 25);
-            this.a17.TabIndex = 47;
-            this.a17.Text = "X";
-            this.a17.UseVisualStyleBackColor = false;
-            this.a17.Visible = false;
+            this.panel4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(171)))), ((int)(((byte)(224)))));
+            this.panel4.Location = new System.Drawing.Point(768, 824);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(32, 22);
+            this.panel4.TabIndex = 309;
             // 
-            // a8
+            // BtnConfirmar
             // 
-            this.a8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.a8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.a8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a8.Location = new System.Drawing.Point(594, 316);
-            this.a8.Name = "a8";
-            this.a8.Size = new System.Drawing.Size(35, 25);
-            this.a8.TabIndex = 46;
-            this.a8.Text = "X";
-            this.a8.UseVisualStyleBackColor = false;
-            this.a8.Visible = false;
+            this.BtnConfirmar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.BtnConfirmar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(171)))), ((int)(((byte)(224)))));
+            this.BtnConfirmar.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.BtnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnConfirmar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnConfirmar.ForeColor = System.Drawing.Color.Black;
+            this.BtnConfirmar.Location = new System.Drawing.Point(1384, 840);
+            this.BtnConfirmar.Name = "BtnConfirmar";
+            this.BtnConfirmar.Size = new System.Drawing.Size(134, 32);
+            this.BtnConfirmar.TabIndex = 308;
+            this.BtnConfirmar.Text = "PROSSEGUIR";
+            this.BtnConfirmar.UseVisualStyleBackColor = false;
+            this.BtnConfirmar.Visible = false;
+            this.BtnConfirmar.Click += new System.EventHandler(this.BtnConfirmar_Click);
             // 
-            // a15
+            // label7
             // 
-            this.a15.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.a15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.a15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a15.Location = new System.Drawing.Point(654, 374);
-            this.a15.Name = "a15";
-            this.a15.Size = new System.Drawing.Size(35, 25);
-            this.a15.TabIndex = 45;
-            this.a15.Text = "X";
-            this.a15.UseVisualStyleBackColor = false;
-            this.a15.Visible = false;
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(786, -554);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(86, 25);
+            this.label7.TabIndex = 307;
+            this.label7.Text = "Assentos";
             // 
-            // a9
+            // panel3
             // 
-            this.a9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.a9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.a9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a9.Location = new System.Drawing.Point(654, 316);
-            this.a9.Name = "a9";
-            this.a9.Size = new System.Drawing.Size(35, 25);
-            this.a9.TabIndex = 40;
-            this.a9.Text = "X";
-            this.a9.UseVisualStyleBackColor = false;
-            this.a9.Visible = false;
+            this.panel3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Location = new System.Drawing.Point(776, -521);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(431, 7);
+            this.panel3.TabIndex = 306;
             // 
-            // a16
+            // label3
             // 
-            this.a16.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.a16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.a16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a16.Location = new System.Drawing.Point(714, 374);
-            this.a16.Name = "a16";
-            this.a16.Size = new System.Drawing.Size(35, 25);
-            this.a16.TabIndex = 44;
-            this.a16.Text = "X";
-            this.a16.UseVisualStyleBackColor = false;
-            this.a16.Visible = false;
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(1269, 350);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(208, 25);
+            this.label3.TabIndex = 294;
+            this.label3.Text = "Assentos selecionados";
+            // 
+            // label0
+            // 
+            this.label0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label0.AutoSize = true;
+            this.label0.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label0.ForeColor = System.Drawing.Color.White;
+            this.label0.Location = new System.Drawing.Point(1248, 350);
+            this.label0.Name = "label0";
+            this.label0.Size = new System.Drawing.Size(23, 25);
+            this.label0.TabIndex = 292;
+            this.label0.Text = "0";
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(1340, 487);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(137, 17);
+            this.label2.TabIndex = 289;
+            this.label2.Text = "Assentos disponiveis";
+            this.label2.Visible = false;
+            // 
+            // LabelNassentos
+            // 
+            this.LabelNassentos.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.LabelNassentos.AutoSize = true;
+            this.LabelNassentos.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelNassentos.ForeColor = System.Drawing.Color.White;
+            this.LabelNassentos.Location = new System.Drawing.Point(1319, 487);
+            this.LabelNassentos.Name = "LabelNassentos";
+            this.LabelNassentos.Size = new System.Drawing.Size(22, 17);
+            this.LabelNassentos.TabIndex = 287;
+            this.LabelNassentos.Text = "18";
+            this.LabelNassentos.Visible = false;
             // 
             // a1
             // 
             this.a1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.a1.BackColor = System.Drawing.Color.White;
             this.a1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.a1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a1.ForeColor = System.Drawing.Color.Black;
-            this.a1.Location = new System.Drawing.Point(534, 258);
+            this.a1.Location = new System.Drawing.Point(836, 433);
             this.a1.Name = "a1";
             this.a1.Size = new System.Drawing.Size(35, 25);
-            this.a1.TabIndex = 33;
+            this.a1.TabIndex = 318;
             this.a1.Text = "X";
             this.a1.UseVisualStyleBackColor = false;
             this.a1.Visible = false;
             // 
-            // a14
-            // 
-            this.a14.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.a14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.a14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a14.Location = new System.Drawing.Point(594, 374);
-            this.a14.Name = "a14";
-            this.a14.Size = new System.Drawing.Size(35, 25);
-            this.a14.TabIndex = 43;
-            this.a14.Text = "X";
-            this.a14.UseVisualStyleBackColor = false;
-            this.a14.Visible = false;
-            // 
             // a2
             // 
             this.a2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.a2.BackColor = System.Drawing.Color.White;
             this.a2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.a2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a2.ForeColor = System.Drawing.Color.Black;
-            this.a2.Location = new System.Drawing.Point(594, 258);
+            this.a2.Location = new System.Drawing.Point(894, 434);
             this.a2.Name = "a2";
             this.a2.Size = new System.Drawing.Size(35, 25);
-            this.a2.TabIndex = 34;
+            this.a2.TabIndex = 319;
             this.a2.Text = "X";
             this.a2.UseVisualStyleBackColor = false;
             this.a2.Visible = false;
             // 
-            // a13
-            // 
-            this.a13.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.a13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.a13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a13.Location = new System.Drawing.Point(534, 374);
-            this.a13.Name = "a13";
-            this.a13.Size = new System.Drawing.Size(35, 25);
-            this.a13.TabIndex = 42;
-            this.a13.Text = "X";
-            this.a13.UseVisualStyleBackColor = false;
-            this.a13.Visible = false;
-            // 
             // a3
             // 
             this.a3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.a3.BackColor = System.Drawing.Color.White;
             this.a3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.a3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a3.Location = new System.Drawing.Point(654, 258);
+            this.a3.Location = new System.Drawing.Point(954, 433);
             this.a3.Name = "a3";
             this.a3.Size = new System.Drawing.Size(35, 25);
-            this.a3.TabIndex = 35;
+            this.a3.TabIndex = 320;
             this.a3.Text = "X";
             this.a3.UseVisualStyleBackColor = false;
             this.a3.Visible = false;
             // 
-            // a10
-            // 
-            this.a10.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.a10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.a10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a10.Location = new System.Drawing.Point(714, 316);
-            this.a10.Name = "a10";
-            this.a10.Size = new System.Drawing.Size(35, 25);
-            this.a10.TabIndex = 41;
-            this.a10.Text = "X";
-            this.a10.UseVisualStyleBackColor = false;
-            this.a10.Visible = false;
-            // 
-            // a7
-            // 
-            this.a7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.a7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.a7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a7.Location = new System.Drawing.Point(534, 316);
-            this.a7.Name = "a7";
-            this.a7.Size = new System.Drawing.Size(35, 25);
-            this.a7.TabIndex = 36;
-            this.a7.Text = "X";
-            this.a7.UseVisualStyleBackColor = false;
-            this.a7.Visible = false;
-            // 
-            // a11
-            // 
-            this.a11.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.a11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.a11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a11.Location = new System.Drawing.Point(774, 316);
-            this.a11.Name = "a11";
-            this.a11.Size = new System.Drawing.Size(35, 25);
-            this.a11.TabIndex = 37;
-            this.a11.Text = "X";
-            this.a11.UseVisualStyleBackColor = false;
-            this.a11.Visible = false;
-            // 
-            // a5
-            // 
-            this.a5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.a5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.a5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a5.Location = new System.Drawing.Point(774, 258);
-            this.a5.Name = "a5";
-            this.a5.Size = new System.Drawing.Size(35, 25);
-            this.a5.TabIndex = 39;
-            this.a5.Text = "X";
-            this.a5.UseVisualStyleBackColor = false;
-            this.a5.Visible = false;
-            // 
             // a4
             // 
             this.a4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.a4.BackColor = System.Drawing.Color.White;
             this.a4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.a4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a4.Location = new System.Drawing.Point(714, 258);
+            this.a4.Location = new System.Drawing.Point(1014, 433);
             this.a4.Name = "a4";
             this.a4.Size = new System.Drawing.Size(35, 25);
-            this.a4.TabIndex = 38;
+            this.a4.TabIndex = 323;
             this.a4.Text = "X";
             this.a4.UseVisualStyleBackColor = false;
             this.a4.Visible = false;
             // 
-            // Assentos
+            // a5
+            // 
+            this.a5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a5.BackColor = System.Drawing.Color.White;
+            this.a5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a5.Location = new System.Drawing.Point(1014, 481);
+            this.a5.Name = "a5";
+            this.a5.Size = new System.Drawing.Size(35, 25);
+            this.a5.TabIndex = 324;
+            this.a5.Text = "X";
+            this.a5.UseVisualStyleBackColor = false;
+            this.a5.Visible = false;
+            // 
+            // a6
+            // 
+            this.a6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a6.BackColor = System.Drawing.Color.White;
+            this.a6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a6.Location = new System.Drawing.Point(954, 481);
+            this.a6.Name = "a6";
+            this.a6.Size = new System.Drawing.Size(35, 25);
+            this.a6.TabIndex = 335;
+            this.a6.Text = "X";
+            this.a6.UseVisualStyleBackColor = false;
+            this.a6.Visible = false;
+            // 
+            // a7
+            // 
+            this.a7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a7.BackColor = System.Drawing.Color.White;
+            this.a7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a7.Location = new System.Drawing.Point(836, 542);
+            this.a7.Name = "a7";
+            this.a7.Size = new System.Drawing.Size(35, 25);
+            this.a7.TabIndex = 321;
+            this.a7.Text = "X";
+            this.a7.UseVisualStyleBackColor = false;
+            this.a7.Visible = false;
+            // 
+            // a8
+            // 
+            this.a8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a8.BackColor = System.Drawing.Color.White;
+            this.a8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a8.Location = new System.Drawing.Point(894, 542);
+            this.a8.Name = "a8";
+            this.a8.Size = new System.Drawing.Size(35, 25);
+            this.a8.TabIndex = 331;
+            this.a8.Text = "X";
+            this.a8.UseVisualStyleBackColor = false;
+            this.a8.Visible = false;
+            // 
+            // a9
+            // 
+            this.a9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a9.BackColor = System.Drawing.Color.White;
+            this.a9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a9.Location = new System.Drawing.Point(836, 480);
+            this.a9.Name = "a9";
+            this.a9.Size = new System.Drawing.Size(35, 25);
+            this.a9.TabIndex = 325;
+            this.a9.Text = "X";
+            this.a9.UseVisualStyleBackColor = false;
+            this.a9.Visible = false;
+            // 
+            // a10
+            // 
+            this.a10.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a10.BackColor = System.Drawing.Color.White;
+            this.a10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a10.Location = new System.Drawing.Point(954, 542);
+            this.a10.Name = "a10";
+            this.a10.Size = new System.Drawing.Size(35, 25);
+            this.a10.TabIndex = 326;
+            this.a10.Text = "X";
+            this.a10.UseVisualStyleBackColor = false;
+            this.a10.Visible = false;
+            // 
+            // a11
+            // 
+            this.a11.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a11.BackColor = System.Drawing.Color.White;
+            this.a11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a11.Location = new System.Drawing.Point(1014, 542);
+            this.a11.Name = "a11";
+            this.a11.Size = new System.Drawing.Size(35, 25);
+            this.a11.TabIndex = 322;
+            this.a11.Text = "X";
+            this.a11.UseVisualStyleBackColor = false;
+            this.a11.Visible = false;
+            // 
+            // a12
+            // 
+            this.a12.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a12.BackColor = System.Drawing.Color.White;
+            this.a12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a12.Location = new System.Drawing.Point(894, 480);
+            this.a12.Name = "a12";
+            this.a12.Size = new System.Drawing.Size(35, 25);
+            this.a12.TabIndex = 333;
+            this.a12.Text = "X";
+            this.a12.UseVisualStyleBackColor = false;
+            this.a12.Visible = false;
+            // 
+            // a18
+            // 
+            this.a18.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a18.BackColor = System.Drawing.Color.White;
+            this.a18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a18.Location = new System.Drawing.Point(954, 646);
+            this.a18.Name = "a18";
+            this.a18.Size = new System.Drawing.Size(35, 25);
+            this.a18.TabIndex = 334;
+            this.a18.Text = "X";
+            this.a18.UseVisualStyleBackColor = false;
+            this.a18.Visible = false;
+            // 
+            // a17
+            // 
+            this.a17.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a17.BackColor = System.Drawing.Color.White;
+            this.a17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a17.Location = new System.Drawing.Point(1014, 600);
+            this.a17.Name = "a17";
+            this.a17.Size = new System.Drawing.Size(35, 25);
+            this.a17.TabIndex = 332;
+            this.a17.Text = "X";
+            this.a17.UseVisualStyleBackColor = false;
+            this.a17.Visible = false;
+            // 
+            // a16
+            // 
+            this.a16.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a16.BackColor = System.Drawing.Color.White;
+            this.a16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a16.Location = new System.Drawing.Point(954, 600);
+            this.a16.Name = "a16";
+            this.a16.Size = new System.Drawing.Size(35, 25);
+            this.a16.TabIndex = 329;
+            this.a16.Text = "X";
+            this.a16.UseVisualStyleBackColor = false;
+            this.a16.Visible = false;
+            // 
+            // a15
+            // 
+            this.a15.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a15.BackColor = System.Drawing.Color.White;
+            this.a15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a15.Location = new System.Drawing.Point(894, 600);
+            this.a15.Name = "a15";
+            this.a15.Size = new System.Drawing.Size(35, 25);
+            this.a15.TabIndex = 330;
+            this.a15.Text = "X";
+            this.a15.UseVisualStyleBackColor = false;
+            this.a15.Visible = false;
+            // 
+            // a14
+            // 
+            this.a14.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a14.BackColor = System.Drawing.Color.White;
+            this.a14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a14.Location = new System.Drawing.Point(894, 646);
+            this.a14.Name = "a14";
+            this.a14.Size = new System.Drawing.Size(35, 25);
+            this.a14.TabIndex = 328;
+            this.a14.Text = "X";
+            this.a14.UseVisualStyleBackColor = false;
+            this.a14.Visible = false;
+            // 
+            // a13
+            // 
+            this.a13.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.a13.BackColor = System.Drawing.Color.White;
+            this.a13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.a13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a13.Location = new System.Drawing.Point(836, 600);
+            this.a13.Name = "a13";
+            this.a13.Size = new System.Drawing.Size(35, 25);
+            this.a13.TabIndex = 327;
+            this.a13.Text = "X";
+            this.a13.UseVisualStyleBackColor = false;
+            this.a13.Visible = false;
+            // 
+            // btnAssento17
+            // 
+            this.btnAssento17.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAssento17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(171)))), ((int)(((byte)(224)))));
+            this.btnAssento17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAssento17.Location = new System.Drawing.Point(1014, 600);
+            this.btnAssento17.Name = "btnAssento17";
+            this.btnAssento17.Size = new System.Drawing.Size(35, 25);
+            this.btnAssento17.TabIndex = 302;
+            this.btnAssento17.UseVisualStyleBackColor = false;
+            this.btnAssento17.Click += new System.EventHandler(this.btnAssento17_Click);
+            // 
+            // btnAssento11
+            // 
+            this.btnAssento11.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAssento11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(171)))), ((int)(((byte)(224)))));
+            this.btnAssento11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAssento11.Location = new System.Drawing.Point(1014, 542);
+            this.btnAssento11.Name = "btnAssento11";
+            this.btnAssento11.Size = new System.Drawing.Size(35, 25);
+            this.btnAssento11.TabIndex = 290;
+            this.btnAssento11.UseVisualStyleBackColor = false;
+            this.btnAssento11.Click += new System.EventHandler(this.btnAssento11_Click);
+            // 
+            // btnAssento5
+            // 
+            this.btnAssento5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAssento5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(171)))), ((int)(((byte)(224)))));
+            this.btnAssento5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAssento5.Location = new System.Drawing.Point(1014, 481);
+            this.btnAssento5.Name = "btnAssento5";
+            this.btnAssento5.Size = new System.Drawing.Size(35, 25);
+            this.btnAssento5.TabIndex = 293;
+            this.btnAssento5.UseVisualStyleBackColor = false;
+            this.btnAssento5.Click += new System.EventHandler(this.btnAssento5_Click);
+            // 
+            // btnAssento4
+            // 
+            this.btnAssento4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAssento4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(171)))), ((int)(((byte)(224)))));
+            this.btnAssento4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAssento4.Location = new System.Drawing.Point(1014, 433);
+            this.btnAssento4.Name = "btnAssento4";
+            this.btnAssento4.Size = new System.Drawing.Size(35, 25);
+            this.btnAssento4.TabIndex = 291;
+            this.btnAssento4.UseVisualStyleBackColor = false;
+            this.btnAssento4.Click += new System.EventHandler(this.btnAssento4_Click);
+            // 
+            // btnAssento3
+            // 
+            this.btnAssento3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAssento3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(171)))), ((int)(((byte)(224)))));
+            this.btnAssento3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAssento3.Location = new System.Drawing.Point(954, 433);
+            this.btnAssento3.Name = "btnAssento3";
+            this.btnAssento3.Size = new System.Drawing.Size(35, 25);
+            this.btnAssento3.TabIndex = 286;
+            this.btnAssento3.UseVisualStyleBackColor = false;
+            this.btnAssento3.Click += new System.EventHandler(this.btnAssento3_Click);
+            // 
+            // btnAssento6
+            // 
+            this.btnAssento6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAssento6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(171)))), ((int)(((byte)(224)))));
+            this.btnAssento6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAssento6.Location = new System.Drawing.Point(954, 480);
+            this.btnAssento6.Name = "btnAssento6";
+            this.btnAssento6.Size = new System.Drawing.Size(35, 25);
+            this.btnAssento6.TabIndex = 305;
+            this.btnAssento6.UseVisualStyleBackColor = false;
+            this.btnAssento6.Click += new System.EventHandler(this.btnAssento6_Click);
+            // 
+            // btnAssento10
+            // 
+            this.btnAssento10.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAssento10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(171)))), ((int)(((byte)(224)))));
+            this.btnAssento10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAssento10.Location = new System.Drawing.Point(954, 542);
+            this.btnAssento10.Name = "btnAssento10";
+            this.btnAssento10.Size = new System.Drawing.Size(35, 25);
+            this.btnAssento10.TabIndex = 296;
+            this.btnAssento10.UseVisualStyleBackColor = false;
+            this.btnAssento10.Click += new System.EventHandler(this.btnAssento10_Click);
+            // 
+            // btnAssento16
+            // 
+            this.btnAssento16.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAssento16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(171)))), ((int)(((byte)(224)))));
+            this.btnAssento16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAssento16.Location = new System.Drawing.Point(954, 600);
+            this.btnAssento16.Name = "btnAssento16";
+            this.btnAssento16.Size = new System.Drawing.Size(35, 25);
+            this.btnAssento16.TabIndex = 299;
+            this.btnAssento16.UseVisualStyleBackColor = false;
+            this.btnAssento16.Click += new System.EventHandler(this.btnAssento16_Click);
+            // 
+            // btnAssento18
+            // 
+            this.btnAssento18.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAssento18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(171)))), ((int)(((byte)(224)))));
+            this.btnAssento18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAssento18.Location = new System.Drawing.Point(954, 646);
+            this.btnAssento18.Name = "btnAssento18";
+            this.btnAssento18.Size = new System.Drawing.Size(35, 25);
+            this.btnAssento18.TabIndex = 304;
+            this.btnAssento18.UseVisualStyleBackColor = false;
+            this.btnAssento18.Click += new System.EventHandler(this.btnAssento18_Click);
+            // 
+            // btnAssento14
+            // 
+            this.btnAssento14.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAssento14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(171)))), ((int)(((byte)(224)))));
+            this.btnAssento14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAssento14.Location = new System.Drawing.Point(894, 646);
+            this.btnAssento14.Name = "btnAssento14";
+            this.btnAssento14.Size = new System.Drawing.Size(35, 25);
+            this.btnAssento14.TabIndex = 298;
+            this.btnAssento14.UseVisualStyleBackColor = false;
+            this.btnAssento14.Click += new System.EventHandler(this.btnAssento14_Click);
+            // 
+            // btnAssento15
+            // 
+            this.btnAssento15.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAssento15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(171)))), ((int)(((byte)(224)))));
+            this.btnAssento15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAssento15.Location = new System.Drawing.Point(894, 600);
+            this.btnAssento15.Name = "btnAssento15";
+            this.btnAssento15.Size = new System.Drawing.Size(35, 25);
+            this.btnAssento15.TabIndex = 300;
+            this.btnAssento15.UseVisualStyleBackColor = false;
+            this.btnAssento15.Click += new System.EventHandler(this.btnAssento15_Click);
+            // 
+            // btnAssento8
+            // 
+            this.btnAssento8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAssento8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(171)))), ((int)(((byte)(224)))));
+            this.btnAssento8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAssento8.Location = new System.Drawing.Point(894, 542);
+            this.btnAssento8.Name = "btnAssento8";
+            this.btnAssento8.Size = new System.Drawing.Size(35, 25);
+            this.btnAssento8.TabIndex = 301;
+            this.btnAssento8.UseVisualStyleBackColor = false;
+            this.btnAssento8.Click += new System.EventHandler(this.btnAssento8_Click);
+            // 
+            // btnAssento12
+            // 
+            this.btnAssento12.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAssento12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(171)))), ((int)(((byte)(224)))));
+            this.btnAssento12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAssento12.Location = new System.Drawing.Point(894, 480);
+            this.btnAssento12.Name = "btnAssento12";
+            this.btnAssento12.Size = new System.Drawing.Size(35, 25);
+            this.btnAssento12.TabIndex = 303;
+            this.btnAssento12.UseVisualStyleBackColor = false;
+            this.btnAssento12.Click += new System.EventHandler(this.btnAssento12_Click);
+            // 
+            // btnAssento2
+            // 
+            this.btnAssento2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAssento2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(171)))), ((int)(((byte)(224)))));
+            this.btnAssento2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAssento2.Location = new System.Drawing.Point(894, 433);
+            this.btnAssento2.Name = "btnAssento2";
+            this.btnAssento2.Size = new System.Drawing.Size(35, 25);
+            this.btnAssento2.TabIndex = 285;
+            this.btnAssento2.UseVisualStyleBackColor = false;
+            this.btnAssento2.Click += new System.EventHandler(this.btnAssento2_Click);
+            // 
+            // btnAssento13
+            // 
+            this.btnAssento13.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAssento13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(171)))), ((int)(((byte)(224)))));
+            this.btnAssento13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAssento13.Location = new System.Drawing.Point(836, 600);
+            this.btnAssento13.Name = "btnAssento13";
+            this.btnAssento13.Size = new System.Drawing.Size(35, 25);
+            this.btnAssento13.TabIndex = 297;
+            this.btnAssento13.UseVisualStyleBackColor = false;
+            this.btnAssento13.Click += new System.EventHandler(this.btnAssento13_Click);
+            // 
+            // btnAssento7
+            // 
+            this.btnAssento7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAssento7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(171)))), ((int)(((byte)(224)))));
+            this.btnAssento7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAssento7.Location = new System.Drawing.Point(836, 542);
+            this.btnAssento7.Name = "btnAssento7";
+            this.btnAssento7.Size = new System.Drawing.Size(35, 25);
+            this.btnAssento7.TabIndex = 288;
+            this.btnAssento7.UseVisualStyleBackColor = false;
+            this.btnAssento7.Click += new System.EventHandler(this.btnAssento7_Click);
+            // 
+            // btnAssento9
+            // 
+            this.btnAssento9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAssento9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(171)))), ((int)(((byte)(224)))));
+            this.btnAssento9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAssento9.Location = new System.Drawing.Point(836, 480);
+            this.btnAssento9.Name = "btnAssento9";
+            this.btnAssento9.Size = new System.Drawing.Size(35, 25);
+            this.btnAssento9.TabIndex = 295;
+            this.btnAssento9.UseVisualStyleBackColor = false;
+            this.btnAssento9.Click += new System.EventHandler(this.btnAssento9_Click);
+            // 
+            // btnAssento1
+            // 
+            this.btnAssento1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAssento1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(171)))), ((int)(((byte)(224)))));
+            this.btnAssento1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAssento1.Location = new System.Drawing.Point(836, 433);
+            this.btnAssento1.Name = "btnAssento1";
+            this.btnAssento1.Size = new System.Drawing.Size(35, 25);
+            this.btnAssento1.TabIndex = 284;
+            this.btnAssento1.UseVisualStyleBackColor = false;
+            this.btnAssento1.Click += new System.EventHandler(this.btnAssento1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.BackgroundImage = global::Cinema.Properties.Resources.telabrancaclean;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(700, 197);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(465, 370);
+            this.pictureBox1.TabIndex = 336;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = global::Cinema.Properties.Resources.lumetcine;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox4.Location = new System.Drawing.Point(1681, 886);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(221, 155);
+            this.pictureBox4.TabIndex = 337;
+            this.pictureBox4.TabStop = false;
+            // 
+            // assentos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1604, 833);
-            this.Controls.Add(this.a6);
-            this.Controls.Add(this.a12);
-            this.Controls.Add(this.a17);
-            this.Controls.Add(this.a8);
-            this.Controls.Add(this.a15);
-            this.Controls.Add(this.a9);
-            this.Controls.Add(this.a16);
-            this.Controls.Add(this.a1);
-            this.Controls.Add(this.a14);
-            this.Controls.Add(this.a2);
-            this.Controls.Add(this.a13);
-            this.Controls.Add(this.a3);
-            this.Controls.Add(this.a10);
-            this.Controls.Add(this.a7);
-            this.Controls.Add(this.a11);
-            this.Controls.Add(this.a5);
-            this.Controls.Add(this.a4);
-            this.Controls.Add(this.btnAssento6);
-            this.Controls.Add(this.btnAssento12);
-            this.Controls.Add(this.btnAssento17);
-            this.Controls.Add(this.btnAssento8);
-            this.Controls.Add(this.btnAssento15);
-            this.Controls.Add(this.btnAssento9);
-            this.Controls.Add(this.btnAssento16);
-            this.Controls.Add(this.btnAssento1);
-            this.Controls.Add(this.btnAssento14);
-            this.Controls.Add(this.btnAssento2);
-            this.Controls.Add(this.btnAssento13);
-            this.Controls.Add(this.btnAssento3);
-            this.Controls.Add(this.btnAssento10);
-            this.Controls.Add(this.btnAssento7);
-            this.Controls.Add(this.btnAssento11);
-            this.Controls.Add(this.btnAssento5);
-            this.Controls.Add(this.btnAssento4);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(23)))), ((int)(((byte)(33)))));
+            this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.LabelNome);
             this.Controls.Add(this.ImgCartaz);
             this.Controls.Add(this.label12);
@@ -867,29 +776,57 @@
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.BtnConfirmar);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label0);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.LabelNassentos);
-            this.Controls.Add(this.a18);
+            this.Controls.Add(this.btnAssento17);
+            this.Controls.Add(this.btnAssento11);
+            this.Controls.Add(this.btnAssento5);
+            this.Controls.Add(this.btnAssento4);
+            this.Controls.Add(this.btnAssento3);
+            this.Controls.Add(this.btnAssento6);
+            this.Controls.Add(this.btnAssento10);
+            this.Controls.Add(this.btnAssento16);
             this.Controls.Add(this.btnAssento18);
-            this.Name = "Assentos";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Assentos";
+            this.Controls.Add(this.btnAssento14);
+            this.Controls.Add(this.btnAssento15);
+            this.Controls.Add(this.btnAssento8);
+            this.Controls.Add(this.btnAssento12);
+            this.Controls.Add(this.btnAssento2);
+            this.Controls.Add(this.btnAssento13);
+            this.Controls.Add(this.btnAssento7);
+            this.Controls.Add(this.btnAssento9);
+            this.Controls.Add(this.btnAssento1);
+            this.Controls.Add(this.a4);
+            this.Controls.Add(this.a5);
+            this.Controls.Add(this.a11);
+            this.Controls.Add(this.a17);
+            this.Controls.Add(this.a18);
+            this.Controls.Add(this.a14);
+            this.Controls.Add(this.a13);
+            this.Controls.Add(this.a15);
+            this.Controls.Add(this.a16);
+            this.Controls.Add(this.a10);
+            this.Controls.Add(this.a8);
+            this.Controls.Add(this.a7);
+            this.Controls.Add(this.a12);
+            this.Controls.Add(this.a6);
+            this.Controls.Add(this.a3);
+            this.Controls.Add(this.a2);
+            this.Controls.Add(this.a9);
+            this.Controls.Add(this.a1);
+            this.Controls.Add(this.pictureBox1);
+            this.Name = "assentos";
+            this.Text = "assentos";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.Assentos_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.Load += new System.EventHandler(this.assentos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ImgCartaz)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -897,64 +834,59 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnAssento1;
-        private System.Windows.Forms.Button btnAssento2;
-        private System.Windows.Forms.Button btnAssento3;
-        private System.Windows.Forms.Label LabelNassentos;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label0;
+        private System.Windows.Forms.Label LabelNome;
+        private System.Windows.Forms.PictureBox ImgCartaz;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Button BtnConfirmar;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btnAssento6;
-        private System.Windows.Forms.Button btnAssento18;
-        private System.Windows.Forms.Button btnAssento12;
+        private System.Windows.Forms.Label label0;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label LabelNassentos;
+        private System.Windows.Forms.Button a1;
+        private System.Windows.Forms.Button a2;
+        private System.Windows.Forms.Button a3;
+        private System.Windows.Forms.Button a4;
+        private System.Windows.Forms.Button a5;
+        private System.Windows.Forms.Button a6;
+        private System.Windows.Forms.Button a7;
+        private System.Windows.Forms.Button a8;
+        private System.Windows.Forms.Button a9;
+        private System.Windows.Forms.Button a10;
+        private System.Windows.Forms.Button a11;
+        private System.Windows.Forms.Button a12;
+        private System.Windows.Forms.Button a18;
+        private System.Windows.Forms.Button a17;
+        private System.Windows.Forms.Button a16;
+        private System.Windows.Forms.Button a15;
+        private System.Windows.Forms.Button a14;
+        private System.Windows.Forms.Button a13;
         private System.Windows.Forms.Button btnAssento17;
-        private System.Windows.Forms.Button btnAssento8;
-        private System.Windows.Forms.Button btnAssento15;
-        private System.Windows.Forms.Button btnAssento16;
-        private System.Windows.Forms.Button btnAssento14;
-        private System.Windows.Forms.Button btnAssento13;
-        private System.Windows.Forms.Button btnAssento10;
-        private System.Windows.Forms.Button btnAssento9;
+        private System.Windows.Forms.Button btnAssento11;
         private System.Windows.Forms.Button btnAssento5;
         private System.Windows.Forms.Button btnAssento4;
-        private System.Windows.Forms.Button btnAssento11;
+        private System.Windows.Forms.Button btnAssento3;
+        private System.Windows.Forms.Button btnAssento6;
+        private System.Windows.Forms.Button btnAssento10;
+        private System.Windows.Forms.Button btnAssento16;
+        private System.Windows.Forms.Button btnAssento18;
+        private System.Windows.Forms.Button btnAssento14;
+        private System.Windows.Forms.Button btnAssento15;
+        private System.Windows.Forms.Button btnAssento8;
+        private System.Windows.Forms.Button btnAssento12;
+        private System.Windows.Forms.Button btnAssento2;
+        private System.Windows.Forms.Button btnAssento13;
         private System.Windows.Forms.Button btnAssento7;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button BtnConfirmar;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.PictureBox ImgCartaz;
-        private System.Windows.Forms.Label LabelNome;
-        private System.Windows.Forms.Button a6;
-        private System.Windows.Forms.Button a18;
-        private System.Windows.Forms.Button a12;
-        private System.Windows.Forms.Button a17;
-        private System.Windows.Forms.Button a8;
-        private System.Windows.Forms.Button a15;
-        private System.Windows.Forms.Button a9;
-        private System.Windows.Forms.Button a16;
-        private System.Windows.Forms.Button a1;
-        private System.Windows.Forms.Button a14;
-        private System.Windows.Forms.Button a2;
-        private System.Windows.Forms.Button a13;
-        private System.Windows.Forms.Button a3;
-        private System.Windows.Forms.Button a10;
-        private System.Windows.Forms.Button a7;
-        private System.Windows.Forms.Button a11;
-        private System.Windows.Forms.Button a5;
-        private System.Windows.Forms.Button a4;
+        private System.Windows.Forms.Button btnAssento9;
+        private System.Windows.Forms.Button btnAssento1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

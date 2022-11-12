@@ -32,11 +32,20 @@ namespace Cinema
             this.horarios = horarios;
         }
 
+        public assentos6(string sessao, Image cartaz, string nomefilme, Horarios adaoSala1_10h30)
+        {
+            this.sessao = sessao;
+            this.cartaz = cartaz;
+            this.nomefilme = nomefilme;
+            this.adaoSala1_10h30 = adaoSala1_10h30;
+        }
+
         String[] AssentosNome = new string[18];
 
         private Image cartaz;
         private string nomefilme;
-
+        private string sessao;
+        private Horarios adaoSala1_10h30;
 
         private void assentos6_Load(object sender, EventArgs e)
         {
@@ -148,7 +157,7 @@ namespace Cinema
             if (horarios.AssentosClicks6[0] % 2 == 0)
             {
                 horarios.AssentosClicks6[0] = 0;
-                btnAssento1.BackColor = Color.LimeGreen;
+                btnAssento1.BackColor = Color.FromArgb(3, 171, 224);
                 btnAssento1.Text = "";
                 btnAssento1.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
@@ -158,9 +167,9 @@ namespace Cinema
             }
             else
             {
-                btnAssento1.BackColor = Color.Red;
+                btnAssento1.BackColor = Color.LimeGreen;
                 btnAssento1.Text = "A1";
-                btnAssento1.ForeColor = Color.White;
+                btnAssento1.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
                 AssentosNome[0] = "A1";
@@ -191,7 +200,7 @@ namespace Cinema
             if (horarios.AssentosClicks6[1] % 2 == 0)
             {
                 horarios.AssentosClicks6[1] = 0;
-                btnAssento2.BackColor = Color.LimeGreen;
+                btnAssento2.BackColor = Color.FromArgb(3, 171, 224);
                 btnAssento2.Text = "";
                 btnAssento2.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
@@ -200,9 +209,9 @@ namespace Cinema
             }
             else
             {
-                btnAssento2.BackColor = Color.Red;
+                btnAssento2.BackColor = Color.LimeGreen;
                 btnAssento2.Text = "A2";
-                btnAssento2.ForeColor = Color.White;
+                btnAssento2.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
                 AssentosNome[1] = "A2";
@@ -231,7 +240,7 @@ namespace Cinema
             if (horarios.AssentosClicks6[2] % 2 == 0)
             {
                 horarios.AssentosClicks6[2] = 0;
-                btnAssento3.BackColor = Color.LimeGreen;
+                btnAssento3.BackColor = Color.FromArgb(3, 171, 224);
                 btnAssento3.Text = "";
                 btnAssento3.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
@@ -240,9 +249,9 @@ namespace Cinema
             }
             else
             {
-                btnAssento3.BackColor = Color.Red;
+                btnAssento3.BackColor = Color.LimeGreen;
                 btnAssento3.Text = "A3";
-                btnAssento3.ForeColor = Color.White;
+                btnAssento3.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
                 AssentosNome[2] = "A3";
@@ -270,7 +279,7 @@ namespace Cinema
             if (horarios.AssentosClicks6[3] % 2 == 0)
             {
                 horarios.AssentosClicks6[3] = 0;
-                btnAssento4.BackColor = Color.LimeGreen;
+                btnAssento4.BackColor = Color.FromArgb(3, 171, 224);
                 btnAssento4.Text = "";
                 btnAssento4.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
@@ -279,9 +288,9 @@ namespace Cinema
             }
             else
             {
-                btnAssento4.BackColor = Color.Red;
+                btnAssento4.BackColor = Color.LimeGreen;
                 btnAssento4.Text = "A4";
-                btnAssento4.ForeColor = Color.White;
+                btnAssento4.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
                 AssentosNome[3] = "A4";
@@ -306,7 +315,7 @@ namespace Cinema
             if (horarios.AssentosClicks6[4] % 2 == 0)
             {
                 horarios.AssentosClicks6[4] = 0;
-                btnAssento5.BackColor = Color.LimeGreen;
+                btnAssento5.BackColor = Color.FromArgb(3, 171, 224);
                 btnAssento5.Text = "";
                 btnAssento5.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
@@ -315,9 +324,9 @@ namespace Cinema
             }
             else
             {
-                btnAssento5.BackColor = Color.Red;
+                btnAssento5.BackColor = Color.LimeGreen;
                 btnAssento5.Text = "A5";
-                btnAssento5.ForeColor = Color.White;
+                btnAssento5.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
                 AssentosNome[4] = "A5";
@@ -343,7 +352,7 @@ namespace Cinema
             if (horarios.AssentosClicks6[5] % 2 == 0)
             {
                 horarios.AssentosClicks6[5] = 0;
-                btnAssento6.BackColor = Color.LimeGreen;
+                btnAssento6.BackColor = Color.FromArgb(3, 171, 224);
                 btnAssento6.Text = "";
                 btnAssento6.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
@@ -352,9 +361,9 @@ namespace Cinema
             }
             else
             {
-                btnAssento6.BackColor = Color.Red;
+                btnAssento6.BackColor = Color.LimeGreen;
                 btnAssento6.Text = "A6";
-                btnAssento6.ForeColor = Color.White;
+                btnAssento6.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
                 AssentosNome[5] = "";
@@ -379,7 +388,7 @@ namespace Cinema
             if (horarios.AssentosClicks6[6] % 2 == 0)
             {
                 horarios.AssentosClicks6[6] = 0;
-                btnAssento7.BackColor = Color.LimeGreen;
+                btnAssento7.BackColor = Color.FromArgb(3, 171, 224);
                 btnAssento7.Text = "";
                 btnAssento7.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
@@ -388,9 +397,9 @@ namespace Cinema
             }
             else
             {
-                btnAssento7.BackColor = Color.Red;
+                btnAssento7.BackColor = Color.LimeGreen;
                 btnAssento7.Text = "B1";
-                btnAssento7.ForeColor = Color.White;
+                btnAssento7.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
                 AssentosNome[6] = "B1";
@@ -415,7 +424,7 @@ namespace Cinema
             if (horarios.AssentosClicks6[7] % 2 == 0)
             {
                 horarios.AssentosClicks6[7] = 0;
-                btnAssento8.BackColor = Color.LimeGreen;
+                btnAssento8.BackColor = Color.FromArgb(3, 171, 224);
                 btnAssento8.Text = "";
                 btnAssento8.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
@@ -424,9 +433,9 @@ namespace Cinema
             }
             else
             {
-                btnAssento8.BackColor = Color.Red;
+                btnAssento8.BackColor = Color.LimeGreen;
                 btnAssento8.Text = "B2";
-                btnAssento8.ForeColor = Color.White;
+                btnAssento8.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
                 AssentosNome[7] = btnAssento8.Text;
@@ -451,7 +460,7 @@ namespace Cinema
             if (horarios.AssentosClicks6[8] % 2 == 0)
             {
                 horarios.AssentosClicks6[8] = 0;
-                btnAssento9.BackColor = Color.LimeGreen;
+                btnAssento9.BackColor = Color.FromArgb(3, 171, 224);
                 btnAssento9.Text = "";
                 btnAssento9.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
@@ -460,9 +469,9 @@ namespace Cinema
             }
             else
             {
-                btnAssento9.BackColor = Color.Red;
+                btnAssento9.BackColor = Color.LimeGreen;
                 btnAssento9.Text = "B3";
-                btnAssento9.ForeColor = Color.White;
+                btnAssento9.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
                 AssentosNome[8] = btnAssento9.Text;
@@ -487,7 +496,7 @@ namespace Cinema
             if (horarios.AssentosClicks6[9] % 2 == 0)
             {
                 horarios.AssentosClicks6[9] = 0;
-                btnAssento10.BackColor = Color.LimeGreen;
+                btnAssento10.BackColor = Color.FromArgb(3, 171, 224);
                 btnAssento10.Text = "";
                 btnAssento10.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
@@ -496,9 +505,9 @@ namespace Cinema
             }
             else
             {
-                btnAssento10.BackColor = Color.Red;
+                btnAssento10.BackColor = Color.LimeGreen;
                 btnAssento10.Text = "B4";
-                btnAssento10.ForeColor = Color.White;
+                btnAssento10.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
                 AssentosNome[9] = btnAssento10.Text;
@@ -523,7 +532,7 @@ namespace Cinema
             if (horarios.AssentosClicks6[10] % 2 == 0)
             {
                 horarios.AssentosClicks6[10] = 0;
-                btnAssento11.BackColor = Color.LimeGreen;
+                btnAssento11.BackColor = Color.FromArgb(3, 171, 224);
                 btnAssento11.Text = "";
                 btnAssento11.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
@@ -532,9 +541,9 @@ namespace Cinema
             }
             else
             {
-                btnAssento11.BackColor = Color.Red;
+                btnAssento11.BackColor = Color.LimeGreen;
                 btnAssento11.Text = "B5";
-                btnAssento11.ForeColor = Color.White;
+                btnAssento11.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
                 AssentosNome[10] = btnAssento11.Text;
@@ -559,7 +568,7 @@ namespace Cinema
             if (horarios.AssentosClicks6[11] % 2 == 0)
             {
                 horarios.AssentosClicks6[11] = 0;
-                btnAssento12.BackColor = Color.LimeGreen;
+                btnAssento12.BackColor = Color.FromArgb(3, 171, 224);
                 btnAssento12.Text = "";
                 btnAssento12.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
@@ -568,9 +577,9 @@ namespace Cinema
             }
             else
             {
-                btnAssento12.BackColor = Color.Red;
+                btnAssento12.BackColor = Color.LimeGreen;
                 btnAssento12.Text = "B6";
-                btnAssento12.ForeColor = Color.White;
+                btnAssento12.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
                 AssentosNome[11] = btnAssento12.Text;
@@ -595,7 +604,7 @@ namespace Cinema
             if (horarios.AssentosClicks6[12] % 2 == 0)
             {
                 horarios.AssentosClicks6[12] = 0;
-                btnAssento13.BackColor = Color.LimeGreen;
+                btnAssento13.BackColor = Color.FromArgb(3, 171, 224);
                 btnAssento13.Text = "";
                 btnAssento13.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
@@ -605,9 +614,9 @@ namespace Cinema
             else
             {
                 horarios.AssentosClicks6[13] = 0;
-                btnAssento13.BackColor = Color.Red;
+                btnAssento13.BackColor = Color.LimeGreen;
                 btnAssento13.Text = "C1";
-                btnAssento13.ForeColor = Color.White;
+                btnAssento13.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
                 AssentosNome[12] = btnAssento13.Text;
@@ -632,7 +641,7 @@ namespace Cinema
             if (horarios.AssentosClicks6[13] % 2 == 0)
             {
                 horarios.AssentosClicks6[13] = 0;
-                btnAssento14.BackColor = Color.LimeGreen;
+                btnAssento14.BackColor = Color.FromArgb(3, 171, 224);
                 btnAssento14.Text = "";
                 btnAssento14.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
@@ -641,9 +650,9 @@ namespace Cinema
             }
             else
             {
-                btnAssento14.BackColor = Color.Red;
+                btnAssento14.BackColor = Color.LimeGreen;
                 btnAssento14.Text = "C2";
-                btnAssento14.ForeColor = Color.White;
+                btnAssento14.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
                 AssentosNome[13] = btnAssento14.Text;
@@ -668,7 +677,7 @@ namespace Cinema
             if (horarios.AssentosClicks6[14] % 2 == 0)
             {
                 horarios.AssentosClicks6[14] = 0;
-                btnAssento15.BackColor = Color.LimeGreen;
+                btnAssento15.BackColor = Color.FromArgb(3, 171, 224);
                 btnAssento15.Text = "";
                 btnAssento15.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
@@ -677,9 +686,9 @@ namespace Cinema
             }
             else
             {
-                btnAssento15.BackColor = Color.Red;
+                btnAssento15.BackColor = Color.LimeGreen;
                 btnAssento15.Text = "C3";
-                btnAssento15.ForeColor = Color.White;
+                btnAssento15.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
                 AssentosNome[14] = btnAssento15.Text;
@@ -704,7 +713,7 @@ namespace Cinema
             if (horarios.AssentosClicks6[15] % 2 == 0)
             {
                 horarios.AssentosClicks6[15] = 0;
-                btnAssento16.BackColor = Color.LimeGreen;
+                btnAssento16.BackColor = Color.FromArgb(3, 171, 224);
                 btnAssento16.Text = "";
                 btnAssento16.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
@@ -713,9 +722,9 @@ namespace Cinema
             }
             else
             {
-                btnAssento16.BackColor = Color.Red;
+                btnAssento16.BackColor = Color.LimeGreen;
                 btnAssento16.Text = "C4";
-                btnAssento16.ForeColor = Color.White;
+                btnAssento16.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
                 AssentosNome[15] = btnAssento16.Text;
@@ -740,7 +749,7 @@ namespace Cinema
             if (horarios.AssentosClicks6[16] % 2 == 0)
             {
                 horarios.AssentosClicks6[16] = 0;
-                btnAssento17.BackColor = Color.LimeGreen;
+                btnAssento17.BackColor = Color.FromArgb(3, 171, 224);
                 btnAssento17.Text = "";
                 btnAssento17.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
@@ -749,9 +758,9 @@ namespace Cinema
             }
             else
             {
-                btnAssento17.BackColor = Color.Red;
+                btnAssento17.BackColor = Color.LimeGreen;
                 btnAssento17.Text = "C5";
-                btnAssento17.ForeColor = Color.White;
+                btnAssento17.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
                 AssentosNome[16] = btnAssento17.Text;
@@ -776,7 +785,7 @@ namespace Cinema
             if (horarios.AssentosClicks6[17] % 2 == 0)
             {
                 horarios.AssentosClicks6[17] = 0;
-                btnAssento18.BackColor = Color.LimeGreen;
+                btnAssento18.BackColor = Color.FromArgb(3, 171, 224);
                 btnAssento18.Text = "";
                 btnAssento18.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos + 1);
@@ -785,9 +794,9 @@ namespace Cinema
             }
             else
             {
-                btnAssento18.BackColor = Color.Red;
+                btnAssento18.BackColor = Color.LimeGreen;
                 btnAssento18.Text = "C6";
-                btnAssento18.ForeColor = Color.White;
+                btnAssento18.ForeColor = Color.Black;
                 LabelNassentos.Text = Convert.ToString(nAssentos - 1);
                 label0.Text = Convert.ToString(labelzero + 1);
                 AssentosNome[17] = btnAssento18.Text;

@@ -126,7 +126,7 @@ namespace Cinema
 
         private void ComboCard_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(ComboCard.SelectedIndex == 0)
+                if(ComboCard.SelectedIndex == 0)
             {
                 imgCartao.Visible = true;
                 imgCartao.BackgroundImage = Cinema.Properties.Resources.Visa_logo;

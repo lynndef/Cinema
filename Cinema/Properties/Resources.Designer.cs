@@ -73,6 +73,26 @@ namespace Cinema.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BGSS {
+            get {
+                object obj = ResourceManager.GetObject("BGSS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bgsscreen {
+            get {
+                object obj = ResourceManager.GetObject("bgsscreen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Black_Adam_banner2 {
             get {
                 object obj = ResourceManager.GetObject("Black_Adam_banner2", resourceCulture);
@@ -193,6 +213,16 @@ namespace Cinema.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap lumetcine {
+            get {
+                object obj = ResourceManager.GetObject("lumetcine", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MasterCard_Logo {
             get {
                 object obj = ResourceManager.GetObject("MasterCard_Logo", resourceCulture);
@@ -206,6 +236,16 @@ namespace Cinema.Properties {
         internal static System.Drawing.Bitmap minions2 {
             get {
                 object obj = ResourceManager.GetObject("minions2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap minus {
+            get {
+                object obj = ResourceManager.GetObject("minus", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,6 +283,26 @@ namespace Cinema.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap panel1 {
+            get {
+                object obj = ResourceManager.GetObject("panel1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap plus {
+            get {
+                object obj = ResourceManager.GetObject("plus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap quadrado {
             get {
                 object obj = ResourceManager.GetObject("quadrado", resourceCulture);
@@ -266,6 +326,36 @@ namespace Cinema.Properties {
         internal static System.Drawing.Bitmap quadradohorario {
             get {
                 object obj = ResourceManager.GetObject("quadradohorario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tela {
+            get {
+                object obj = ResourceManager.GetObject("tela", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap telabranca {
+            get {
+                object obj = ResourceManager.GetObject("telabranca", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap telabrancaclean {
+            get {
+                object obj = ResourceManager.GetObject("telabrancaclean", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

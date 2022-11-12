@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assentos.cs">
+    <Compile Include="assentos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Assentos.Designer.cs">
-      <DependentUpon>Assentos.cs</DependentUpon>
+    <Compile Include="assentos.Designer.cs">
+      <DependentUpon>assentos.cs</DependentUpon>
     </Compile>
     <Compile Include="assentos2.cs">
       <SubType>Form</SubType>
@@ -122,8 +122,8 @@
     <Compile Include="SplashScreen.Designer.cs">
       <DependentUpon>SplashScreen.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Assentos.resx">
-      <DependentUpon>Assentos.cs</DependentUpon>
+    <EmbeddedResource Include="assentos.resx">
+      <DependentUpon>assentos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="assentos2.resx">
       <DependentUpon>assentos2.cs</DependentUpon>
@@ -240,6 +240,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Quadradohorafim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BGSS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgsscreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lumetcine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tela.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telabranca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telabrancaclean.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

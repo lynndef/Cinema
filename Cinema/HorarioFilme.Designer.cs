@@ -45,12 +45,14 @@
             this.ImgQuadradoSmall2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.imgPanel = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.imgQuadradoSmall)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgFilme)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgQuadrado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgQuadradoSmall2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgPanel)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // labelhrdisp
@@ -99,7 +101,7 @@
             this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(53)))), ((int)(((byte)(87)))));
             this.label10.Font = new System.Drawing.Font("Myanmar Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.DarkGoldenrod;
-            this.label10.Location = new System.Drawing.Point(974, 417);
+            this.label10.Location = new System.Drawing.Point(975, 428);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(34, 23);
             this.label10.TabIndex = 16;
@@ -112,11 +114,11 @@
             this.CompreF1H1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CompreF1H1.AutoSize = true;
             this.CompreF1H1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(51)))), ((int)(((byte)(87)))));
-            this.CompreF1H1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CompreF1H1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CompreF1H1.ForeColor = System.Drawing.Color.White;
-            this.CompreF1H1.Location = new System.Drawing.Point(974, 383);
+            this.CompreF1H1.Location = new System.Drawing.Point(973, 380);
             this.CompreF1H1.Name = "CompreF1H1";
-            this.CompreF1H1.Size = new System.Drawing.Size(94, 24);
+            this.CompreF1H1.Size = new System.Drawing.Size(86, 20);
             this.CompreF1H1.TabIndex = 19;
             this.CompreF1H1.Text = "10:30 am";
             this.CompreF1H1.Visible = false;
@@ -128,11 +130,11 @@
             this.CompreF1H2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CompreF1H2.AutoSize = true;
             this.CompreF1H2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(53)))), ((int)(((byte)(87)))));
-            this.CompreF1H2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CompreF1H2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CompreF1H2.ForeColor = System.Drawing.Color.White;
-            this.CompreF1H2.Location = new System.Drawing.Point(974, 508);
+            this.CompreF1H2.Location = new System.Drawing.Point(975, 508);
             this.CompreF1H2.Name = "CompreF1H2";
-            this.CompreF1H2.Size = new System.Drawing.Size(95, 24);
+            this.CompreF1H2.Size = new System.Drawing.Size(86, 20);
             this.CompreF1H2.TabIndex = 20;
             this.CompreF1H2.Text = "13:30 pm";
             this.CompreF1H2.Visible = false;
@@ -144,11 +146,11 @@
             this.CompreF2H1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CompreF2H1.AutoSize = true;
             this.CompreF2H1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(51)))), ((int)(((byte)(87)))));
-            this.CompreF2H1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CompreF2H1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CompreF2H1.ForeColor = System.Drawing.Color.White;
-            this.CompreF2H1.Location = new System.Drawing.Point(974, 383);
+            this.CompreF2H1.Location = new System.Drawing.Point(973, 380);
             this.CompreF2H1.Name = "CompreF2H1";
-            this.CompreF2H1.Size = new System.Drawing.Size(95, 24);
+            this.CompreF2H1.Size = new System.Drawing.Size(86, 20);
             this.CompreF2H1.TabIndex = 21;
             this.CompreF2H1.Text = "13:40 pm";
             this.CompreF2H1.Visible = false;
@@ -160,11 +162,11 @@
             this.CompreF2H2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CompreF2H2.AutoSize = true;
             this.CompreF2H2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(51)))), ((int)(((byte)(87)))));
-            this.CompreF2H2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CompreF2H2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CompreF2H2.ForeColor = System.Drawing.Color.White;
             this.CompreF2H2.Location = new System.Drawing.Point(974, 508);
             this.CompreF2H2.Name = "CompreF2H2";
-            this.CompreF2H2.Size = new System.Drawing.Size(95, 24);
+            this.CompreF2H2.Size = new System.Drawing.Size(86, 20);
             this.CompreF2H2.TabIndex = 22;
             this.CompreF2H2.Text = "16:40 pm";
             this.CompreF2H2.Visible = false;
@@ -176,11 +178,11 @@
             this.CompreF3H1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CompreF3H1.AutoSize = true;
             this.CompreF3H1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(53)))), ((int)(((byte)(87)))));
-            this.CompreF3H1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CompreF3H1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CompreF3H1.ForeColor = System.Drawing.Color.White;
-            this.CompreF3H1.Location = new System.Drawing.Point(974, 383);
+            this.CompreF3H1.Location = new System.Drawing.Point(975, 380);
             this.CompreF3H1.Name = "CompreF3H1";
-            this.CompreF3H1.Size = new System.Drawing.Size(95, 24);
+            this.CompreF3H1.Size = new System.Drawing.Size(86, 20);
             this.CompreF3H1.TabIndex = 23;
             this.CompreF3H1.Text = "17:00 pm";
             this.CompreF3H1.Visible = false;
@@ -192,11 +194,11 @@
             this.CompreF3H2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CompreF3H2.AutoSize = true;
             this.CompreF3H2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(53)))), ((int)(((byte)(87)))));
-            this.CompreF3H2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CompreF3H2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CompreF3H2.ForeColor = System.Drawing.Color.White;
             this.CompreF3H2.Location = new System.Drawing.Point(973, 508);
             this.CompreF3H2.Name = "CompreF3H2";
-            this.CompreF3H2.Size = new System.Drawing.Size(95, 24);
+            this.CompreF3H2.Size = new System.Drawing.Size(86, 20);
             this.CompreF3H2.TabIndex = 24;
             this.CompreF3H2.Text = "19:30 pm";
             this.CompreF3H2.Visible = false;
@@ -258,7 +260,7 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(53)))), ((int)(((byte)(87)))));
             this.label2.Font = new System.Drawing.Font("Myanmar Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkGoldenrod;
-            this.label2.Location = new System.Drawing.Point(974, 545);
+            this.label2.Location = new System.Drawing.Point(973, 557);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 23);
             this.label2.TabIndex = 30;
@@ -275,12 +277,23 @@
             this.imgPanel.TabIndex = 31;
             this.imgPanel.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::Cinema.Properties.Resources.lumetcine;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Location = new System.Drawing.Point(1704, 906);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(221, 155);
+            this.pictureBox2.TabIndex = 32;
+            this.pictureBox2.TabStop = false;
+            // 
             // HorarioFilme
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(23)))), ((int)(((byte)(33)))));
             this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.labelhrdisp);
             this.Controls.Add(this.LabelNameFilme);
             this.Controls.Add(this.imgPanel);
@@ -309,6 +322,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.ImgQuadrado)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgQuadradoSmall2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgPanel)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -333,5 +347,6 @@
         private System.Windows.Forms.PictureBox ImgQuadradoSmall2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox imgPanel;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

@@ -16,6 +16,7 @@ namespace Cinema
         private string nomefilme;
         private Image cartaz;
         private string[] assentosNome;
+        
 
         public FinalizarPedido()
         {
@@ -32,15 +33,17 @@ namespace Cinema
             this.assentosNome = assentosNome;
         }
 
+     
+
         private void FinalizarPedido_Load(object sender, EventArgs e)
         {
 
-
-            LabelNomeFilme.Text = nomefilme;
-            LabelCpf.Text = Text;
             ImgFilmes.BackgroundImage = cartaz;
-            string posi = string.Join(" ", assentosNome);
-            LabelAssento.Text = posi;
+            LabelNomeFilme.Text = nomefilme;
+           
+
+            LabelCpf.Text = Text.Substring(0, 12).PadRight(16, '*');
+            LabelAssento.Text = string.Join(" ", assentosNome).Trim();
 
         }
 
@@ -89,6 +92,11 @@ namespace Cinema
             f6.StartPosition = FormStartPosition.Manual;
             f6.Show();
             this.Close();
+        }
+
+        private void imgQuadrado_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
