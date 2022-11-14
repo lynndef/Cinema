@@ -63,6 +63,26 @@ namespace Cinema.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap arrow_right {
+            get {
+                object obj = ResourceManager.GetObject("arrow-right", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap backgroung_horario {
+            get {
+                object obj = ResourceManager.GetObject("backgroung_horario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap banco_do_brasil_logo {
             get {
                 object obj = ResourceManager.GetObject("banco_do_brasil_logo", resourceCulture);

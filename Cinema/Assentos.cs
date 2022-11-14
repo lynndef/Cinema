@@ -814,7 +814,10 @@ namespace Cinema
 
         private void BtnConfirmar_Click(object sender, EventArgs e)
         {
-            Form f4 = new InteiraMeia(label0.Text, nomefilme, cartaz, AssentosNome);
+
+            string sessao = "sala 1" + "\n" + "10:30 am";
+
+            Form f4 = new InteiraMeia(sessao, label0.Text, nomefilme, cartaz, AssentosNome);
             f4.Location = this.Location;
             f4.StartPosition = FormStartPosition.Manual;
             f4.FormClosing += delegate { this.Show(); };
@@ -822,6 +825,6 @@ namespace Cinema
             this.Hide();
         }
 
-
+       
     }
 }

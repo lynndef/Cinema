@@ -71,7 +71,6 @@
             this.LabelNomeFilme.Size = new System.Drawing.Size(97, 37);
             this.LabelNomeFilme.TabIndex = 8;
             this.LabelNomeFilme.Text = "Orfã 2";
-            this.LabelNomeFilme.Click += new System.EventHandler(this.LabelNomeFilme_Click);
             // 
             // PanelLine1
             // 
@@ -82,7 +81,6 @@
             this.PanelLine1.Size = new System.Drawing.Size(222, 4);
             this.PanelLine1.TabIndex = 5;
             this.PanelLine1.Visible = false;
-            this.PanelLine1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // labelSinopse
             // 
@@ -95,7 +93,6 @@
             this.labelSinopse.Size = new System.Drawing.Size(62, 17);
             this.labelSinopse.TabIndex = 10;
             this.labelSinopse.Text = "blablabla";
-            this.labelSinopse.Click += new System.EventHandler(this.labelSinopse_Click);
             // 
             // labelCaracteristicas
             // 
@@ -108,7 +105,6 @@
             this.labelCaracteristicas.Size = new System.Drawing.Size(93, 28);
             this.labelCaracteristicas.TabIndex = 11;
             this.labelCaracteristicas.Text = "blablabla";
-            this.labelCaracteristicas.Click += new System.EventHandler(this.labelCaracteristicas_Click);
             // 
             // PanelLine2
             // 
@@ -119,7 +115,6 @@
             this.PanelLine2.Size = new System.Drawing.Size(628, 5);
             this.PanelLine2.TabIndex = 5;
             this.PanelLine2.Visible = false;
-            this.PanelLine2.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelLine2_Paint);
             // 
             // labelhoraio
             // 
@@ -157,7 +152,6 @@
             this.label1.Size = new System.Drawing.Size(208, 30);
             this.label1.TabIndex = 21;
             this.label1.Text = "FILMES EM CARTAZ";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1
             // 
@@ -222,7 +216,6 @@
             this.ImgFilmes.Size = new System.Drawing.Size(887, 401);
             this.ImgFilmes.TabIndex = 7;
             this.ImgFilmes.TabStop = false;
-            this.ImgFilmes.Click += new System.EventHandler(this.ImgFilmes_Click_1);
             // 
             // ImgFilme3
             // 
@@ -271,7 +264,6 @@
             this.pictureBox3.Size = new System.Drawing.Size(536, 262);
             this.pictureBox3.TabIndex = 15;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox2
             // 

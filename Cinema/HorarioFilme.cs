@@ -12,11 +12,6 @@ namespace Cinema
 {
     public partial class HorarioFilme : Form
     {
-        public HorarioFilme()
-        {
-            InitializeComponent();
-        }
-
         public HorarioFilme(string nomefilme)
         {
             InitializeComponent();
@@ -31,7 +26,6 @@ namespace Cinema
         private string nomefilme;
         private Image cartaz;
 
-    
         private void HorarioFilme_Load(object sender, EventArgs e)
         {
             LabelNameFilme.Text = nomefilme;
@@ -76,11 +70,8 @@ namespace Cinema
 
         }
 
-
         private void LabelCompre1_Click(object sender, EventArgs e)
         {
-
-            string sessao = "sala 1" + "\n" + "10:30 am";
 
             Form f3 = new assentos( cartaz, nomefilme, ControleAssentos.Seg.AdaoSala1_10h30); //
             f3.Location = this.Location;
@@ -88,15 +79,10 @@ namespace Cinema
             f3.FormClosing += delegate { this.Show(); };
             f3.Show();
             this.Hide();
-
         }
-
-
 
         private void CompreF1H2_Click_1(object sender, EventArgs e)
         {
-
-            string sessao = "sala 1" + "\n" + "13:30 pm";
 
             Form f3 = new assentos2( cartaz, nomefilme, ControleAssentos.Seg.AdaoSala1_10h30);
             f3.Location = this.Location;
@@ -104,13 +90,10 @@ namespace Cinema
             f3.FormClosing += delegate { this.Show(); };
             f3.Show();
             this.Hide();
-
         }
 
         private void CompreF2H1_Click(object sender, EventArgs e)
         {
-
-            string sessao = "sala 1" + "\n" + "13:40 pm";
 
             Form f3 = new assentos3( cartaz, nomefilme, ControleAssentos.Seg.AdaoSala1_10h30);
             f3.Location = this.Location;
@@ -118,13 +101,10 @@ namespace Cinema
             f3.FormClosing += delegate { this.Show(); };
             f3.Show();
             this.Hide();
-
         }
 
         private void CompreF2H2_Click(object sender, EventArgs e)
         {
-
-            string sessao = "sala 1" + "\n" + "16:40 pm";
 
             Form f3 = new assentos4( cartaz, nomefilme, ControleAssentos.Seg.AdaoSala1_10h30);
             f3.Location = this.Location;
@@ -137,21 +117,16 @@ namespace Cinema
         private void CompreF3H1_Click(object sender, EventArgs e)
         {
 
-            string sessao = "sala 1" + "\n" + "17:00 pm";
-
             Form f3 = new assentos5( cartaz, nomefilme, ControleAssentos.Seg.AdaoSala1_10h30);
             f3.Location = this.Location;
             f3.StartPosition = FormStartPosition.Manual;
             f3.FormClosing += delegate { this.Show(); };
             f3.Show();
             this.Hide();
-
         }
 
         private void CompreF3H2_Click(object sender, EventArgs e)
         {
-
-            string sessao = "sala 1" + "\n" + "19:00 pm";
 
             Form f3 = new assentos6(cartaz, nomefilme, ControleAssentos.Seg.AdaoSala1_10h30);
             f3.Location = this.Location;
@@ -161,9 +136,13 @@ namespace Cinema
             this.Hide();
         }
 
-        private void label10_Click(object sender, EventArgs e)
+        private void imgseta_Click(object sender, EventArgs e)
         {
-
+            Form f1 = new MainMenu();
+            f1.Location = this.Location;
+            f1.StartPosition = FormStartPosition.Manual;
+            f1.Show();
+            this.Hide();
         }
     }
 }

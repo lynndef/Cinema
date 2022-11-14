@@ -18,22 +18,9 @@ namespace Cinema
         private string[] assentosNome;
         private string sessao;
 
-        public InteiraMeia()
-        { 
-            InitializeComponent();
-        }
-
-        public InteiraMeia(string text, string nomefilme, Image cartaz, string[] assentosNome)
-        {
-            InitializeComponent();
-            Text = text;
-            this.nomefilme = nomefilme;
-            this.cartaz = cartaz;
-            this.assentosNome = assentosNome;
-        }
-
         public InteiraMeia(string sessao, string text, string nomefilme, Image cartaz, string[] assentosNome)
         {
+            InitializeComponent();
             this.sessao = sessao;
             Text = text;
             this.nomefilme = nomefilme;
@@ -53,12 +40,6 @@ namespace Cinema
             labelpagamento.Parent = imgPagamento;
             labelpagamento.BackColor = Color.Transparent;
 
-          
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-           
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -163,27 +144,12 @@ namespace Cinema
         private void button1_Click_1(object sender, EventArgs e)
         {
 
-            Form f5 = new FinalizarPedido( textBox1.Text, nomefilme, cartaz, assentosNome);
+            Form f5 = new FinalizarPedido(sessao, textBox1.Text, nomefilme, cartaz, assentosNome);
             f5.Location = this.Location;
             f5.StartPosition = FormStartPosition.CenterScreen;
-            f5.FormClosing += delegate { this.Show(); };
+            
             f5.Show();
             this.Hide();
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void imgInt_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void labelInt_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click_2(object sender, EventArgs e)
@@ -255,14 +221,9 @@ namespace Cinema
             }
         }
 
-        private void labelpagamento_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            if (textBox1.Text.Length == 16)
+            if (textBox1.Text.Length == 16 && label1.Text == "0")
             {
                 BtnProsseguir.Visible = true;
             }

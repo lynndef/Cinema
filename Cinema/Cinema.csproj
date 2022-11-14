@@ -96,12 +96,6 @@
     <Compile Include="FinalizarPedido.Designer.cs">
       <DependentUpon>FinalizarPedido.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pagamento.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Pagamento.Designer.cs">
-      <DependentUpon>Pagamento.cs</DependentUpon>
-    </Compile>
     <Compile Include="HorarioFilme.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,9 +145,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Pagamento.resx">
-      <DependentUpon>Pagamento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -267,6 +258,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroung_horario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-right.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

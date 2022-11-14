@@ -16,49 +16,27 @@ namespace Cinema
         private string nomefilme;
         private Image cartaz;
         private string[] assentosNome;
-        
+        private string sessao;
 
-        public FinalizarPedido()
+        public FinalizarPedido(string sessao, string text, string nomefilme, Image cartaz, string[] assentosNome)
         {
             InitializeComponent();
-        }
-
-        public FinalizarPedido(string text, string nomefilme, Image cartaz, string[] assentosNome)
-        {
-            InitializeComponent();
-
+            this.sessao = sessao;
             Text = text;
             this.nomefilme = nomefilme;
             this.cartaz = cartaz;
             this.assentosNome = assentosNome;
         }
 
-     
-
         private void FinalizarPedido_Load(object sender, EventArgs e)
         {
 
             ImgFilmes.BackgroundImage = cartaz;
             LabelNomeFilme.Text = nomefilme;
-           
+            labelHorarioSessao.Text = sessao;
 
             LabelCpf.Text = Text.Substring(0, 12).PadRight(16, '*');
             LabelAssento.Text = string.Join(" ", assentosNome).Trim();
-
-        }
-
-        private void LabelAssento_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ImgFilmes_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void labelHorarioSessao_Click(object sender, EventArgs e)
-        {
 
         }
 
@@ -94,10 +72,6 @@ namespace Cinema
             this.Close();
         }
 
-        private void imgQuadrado_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
 

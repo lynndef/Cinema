@@ -78,7 +78,7 @@
             this.label1.Size = new System.Drawing.Size(17, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "l";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+           
             // 
             // labelInt
             // 
@@ -91,7 +91,7 @@
             this.labelInt.Size = new System.Drawing.Size(23, 25);
             this.labelInt.TabIndex = 4;
             this.labelInt.Text = "0";
-            this.labelInt.Click += new System.EventHandler(this.labelInt_Click);
+          
             // 
             // labelMeia
             // 
@@ -203,7 +203,7 @@
             this.labeltitulo.Size = new System.Drawing.Size(200, 32);
             this.labeltitulo.TabIndex = 24;
             this.labeltitulo.Text = " Inteiras e meias";
-            this.labeltitulo.Click += new System.EventHandler(this.label7_Click);
+            
             // 
             // labelvalor
             // 
@@ -482,7 +482,7 @@
             this.labelpagamento.Size = new System.Drawing.Size(143, 32);
             this.labelpagamento.TabIndex = 45;
             this.labelpagamento.Text = "Pagamento";
-            this.labelpagamento.Click += new System.EventHandler(this.labelpagamento_Click);
+    
             // 
             // InteiraMeia
             // 

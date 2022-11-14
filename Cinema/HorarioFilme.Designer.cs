@@ -38,21 +38,23 @@
             this.CompreF2H2 = new System.Windows.Forms.Label();
             this.CompreF3H1 = new System.Windows.Forms.Label();
             this.CompreF3H2 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.imgseta = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.imgPanel = new System.Windows.Forms.PictureBox();
+            this.ImgQuadradoSmall2 = new System.Windows.Forms.PictureBox();
             this.imgQuadradoSmall = new System.Windows.Forms.PictureBox();
             this.ImgFilme = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ImgQuadrado = new System.Windows.Forms.PictureBox();
-            this.ImgQuadradoSmall2 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.imgPanel = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.imgseta)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgPanel)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgQuadradoSmall2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgQuadradoSmall)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgFilme)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgQuadrado)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ImgQuadradoSmall2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgPanel)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // labelhrdisp
@@ -106,7 +108,6 @@
             this.label10.Size = new System.Drawing.Size(34, 23);
             this.label10.TabIndex = 16;
             this.label10.Text = "Dub";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // CompreF1H1
             // 
@@ -204,6 +205,62 @@
             this.CompreF3H2.Visible = false;
             this.CompreF3H2.Click += new System.EventHandler(this.CompreF3H2_Click);
             // 
+            // label2
+            // 
+            this.label2.AccessibleName = "Tudo";
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(53)))), ((int)(((byte)(87)))));
+            this.label2.Font = new System.Drawing.Font("Myanmar Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.DarkGoldenrod;
+            this.label2.Location = new System.Drawing.Point(973, 557);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(34, 23);
+            this.label2.TabIndex = 30;
+            this.label2.Text = "Dub";
+            // 
+            // imgseta
+            // 
+            this.imgseta.BackgroundImage = global::Cinema.Properties.Resources.arrow_right;
+            this.imgseta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.imgseta.Location = new System.Drawing.Point(48, 26);
+            this.imgseta.Name = "imgseta";
+            this.imgseta.Size = new System.Drawing.Size(54, 64);
+            this.imgseta.TabIndex = 33;
+            this.imgseta.TabStop = false;
+            this.imgseta.Click += new System.EventHandler(this.imgseta_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::Cinema.Properties.Resources.lumetcine;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Location = new System.Drawing.Point(1704, 906);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(221, 155);
+            this.pictureBox2.TabIndex = 32;
+            this.pictureBox2.TabStop = false;
+            // 
+            // imgPanel
+            // 
+            this.imgPanel.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.imgPanel.BackgroundImage = global::Cinema.Properties.Resources.panel;
+            this.imgPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.imgPanel.Location = new System.Drawing.Point(704, 12);
+            this.imgPanel.Name = "imgPanel";
+            this.imgPanel.Size = new System.Drawing.Size(639, 282);
+            this.imgPanel.TabIndex = 31;
+            this.imgPanel.TabStop = false;
+            // 
+            // ImgQuadradoSmall2
+            // 
+            this.ImgQuadradoSmall2.BackgroundImage = global::Cinema.Properties.Resources.Quadradohorafim;
+            this.ImgQuadradoSmall2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ImgQuadradoSmall2.Location = new System.Drawing.Point(264, 398);
+            this.ImgQuadradoSmall2.Name = "ImgQuadradoSmall2";
+            this.ImgQuadradoSmall2.Size = new System.Drawing.Size(217, 170);
+            this.ImgQuadradoSmall2.TabIndex = 29;
+            this.ImgQuadradoSmall2.TabStop = false;
+            // 
             // imgQuadradoSmall
             // 
             this.imgQuadradoSmall.BackgroundImage = global::Cinema.Properties.Resources.Quadradohorafim;
@@ -242,57 +299,13 @@
             this.ImgQuadrado.TabIndex = 26;
             this.ImgQuadrado.TabStop = false;
             // 
-            // ImgQuadradoSmall2
-            // 
-            this.ImgQuadradoSmall2.BackgroundImage = global::Cinema.Properties.Resources.Quadradohorafim;
-            this.ImgQuadradoSmall2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ImgQuadradoSmall2.Location = new System.Drawing.Point(264, 398);
-            this.ImgQuadradoSmall2.Name = "ImgQuadradoSmall2";
-            this.ImgQuadradoSmall2.Size = new System.Drawing.Size(217, 170);
-            this.ImgQuadradoSmall2.TabIndex = 29;
-            this.ImgQuadradoSmall2.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.AccessibleName = "Tudo";
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(53)))), ((int)(((byte)(87)))));
-            this.label2.Font = new System.Drawing.Font("Myanmar Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.DarkGoldenrod;
-            this.label2.Location = new System.Drawing.Point(973, 557);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 23);
-            this.label2.TabIndex = 30;
-            this.label2.Text = "Dub";
-            // 
-            // imgPanel
-            // 
-            this.imgPanel.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.imgPanel.BackgroundImage = global::Cinema.Properties.Resources.panel;
-            this.imgPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.imgPanel.Location = new System.Drawing.Point(704, 12);
-            this.imgPanel.Name = "imgPanel";
-            this.imgPanel.Size = new System.Drawing.Size(639, 282);
-            this.imgPanel.TabIndex = 31;
-            this.imgPanel.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::Cinema.Properties.Resources.lumetcine;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(1704, 906);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(221, 155);
-            this.pictureBox2.TabIndex = 32;
-            this.pictureBox2.TabStop = false;
-            // 
             // HorarioFilme
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(23)))), ((int)(((byte)(33)))));
             this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.Controls.Add(this.imgseta);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.labelhrdisp);
             this.Controls.Add(this.LabelNameFilme);
@@ -316,13 +329,14 @@
             this.Text = " ";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.HorarioFilme_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.imgseta)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgPanel)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgQuadradoSmall2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgQuadradoSmall)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgFilme)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgQuadrado)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ImgQuadradoSmall2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgPanel)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -348,5 +362,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox imgPanel;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox imgseta;
     }
 }

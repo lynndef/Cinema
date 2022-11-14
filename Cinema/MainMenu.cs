@@ -77,17 +77,6 @@ namespace Cinema
             labelhoraio.Visible = true;
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void ImgFilmes_Click(object sender, EventArgs e)
-        {
-
-            
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
             LabelNomeFilme.Parent = ImgFilmes;
@@ -103,12 +92,6 @@ namespace Cinema
             labelSinopse.Text = filme2.GetSinopse;
             labelCaracteristicas.Text = "Classificação " + filme3.GetClassificacao + " anos/ " + filme3.GetGenero1 + "/ " + filme3.GetGenero2 + "/ " + filme3.GetDuracao;
 
-
-        }
-
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-            
         }
 
         private void labelhoraio_Click(object sender, EventArgs e)
@@ -140,44 +123,5 @@ namespace Cinema
             this.Hide();
         }
 
-        private void ImgFilmes_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void PanelLine2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void labelCaracteristicas_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void labelSinopse_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LabelNomeFilme_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

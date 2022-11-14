@@ -142,6 +142,9 @@
   <data name="Filme_adao_negro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Filme_adao_negro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="black_adam_last" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\black_adam_last.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -184,6 +187,9 @@
   <data name="Filme_adao_negro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Filme_adao_negro1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="backgroung_horario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backgroung_horario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bgsscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bgsscreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -211,7 +217,7 @@
   <data name="lumetcine" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lumetcine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="arrow-right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
